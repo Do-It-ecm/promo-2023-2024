@@ -47,7 +47,7 @@ L'enseignant de la formation est Jean-Philippe EHRET, voici sa description sur l
 ![Openclassroom_accueil](./JP.png)
 
 
-Ce mon fait suite à mon précedent [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Diafat-Samy/mon/temps-3-1/), vous pouvez trouver la formation que j'ai suivie directement sur le site du formateur [apprendre-java](https://apprendre-java.com/courses) (où les formations sont beaucoup moins chères).
+Ce mon fait suite à mon précedent [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Diafat-Samy/mon/temps-3.1/), vous pouvez trouver la formation que j'ai suivie directement sur le site du formateur [apprendre-java](https://apprendre-java.com/courses) (où les formations sont beaucoup moins chères).
 
 
 Après avoir commencé par le commencement (pour mon cas), c'est à dire "Java et les bases de données avec JDBC, Hibernate et JPA", j'ai poursuivi ma formation avec le cours sur le framework Spring "Bien débuter avec Spring et Spring Boot pour Java"

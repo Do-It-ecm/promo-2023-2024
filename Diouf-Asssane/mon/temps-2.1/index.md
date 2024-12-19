@@ -240,7 +240,7 @@ Pour lancer un projet d'application Web sur Visual Studio, il faut cliquer sur N
 **A suivre dans mon deuxième MON du temps 2**
 
 ## Sources
-- [MON Vladimir](../../../Vladimir-Jeantroux/mon/temps-1-2/) : vue d'ensemble syntax + POO en C#
+- [MON Vladimir](../../../Vladimir-Jeantroux/mon/temps-1.2/) : vue d'ensemble syntax + POO en C#
 - [MON Savinien](../../../../2022-2023/Laeuffer-Savinien/mon/csharp/) : vue d'ensemble .NET et différentes possibilités + exemple API Web bien détaillé
 - [Tour of C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/tour-of-csharp/) : vue plus détaillée du langages et accès à la documentation
 - [Les namespaces](https://youtu.be/mw254_XAnGU?si=w7nkqOI2DmRyp9Ak) : clarification utilisation des namespaces

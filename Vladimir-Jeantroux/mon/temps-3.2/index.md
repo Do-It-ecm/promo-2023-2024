@@ -12,7 +12,7 @@ tags:
 Imagine être un ingénieur et n'avoir aucune expérience avec la suite Office... 
 Je ne suis pas du tout dans ce cas bien entendu, mais une piqûre de rappel ne fait jamais de mal. 
 
-Je me suis principalement appuyé sur les MON de mes prédécésseurs : [Utilisation d'Excel dans l'analyse de données](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-1.2/) de Lucie, [Excel - Repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) de Lola, et [Un peu d'Excel/Google Sheets pour mourir moins idiot](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2-1/) de Henri.
+Je me suis principalement appuyé sur les MON de mes prédécésseurs : [Utilisation d'Excel dans l'analyse de données](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-1.2/) de Lucie, [Excel - Repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) de Lola, et [Un peu d'Excel/Google Sheets pour mourir moins idiot](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2.1/) de Henri.
 
 J'ai aussi suivi la [formation d'OpenClassrooms](https://openclassrooms.com/fr/courses/7168336-maitrisez-les-fondamentaux-dexcel) sur les fondamentaux d'Excel, que j'ai parcouru en moins de temps qu'il ne fallait, car elle démarre de zéro, donc j'ai pu accélérer sur les premières parties. La première moitié n'est pas forcément intéressante si on a touché à Excel une fois dans sa vie, mais la 2e compense et offre des concepts bien plus intéressants, comme par exemple... 
 
@@ -62,7 +62,7 @@ Je trouve aussi assez difficile de produire quelque chose de nouveau lorsque tan
 
 ## Bibliographie 
 
-- [Un peu d'Excel/Google Sheets pour mourir moins idiot](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2-1/) de Henri Taing
+- [Un peu d'Excel/Google Sheets pour mourir moins idiot](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2.1/) de Henri Taing
 - [Excel - Repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) de Lola Bourdon
 - [Utilisation d'Excel dans l'analyse de données](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-1.2/) de Lucie Le Boursicaud
 - [Excel et VBA](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) d'Agathe Rabachou

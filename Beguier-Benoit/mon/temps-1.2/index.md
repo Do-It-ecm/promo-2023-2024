@@ -55,7 +55,7 @@ La structure sommaire d'une page web est la suivante :
 ```
 
 Les différents éléments de la page sont définis par des balises (par exemple : `<head>` et `</head>`) qui ouvrent et ferment le bloc. 
-Pour plus de détails, je vous recommande de consulter le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-1-1/) qui détaille l'ensemble des balises standards.
+Pour plus de détails, je vous recommande de consulter le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-1.1/) qui détaille l'ensemble des balises standards.
 
 On y rajoute des paragraphes avec `<p>` et des sections avec `<div>`.
 

@@ -23,7 +23,7 @@ résumé: "Ce MON a pour but de m'initier aux bases du langage de programmation 
 
 A travers ce MON, je cherche à me familiariser avec le langage de programmation Java, couramment utilisé en entreprise, afin de faciliter de potentiels futurs échanges avec des équipes de développeurs (mon but n'étant pas dans devenir un, mais sûrement de travailler en contact avec eux).
 
-J'ai donc commencé par regarder ce qui avait déjà été fait sur le sujet, et on peut recenser le [MON de Nicolas](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-1.1/), le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3-1/) et le [POK de Sarah](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/pok/temps-2/). Tous les trois on commencé en s'appuyant sur la même formation OpenClassroom intitulée [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java), qu'ils recommandent. J'ai donc suivi cette formation en un peu moins des 10h annoncées, et je vais essayer de la synthétiser ci-dessous afin de pouvoir réutiliser ce MON comme fiche mémoire au besoin.
+J'ai donc commencé par regarder ce qui avait déjà été fait sur le sujet, et on peut recenser le [MON de Nicolas](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-1.1/), le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) et le [POK de Sarah](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/pok/temps-2/). Tous les trois on commencé en s'appuyant sur la même formation OpenClassroom intitulée [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java), qu'ils recommandent. J'ai donc suivi cette formation en un peu moins des 10h annoncées, et je vais essayer de la synthétiser ci-dessous afin de pouvoir réutiliser ce MON comme fiche mémoire au besoin.
 
 J'ai ensuite utilisé le temps restant pour lire le MON de Vladimir, qui a suivi une formation plus avancée sur Codecademy, disponible à [ce lien](https://www.codecademy.com/courses/learn-intermediate-java/informationals/welcome-to-learn-intermediate-java). Je n'ai pas suivi la formation moi-même par manque de temps, et le résumé de Valdimir m'a donc été très utile.
 
@@ -446,7 +446,7 @@ writer.write("text") // ajoute du texte
 writer.newLine(); // revient à la ligne
 ```
 
-Enfin, le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3-1/) présente d'autres notions avancées en Java, comme les **input et output** (que j'ai en partie utilisé plus haut sans réellement expliquer le concept), la **sérialisation** et les **génériques**, que je ne vais pas expliquer ici car il l'a déjà très bien fait.
+Enfin, le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) présente d'autres notions avancées en Java, comme les **input et output** (que j'ai en partie utilisé plus haut sans réellement expliquer le concept), la **sérialisation** et les **génériques**, que je ne vais pas expliquer ici car il l'a déjà très bien fait.
 
 ## 11. Retours
 

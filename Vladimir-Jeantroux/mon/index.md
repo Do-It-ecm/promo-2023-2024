@@ -15,18 +15,18 @@ Ensemble des MON réalisés par Vladimir Jeantroux
 
 ### Temps 1
 
-- [Bases d'HTML et CSS](./temps-1-1) 
+- [Bases d'HTML et CSS](./temps-1.1) 
 
-- [Introduction au C#](./temps-1-2) 
+- [Introduction au C#](./temps-1.2) 
 
 ### Temps 2 
 
-- [React Native et back end](./temps-2-1)
+- [React Native et back end](./temps-2.1)
 
-- [Apprendre Rust en codant un jeu](./temps-2-2)
+- [Apprendre Rust en codant un jeu](./temps-2.2)
 
 ### Temps 3
 
--[Java tranquille et toi ?](./temps-3-1)
+-[Java tranquille et toi ?](./temps-3.1)
 
--[Atteindre l'Excel-lence.](./temps-3-2)
+-[Atteindre l'Excel-lence.](./temps-3.2)

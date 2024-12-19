@@ -14,7 +14,7 @@ résumé: .
 
 
 Ce MON a pour objectif revoir les bases d'Excel et apprendre à maîtriser cet outil.
-Je vais commencer par me baser sur le MON de Lola [Excel - Repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) et le MON de Henri [Un peu d'Excel/Google Sheets pour mourir moins idiot   ](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2-1/)
+Je vais commencer par me baser sur le MON de Lola [Excel - Repartir sur de bonnes bases](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) et le MON de Henri [Un peu d'Excel/Google Sheets pour mourir moins idiot   ](https://francoisbrucker.github.io/do-it/promos/2023-2024/TAING-Henri/mon/temps-2.1/)
 
 # Rafraîchir sa mémoire sur les trucs cool d'Excel
 J'ai commencé par lire et appliquer les cas pratiques du MON de Lola, en parcourant le site du cours qu'elle a suivi : [Formation Excel](https://www.excel-pratique.com/). Cependant, le site ne m'a pas captivé, alors j'ai cherché des tutoriels plus dynamiques et concis. Je suggère cette série de vidéos qui aborde l'essentiel de façon efficace [Cours complet Microsoft EXCEL](https://www.youtube.com/playlist?list=PL8sQnj6qF1Lv6ejdklq25MGfPJFxThMw6), vous trouverez les bases suivantes:

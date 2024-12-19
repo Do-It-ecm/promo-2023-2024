@@ -15,15 +15,15 @@ Ensemble des MON réalisés par Victor ORY
 
 ### Temps 1
 
-- [Docker](./Docker)
-- [Cryptographie](./Crypto)
+- [Docker](./temps-1.2)
+- [Cryptographie](./temps-1.1/)
 
 ### Temps 2 :
 
-- [OSINT](./OSINT)
-- [Blender et la 3D](./Blender)
+- [OSINT](./temps-2.2)
+- [Blender et la 3D](./temps-2.1)
 
 ### Temps 3 : 
 
-- [Veille Technologique](./VeilleTechno)
-- [Blockchain](./Blockchain)
+- [Veille Technologique](./temps-3.2)
+- [Blockchain](./temps-3.1)

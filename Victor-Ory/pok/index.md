@@ -8,8 +8,8 @@ authors:
 ---
 ## Listes des POK disponibles :
 
-- [Rust](Rust/)
-- [CNIL](CNIL/)
-- [Rapport](Rapport/)
+- [Rust](./temps-1)
+- [CNIL](./temps-2)
+- [Rapport](./temps-3/)
 
 ## Description :

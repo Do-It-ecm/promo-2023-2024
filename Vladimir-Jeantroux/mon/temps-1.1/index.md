@@ -1,5 +1,5 @@
 ---
-layout: layout/mon-index.njk
+layout: layout/mon.njk
 
 title: "Bases d'HTML et CSS"
 authors:
@@ -11,6 +11,7 @@ tags:
   - 'temps 1'
   - 'Développement Web'
 ---
+
 ## Pré-requis : 
 
 {%prerequis 'Niveau débutant '%}
