@@ -6,8 +6,8 @@ authors:
   - Schultz Mathis
 
 date: 2024-01-17
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "data"
 
 résumé: "L'objectif de ce MON est de s'intéresser aux tableaux de bord et à la représentation de données"

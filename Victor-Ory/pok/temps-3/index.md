@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-12
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'Reporting'
   - 'Métaverse'
   - 'Rapport'

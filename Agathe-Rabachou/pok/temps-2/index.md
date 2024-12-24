@@ -7,8 +7,8 @@ authors:
 
 date: 2023-01-17
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "low-code"
   - "analyse de données"
   - "planification"

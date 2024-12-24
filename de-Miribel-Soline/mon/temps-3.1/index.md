@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-28
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "innovation"
 
 résumé: "Ce MON traite de la thématique du management de l'innovation. Il s'agit d'un premier abord général et théorique de la notion."

@@ -6,8 +6,8 @@ authors:
   - Lucie Le Boursicaud
 
 date: 1970-10-01
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Excel"
   - "Analyse des données"
 

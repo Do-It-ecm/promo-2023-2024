@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-14
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Développement d'une commande avec Rust
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-18
 
+temps: 1
 tags:
-  - 'temps 1'
   - 'C'
 ---
 ## Résumé :

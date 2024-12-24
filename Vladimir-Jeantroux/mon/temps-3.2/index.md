@@ -5,8 +5,8 @@ title: "Atteindre l'Excel-lence."
 authors:
   - Vladimir Jeantroux
 
+temps: 3
 tags:
-  - 'temps 3'
 ---
 
 Imagine être un ingénieur et n'avoir aucune expérience avec la suite Office... 

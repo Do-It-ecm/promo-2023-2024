@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-25
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Un site web statique me servant de mini-documentation d'OpenGL, GLSL et autres bibliothèques, utilisant eleventy pour générer ses pages."
 ---

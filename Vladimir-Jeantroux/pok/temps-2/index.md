@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-18
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'POK'
   - 'Game Dev'
   - 'Godot'

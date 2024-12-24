@@ -7,8 +7,8 @@ authors:
 
 date: 2020-11-22
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: L'objectif principal de ce POK est de créer un portfolio en ligne dynamique et interactif qui met en valeur mon profil. Ce portfolio servira comme une plateforme centralisée pour présenter mes compétences, expériences, projets et réalisations, offrant aux visiteurs une l'opportunité de faire une demande ou de laisser une recommandation. 
 ---

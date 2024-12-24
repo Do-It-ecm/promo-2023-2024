@@ -5,8 +5,8 @@ title: "Java tranquille et toi ?"
 authors:
   - Vladimir Jeantroux
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'Java'
 ---
 

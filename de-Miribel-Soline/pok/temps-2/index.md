@@ -7,8 +7,8 @@ authors:
 
 date: 2024-01-17
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "transformation digitale"
 
 résumé: Ce POK est une étude de cas d’une transformation digitale dans l'entreprise Sfil.

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-18
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "gestion de crise"
 
 résumé: Ce POK est une étude de cas d’une situation de crise.

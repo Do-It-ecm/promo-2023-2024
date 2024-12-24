@@ -6,8 +6,8 @@ authors:
   - Benoit BEGUIER
 
 date: 2024-02-14
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Ce MON va rendre compte de l'organisation du barbecue de fin d'année Do-It"
 ---

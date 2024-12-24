@@ -6,8 +6,8 @@ authors:
   - Sarah Sebastien
 
 date: 2023-10-18
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Lean Management"
   - "5S"
   - "Standard"

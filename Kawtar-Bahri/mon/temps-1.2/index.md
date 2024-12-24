@@ -6,8 +6,8 @@ authors:
   - Kawtar Bahri
 
 date: 2023-10-15
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "HTML"
   - "CSS"
   - "débutant"

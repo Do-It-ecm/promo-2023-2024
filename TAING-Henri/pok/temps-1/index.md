@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-26
 
+temps: 1
 tags:
-  - "temps 1"
   - No/low code
   - RSE
 

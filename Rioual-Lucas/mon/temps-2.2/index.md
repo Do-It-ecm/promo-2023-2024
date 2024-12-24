@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Business Model"
 ---
@@ -24,7 +24,7 @@ résumé: "Business Model"
 L’objectif de ce MON est de me concentrer sur la notion de Business Model d’une entreprise. Pour mettre en pratique les connaissances que je vais acquérir durant ce MON, je vais établir une première ébauche du Business Model de mon projet entrepreneurial. Ce projet consiste en la création d’une entreprise de conception d’Escape Box.
 J’ai utilisé les ressources suivantes :
 
-- [Mon de Gabriel Barbé](../../../../2022-2023/Barbé-Gabriel/mon/Business)
+- [Mon de Gabriel Barbé](../../../../2022-2023/Barbe-Gabriel/mon/Business)
 - Business Model Generation_ A Handbook for Visionaries, Game Changers, and Challengers
 
 ## Le Business Model Canva

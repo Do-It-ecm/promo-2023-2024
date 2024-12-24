@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Un résumé des différentes évolutions des modèles et techniques de Natural Language Processing dans les derniers mois"
 ---

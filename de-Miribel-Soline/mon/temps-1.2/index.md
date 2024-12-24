@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "gestion de crise"
 
 résumé: "Ce MON fait suite au MON 1.2 et aborde plus en détail la question du management, de la communication et de l'agilité."

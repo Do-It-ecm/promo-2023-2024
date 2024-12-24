@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "R"
   - "Analyse des données"
   - "RStudio"

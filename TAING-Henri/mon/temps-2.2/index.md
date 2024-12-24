@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-15
 
+temps: 2
 tags:
-  - "temps 2"
   - SQL
   - Python
 

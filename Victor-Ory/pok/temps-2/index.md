@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-19
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'Protection des données'
   - 'RGPD'
   - 'Intermédiaire'

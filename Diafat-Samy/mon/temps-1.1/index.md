@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-18
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - HTML
   - CSS
   - Bootstrap

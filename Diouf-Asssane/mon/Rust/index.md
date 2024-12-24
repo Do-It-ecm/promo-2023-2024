@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Découvrons ensemble le langage Rust. Il est de plus en plus adopté dans l'industrie pour ses performances et ses idées nouvelles, comme l'ownership."
 ---

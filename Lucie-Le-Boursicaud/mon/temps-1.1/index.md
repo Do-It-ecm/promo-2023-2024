@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Informatique"
   - "Langage C++"
   - "Apprentissage d'un langage"

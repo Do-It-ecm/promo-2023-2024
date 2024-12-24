@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-17
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - Flask
   - Python
   - Application web

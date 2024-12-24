@@ -5,8 +5,8 @@ title: "Apprendre Rust en codant un jeu"
 authors:
   - Vladimir Jeantroux
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'Rust'
 ---
 

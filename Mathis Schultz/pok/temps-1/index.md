@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-18
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "système d'information"
 
 résumé: Le but de ce POK est de faire l'étude du système d'information d'une multinationale.

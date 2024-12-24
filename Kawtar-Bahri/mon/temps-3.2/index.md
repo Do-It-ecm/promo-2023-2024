@@ -6,8 +6,8 @@ authors:
   - Kawtar Bahri
 
 date: 1971-03-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "La transformation opérée par la technologie dans divers domaines est véritablement fascinante. Dans ce MON, je me concentre sur un domaine qui m'intéresse tout particulièrement : la relation entre la technologie et la finance. Cette exploration revêt également une importance pratique pour moi, car elle est directement liée à mon stage de fin d'études portant sur la stratégie informatique au sein du département de conseil en services financiers."
 ---

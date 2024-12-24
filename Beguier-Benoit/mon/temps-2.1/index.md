@@ -6,8 +6,8 @@ authors:
   - Benoit BEGUIER
 
 date: 2023-12-13
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "python"
   - "piton"
   - "pyton"

@@ -8,8 +8,8 @@ authors:
 
 date: 2023-09-16
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'Cybersécurité'
   - 'Relation Internationales'
   - 'Veille'

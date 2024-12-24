@@ -7,8 +7,8 @@ authors:
 
 date: 1971-01-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "figma"
   - "maquette"
   - "canva"

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: Élaborer un plan de transformation numérique pour une entreprise, y compris l'adoption de nouvelles technologies et la refonte des processus. 
 ---

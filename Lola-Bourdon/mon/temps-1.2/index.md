@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-18
 
+temps: 1
 tags:
-  - "temps 1"
   - "excel"
 
 résumé: "MON 1.2 sur les bases d'excel"

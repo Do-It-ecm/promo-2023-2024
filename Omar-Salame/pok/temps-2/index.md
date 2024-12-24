@@ -7,8 +7,8 @@ authors:
 
 date: 2023-11-25
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Mon premier site web.
 ---

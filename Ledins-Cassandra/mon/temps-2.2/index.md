@@ -6,8 +6,8 @@ authors:
   - Cassandra Ledins
 
 date: 1971-01-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant d'un sujet."
 ---

@@ -6,8 +6,8 @@ authors:
   - Lola Bourdon 
 
 date: 2024-03-27
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "management de l'innovation"
 
 résumé: " Suite du MON de Soline sur le management de l'innovation"

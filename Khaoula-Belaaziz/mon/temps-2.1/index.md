@@ -6,8 +6,8 @@ authors:
   - Khaoula BELAAZIZ
 
 date: 2023-11-22
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Cette page est conçue pour les débutants qui aspirez à maîtriser React Native. Ici, nous allons découvrir ensemble les bases de React Native, accompagnées d'exemples de code simples et de ressources utiles pour démarrer. J'ai choisi d'apprendre React Native pour développer la partie frontend de notre projet 3A "Killer".
 ---

@@ -6,8 +6,8 @@ authors:
   - Nicolas Ouzoulias
 
 date: 2023-09-17
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Mon 5ème MON pour découvrir et apprendre à manipuler le langage R"
 ---

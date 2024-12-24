@@ -6,8 +6,8 @@ authors:
   - Duc DANG VU
 
 date: 2023-11-23
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "Python"
   - "Pygame"
   - "Programmation objet"

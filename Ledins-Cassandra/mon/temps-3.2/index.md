@@ -6,8 +6,8 @@ authors:
   - Cassandra Ledins
 
 date: 1971-03-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Schématisation d'un process entreprise et création d'un cahier des charges pour ERP"
 ---

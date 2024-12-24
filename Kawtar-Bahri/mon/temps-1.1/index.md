@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-26
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Un MON traitant l'analyse statistique."
 ---

@@ -6,9 +6,9 @@ authors:
   - Sarah Sebastien
 
 date: 2023-09-25
-tags: 
-  - tags:
-  - 'temps 1'
+
+temps: 1
+tags:
   - Système d'information
   - ERP
   - PGI

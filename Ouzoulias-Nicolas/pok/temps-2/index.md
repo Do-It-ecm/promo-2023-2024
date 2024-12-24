@@ -7,8 +7,8 @@ authors:
 
 date: 2023-12-13
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé:  Le second POK de l'année pour apprendre à programmer la partie back d'un site web.
 ---

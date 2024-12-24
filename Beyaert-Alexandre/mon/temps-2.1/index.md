@@ -6,8 +6,8 @@ authors:
   - Alexandre Beyaert
 
 date: 1970-11-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Data Science."
 ---

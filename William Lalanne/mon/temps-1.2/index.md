@@ -6,8 +6,8 @@ authors:
   - William Lalanne
 
 date: 2023-18-10
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "JavaScript"
 ---

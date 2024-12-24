@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-01
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: Création d'un site web avec HTML, CSS et JS pour jouer au memory. 
 ---

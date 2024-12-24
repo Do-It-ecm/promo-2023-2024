@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-14
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "génération procédurale"
 
 résumé: Dans ce POK, je m'intéresse à la génération procédurale de mondes.

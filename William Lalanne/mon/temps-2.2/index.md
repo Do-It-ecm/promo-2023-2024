@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Dans ce MON je souhaite me former à l'utilisation des bases de React"
 ---

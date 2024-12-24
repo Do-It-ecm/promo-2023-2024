@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-28
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "déploiement"
   - "hébergement"
   - "maintenance"

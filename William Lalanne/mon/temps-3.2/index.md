@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Dans ce MON je souhaite apprendre les bases de TypeScript"
 ---

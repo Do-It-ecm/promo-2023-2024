@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-07
 
+temps: 3
 tags:
-  - "temps 3"
   - Microsoft Power BI
 
 résumé: Utiliser Microsoft Power BI pour faire mumuse avec des données.

@@ -6,8 +6,8 @@ authors:
   - Cassandra Ledins
 
 date: 1971-02-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Découvrir un aspect de la cybersécurité, le pentest, autour d'exercices en ligne variés"
 ---

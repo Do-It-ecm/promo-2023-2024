@@ -8,8 +8,8 @@ authors:
 
 date: 2023-09-16
 
+temps: 1
 tags:
-  - 'temps 1'
   - 'Cryptographie'
   - 'Enjeu international'
   - 'Math'

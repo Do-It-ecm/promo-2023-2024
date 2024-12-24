@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-17
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Comment une petite start-up est devenue un phénomène mondial ?!!"
 ---

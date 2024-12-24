@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-01
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Bubble"
   - "Application web"
 

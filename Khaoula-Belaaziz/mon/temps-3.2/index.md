@@ -6,8 +6,8 @@ authors:
   - Khaoula BELAAZIZ
 
 date: 2024-03-16
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "Product Manager"
 
 résumé: .

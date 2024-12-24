@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "symfony 6"
   - "php"
 

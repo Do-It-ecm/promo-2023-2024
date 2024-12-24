@@ -7,8 +7,8 @@ authors:
 
 date: 2023-10-18
 
+temps: 1
 tags:
-  - "temps 1"
   - "VBA"
   - "excel"
   - "débutant"
@@ -35,7 +35,7 @@ Au début de ce MON mon but était de chercher à développer mes connaissances 
 ## 1. Revue de ce qui est présent dans les MON précédents
 
 Avant de me lancer tête baissée dans un cours, J'ai commencé par faire le point sur ce qui se trouve sur le site !
-En parcourant les MON des différents élèves, on peut voir que [Louise Gacoin](../../../../2022-2023/Gacoin-Louise/index.md), [Sarah Honoré](../../../../2022-2023/Honoré-Sarah/index.md) et [Ossama Abdane](../../../../2022-2023/Abdane-Ossama/index.md) sont les élèves s’étant intéressés au langage VBA.
+En parcourant les MON des différents élèves, on peut voir que [Louise Gacoin](../../../../2022-2023/Gacoin-Louise/index.md), [Sarah Honoré](../../../../2022-2023/Honore-Sarah/) et [Ossama Abdane](../../../../2022-2023/Abdane-Ossama/) sont les élèves s’étant intéressés au langage VBA.
 Louise Gacoin, pour son MON sur le VBA, a suivi un MOOC à ce sujet. Dans son compte-rendu, elle retrace tout d'abord ce qu’elle a vu tout au long du MOOC. Ensuite, elle fait un petit retour sur le cours. Et enfin elle présente une application de ce cours, dans un Excel permettant de suivre l’avancée de documents.
 Sarah Honoré, lors de son temps 3 a fait ses deux MON sur Excel et les VBA. Son premier MON traite surtout des différentes fonctionnalités d’Excel, fonctionnalités très utiles mais qui ne nous intéressent pas spécialement ici. Son second MON traite plus spécifiquement des macros en langage VBA. Pour ce MON, Sarah a suivi le même cours que Louise Gacoin. Il n’y a donc pas grand-chose à ajouter sur le plan technique mais elle propose une analyse plus poussée de la formation.
 Ossama Abdane a suivi la même formation que Louise et Sarah. Donc il n’y a pas non plus d’apport technique.

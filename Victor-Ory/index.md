@@ -1,12 +1,9 @@
 ---
-layout: layout/fiche.njk
+layout: layout/profile.njk
 
 title: "ORY Victor"
 authors:
     - "ORY Victor"
-
-eleventyNavigation:
-    order: 7
 ---
 ## Parlons de moi
 

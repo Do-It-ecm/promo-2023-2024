@@ -6,8 +6,8 @@ authors:
   - Kawtar Bahri
 
 date: 2023-11-22
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Pendant mon parcours académique et mes stages, j'ai développé des compétences en matière de transformation, de traitement et de visualisation des données, sans pour autant avoir une compréhension approfondie de leur origine ou du processus de collecte. Il est temps que j'apprenne les notions de collecte et de stockage des données.
 ---

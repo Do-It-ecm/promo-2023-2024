@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "Dans ce MON je souhaite approfondir mes connaissances en CSS"
 ---

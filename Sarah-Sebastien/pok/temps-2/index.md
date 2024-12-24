@@ -7,8 +7,8 @@ authors:
 
 date: 2023-11-22
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "Java"
   - "Swing"
 

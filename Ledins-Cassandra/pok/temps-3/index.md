@@ -7,8 +7,8 @@ authors:
 
 date: 1971-03-01
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Configurer mon propre serveur pour héberger mes sites persos
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 1971-03-01
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Un POK traitant de la transformation de la Supply Chain à l'ère de la digitalisation des industries.
 ---

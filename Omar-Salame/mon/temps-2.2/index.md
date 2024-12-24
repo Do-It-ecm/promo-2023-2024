@@ -6,8 +6,8 @@ authors:
   - Omar Salame
 
 date: 2024-01-17
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Mon travail consiste à approfondir mes connaissances sur la transformation digitale, en mettant l'accent sur ses leviers, ainsi que sur la manière dont l'évaluation de la maturité digitale d'une organisation s'effectue."
 ---

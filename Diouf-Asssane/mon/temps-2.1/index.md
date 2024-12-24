@@ -6,8 +6,8 @@ authors:
   - Assane Diouf
 
 date: 2023-12-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Apprendre C# et en particulier le développement web avec C#"
 ---

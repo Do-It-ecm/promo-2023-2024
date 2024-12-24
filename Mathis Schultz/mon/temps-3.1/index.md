@@ -6,8 +6,8 @@ authors:
   - Schultz Mathis
 
 date: 2024-02-28
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "L'objectif de ce MON est l'étude des enjeux des composants électroniques"
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
+temps: 3
 tags:
-  - 'temps 3'
   - 'Blockchain'
   - 'Crypto'
 ---

@@ -6,8 +6,8 @@ authors:
   - Schultz Mathis
 
 date: 2024-03-27
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "Business"
   - "plan"
   - "stratégie"

@@ -7,8 +7,8 @@ authors:
 
 date: 2024-02-14
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Etude de cas sur l'optimisation de l'organisation interne d'une entreprise
 ---

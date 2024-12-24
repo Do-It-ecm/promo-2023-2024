@@ -6,8 +6,8 @@ authors:
   - Lucie Le Boursicaud
 
 date: 1971-02-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "Site web"
   - "CMS"
   - "Frontend"

@@ -6,8 +6,8 @@ authors:
   - Nicolas Ouzoulias
 
 date: 2023-09-17
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Pour finir cette année de Do-It à Centrale, je pense qu'il est important de parler un peu d'écologie. Une bonne partie des étudiants de l'option vont travailler dans le numérique, mais quel est le poids écologique de ce dernier ?"
 ---

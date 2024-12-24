@@ -6,8 +6,8 @@ authors:
   - Benoit BEGUIER
 
 date: 2023-12-11
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "Node.js"
   - "Backend"
   - "JavaScript"

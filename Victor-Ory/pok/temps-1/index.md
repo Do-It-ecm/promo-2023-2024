@@ -7,8 +7,8 @@ authors:
 
 date: 2024-09-19
 
+temps: 1
 tags:
-  - 'temps 1'
   - 'Rust'
   - 'Intermédiaire'
 

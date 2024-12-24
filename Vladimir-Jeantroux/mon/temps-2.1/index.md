@@ -5,8 +5,8 @@ title: "React Native et back end"
 authors:
   - Vladimir Jeantroux
 
+temps: 2
 tags:
-  - 'temps 2'
   - 'React'
   - 'Développement Web'
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 1971-01-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Un POK traitant de l'usage de la Data Science au service de l'anatomie Pathologique. En particulier, la création d'un algorithme de classification afin d'aider au diagnostique les médecins dans le risque de récidive du carcinome basocellulaire.
 ---

@@ -4,8 +4,8 @@ title: "L'Open Source INTelligence"
 authors:
   - ORY Victor
 date: 2023-09-16
+temps: 2
 tags:
-  - 'temps 2'
   - 'Investigation'
   - 'OSINT'
   - 'Débutant'

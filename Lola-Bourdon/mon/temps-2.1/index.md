@@ -6,8 +6,8 @@ authors:
   - Lola Bourdon
 
 date: 2023-12-15
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "langage vba"
   - "excel pratique"
 

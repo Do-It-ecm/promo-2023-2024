@@ -6,8 +6,8 @@ authors:
   - Assane Diouf
 
 date: 2024-01-17
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Ce MON est la suite de mon MON sur C#, l'objectif est de découvrir ASP.NET Core et de faire un petit pendu web"
 ---

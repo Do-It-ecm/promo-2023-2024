@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-25
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: "MON 1 sur le développement d'un site web basique"
 ---

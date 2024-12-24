@@ -6,8 +6,8 @@ authors:
   - Alexandre Beyaert
 
 date: 1971-02-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Un MON traitant de la découverte de VBA"
 ---

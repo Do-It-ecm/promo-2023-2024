@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
 
 résumé: Un site internet pour interagir avec un animal virtuel.
 ---

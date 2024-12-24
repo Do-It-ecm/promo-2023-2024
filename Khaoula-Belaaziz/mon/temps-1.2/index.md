@@ -8,8 +8,8 @@ authors:
 
 date: 2023-10-15
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Notion"
   - "Organisation"
   - "Gestion de projet"

@@ -7,8 +7,8 @@ authors:
 
 date: 1971-03-01
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "PMI"
   - "Gestion de projet"
 

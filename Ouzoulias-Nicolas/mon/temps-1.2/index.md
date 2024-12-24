@@ -5,8 +5,8 @@ title: "Automatisation d'Excel avec Python"
 authors:
   - Nicolas Ouzoulias
 date: 2023-09-17
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - Excel
   - Python
   - Openpyxl

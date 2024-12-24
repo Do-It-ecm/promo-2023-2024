@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-27
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "gestion de crise"
 
 résumé: "Ce MON décrit ce que les cabinets de conseil en gestion de crise proposent aux entreprises pour faire face à une situation critique. Il s'agit d'une gestion théorique de l'événement."

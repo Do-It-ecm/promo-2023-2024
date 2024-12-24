@@ -7,8 +7,8 @@ authors:
 
 date: 2024-01-17
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "Back-end"
 
 résumé: "Ce MON a pour but de m'initier à la notion de back-end et aux outils associés."

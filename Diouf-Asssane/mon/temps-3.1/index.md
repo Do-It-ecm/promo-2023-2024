@@ -6,8 +6,8 @@ authors:
   - Assane Diouf
 
 date: 2024-02-14
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: "Pendant ce MON nous découvrirons Rust pour le back-end avec Actix-Web."
 ---

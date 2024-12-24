@@ -7,8 +7,8 @@ authors:
 
 date: 2023-12-13
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
   - "gouvernance d'entreprise"
 
 résumé: "Ce MON aborde le sujet fondamental de la gouvernance d'entreprise. Après une présentation de ce qui est entendu par ce terme, on trouvera aussi une comparaison de différents modèles de gouvernance."

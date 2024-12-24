@@ -8,8 +8,8 @@ authors:
 
 date: 2023-10-17
 
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "Python"
   - "Qt"
   - "Interfaces graphiques"

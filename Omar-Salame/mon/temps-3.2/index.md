@@ -7,8 +7,8 @@ authors:
 
 date: 2024-03-14
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Je souhaite explorer les différents modèles de données ainsi que leur utilisation à travers des pipelines, tout en intégrant le processus ETL.
 ---

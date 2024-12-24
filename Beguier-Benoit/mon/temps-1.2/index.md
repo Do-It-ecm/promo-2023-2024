@@ -6,8 +6,8 @@ authors:
   - Benoit BEGUIER
 
 date: 2023-10-18
-tags: 
-  - "temps 1"
+temps: 1
+tags:
   - "HTML"
   - "CSS"
   - "mon"

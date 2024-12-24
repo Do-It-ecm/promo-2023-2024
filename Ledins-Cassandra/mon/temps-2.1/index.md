@@ -6,8 +6,8 @@ authors:
   - Cassandra Ledins
 
 date: 1970-11-01
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "Je vais suivre un tutoriel vidéo pas à pas pour découvrir le logiciel Unity et créer un jeu."
 ---

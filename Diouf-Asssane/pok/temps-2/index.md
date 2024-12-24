@@ -7,8 +7,8 @@ authors:
 
 date: 2023-12-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: Une application mobile pour savoir quelle machine à café marche à Centrale pour passer la meilleure pause possible
 ---

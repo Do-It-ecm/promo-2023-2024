@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-17
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: Dernier POK de l'année pour mettre un place un dialogue constructif entre étudiant et administration de l'école Centrale Marseille.
 ---

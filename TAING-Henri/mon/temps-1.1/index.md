@@ -7,8 +7,8 @@ authors:
 
 date: 2023-09-25
 
+temps: 1
 tags:
-  - "temps 1"
   - Marketing
   - Communication
 

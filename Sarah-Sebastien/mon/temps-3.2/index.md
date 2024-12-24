@@ -6,8 +6,8 @@ authors:
   - Sarah Sebastien
 
 date: 2024-14-01
-tags: 
-  - "temps 3"
+temps: 3
+tags:
   - "CNIL"
   - "traceurs"
   - "ciblage publicitaire"

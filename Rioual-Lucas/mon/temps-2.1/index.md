@@ -7,8 +7,8 @@ authors:
 
 date: 1970-09-01
 
-tags: 
-  - "temps 2"
+temps: 2
+tags:
 
 résumé: "React.js"
 ---

@@ -7,8 +7,8 @@ authors:
 
 date: 2023-13-02
 
-tags: 
-  - "temps 3"
+temps: 3
+tags:
 
 résumé: POK où je souhaite développer une petite application mobile.
 ---
