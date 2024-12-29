@@ -21,7 +21,7 @@ Connaissance basique de la programmation objet avec Python.
 {%endprerequis%}
 
 {% note %}
-Tout les codes présentés sont disponibles dans mon [dossier GitHub de temps 3.1](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-3.1)
+Tout les codes présentés sont disponibles dans mon [dossier GitHub de temps 3.1](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-3.1)
 {% endnote %}
 
 ## Introduction

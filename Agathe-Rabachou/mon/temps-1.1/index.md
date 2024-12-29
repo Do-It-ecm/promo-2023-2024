@@ -48,7 +48,7 @@ En général, une page s'articule comme suit :
       <!--contenu principal de la page-->
     </main>
     <footer>
-      <!--contenu du pied de page-->    
+      <!--contenu du pied de page-->
     </footer>
 </body>
 
@@ -110,7 +110,7 @@ Voici pour illustrer un morceau de code qui crée deux grilles d'images en consi
 }
 ```
 
-Les possibilités sont encore très nombreuses pour jouer avec le rendu visuel d'une page web grâce à **CSS**. J'ai vu durant ce MON plusieurs autres petites fonctionnalités qui permettent d'aller un peu plus loin, et j'espère continuer de m'améliorer dans l'utilisation de ce langage. Mais nous avons expliqué ici les principes de bases, qui je pense sont suffisants dans un premier temps pour démarrer en front-end. 
+Les possibilités sont encore très nombreuses pour jouer avec le rendu visuel d'une page web grâce à **CSS**. J'ai vu durant ce MON plusieurs autres petites fonctionnalités qui permettent d'aller un peu plus loin, et j'espère continuer de m'améliorer dans l'utilisation de ce langage. Mais nous avons expliqué ici les principes de bases, qui je pense sont suffisants dans un premier temps pour démarrer en front-end.
 
 ## 4. Le résultat
 
@@ -125,4 +125,4 @@ Voici le rendu obtenu :
 <img src="portfolio2.jpg">
 <img src="portfolio3.jpg">
 
-Je laisse également [ici](https://github.com/FrancoisBrucker/do-it/blob/main/src/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/codes_sites.md) le code **HTML** de chaque page ainsi que la feuille de style du site en **CSS** pour de potentiels intéressés !
+Je laisse également [ici](https://github.com/do-it-ecm/do-it/blob/main/src/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/codes_sites.md) le code **HTML** de chaque page ainsi que la feuille de style du site en **CSS** pour de potentiels intéressés !

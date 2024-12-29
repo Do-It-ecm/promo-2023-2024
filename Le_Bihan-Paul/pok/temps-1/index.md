@@ -42,7 +42,7 @@ D'ailleurs, ne sachant pas bien comment serait agencé mon texte, j'ai égalemen
 
 <div><img src="site-en-html.png"></div>
 
-Vous pouvez retrouver le code source [ici](https://github.com/FrancoisBrucker/do-it/blob/main/src/promos/2023-2024/Le_Bihan-Paul/pok/temps-1/mon-site/).
+Vous pouvez retrouver le code source [ici](https://github.com/do-it-ecm/do-it/blob/main/src/promos/2023-2024/Le_Bihan-Paul/pok/temps-1/mon-site/).
 
 ## 2. Le design CSS
 
@@ -51,7 +51,7 @@ Le gros du travail en ce qui me concerne s'est trouvé là. En effet, après mon
 + d'autres avec lesquelles j'ai plus de mal comme le `margin` et le `padding`,
 + et enfin, certaines ce qui concerne les Flexbox, comme `flex-direction`, `align-items` et `justify-content`.
 
-Et voici un apperçu du rendu final, qui se trouve avec le [code HTML](https://github.com/FrancoisBrucker/do-it/blob/main/src/promos/2023-2024/Le_Bihan-Paul/pok/temps-1/mon-site/): 
+Et voici un apperçu du rendu final, qui se trouve avec le [code HTML](https://github.com/do-it-ecm/do-it/blob/main/src/promos/2023-2024/Le_Bihan-Paul/pok/temps-1/mon-site/):
 
 <div><img src="site-avec-html-et-css-p1.png"></div>
 <div><img src="site-avec-html-et-css-p2.png"></div>

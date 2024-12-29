@@ -21,7 +21,7 @@ Connaissance basique de la programmation objet avec Python.
 
 {% note %}
 Le jeu du Morpion codé en exemple est disponible sur le lien suivant: [Jeu du morpion avec Pygame](https://duc-dgv.itch.io/morpion)
-Tout les codes présentés sont disponibles dans le dossier Git du MON2.1: [codes du MON2.1](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-2.1)
+Tout les codes présentés sont disponibles dans le dossier Git du MON2.1: [codes du MON2.1](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-2.1)
 {% endnote %}
 
 ## Introduction

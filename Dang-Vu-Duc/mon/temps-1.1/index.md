@@ -22,7 +22,7 @@ Connaissance basique de la programmation objet avec Python.
 {%endprerequis%}
 
 {% note %}
-Tout les codes présentés ci-dessous sont disponibles dans le dossier Github de Do-It: [Codes du MON1.1](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1)
+Tout les codes présentés ci-dessous sont disponibles dans le dossier Github de Do-It: [Codes du MON1.1](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.1)
 {% endnote %}
 
 ## Introduction
@@ -97,7 +97,7 @@ class Test_button(QMainWindow):
         self.button.clicked.connect(self.button_clicked)
         self.setCentralWidget(self.button)
         self.show()
-    
+
     def button_clicked(self):
         print("Le bouton a été cliqué!")
 
@@ -134,7 +134,7 @@ class Test_button(QMainWindow):
         layout.addWidget(self.button2)
         central_widget.setLayout(layout)
         self.show()
-    
+
     def button_clicked(self):
         print("Le bouton a été cliqué!")
 ```
@@ -161,7 +161,7 @@ class Test_button(QMainWindow):
         file_menu.addAction("Enregistrer sous")
         save_action = file_menu.addAction("Enregistrer")
         save_action.triggered.connect(self.save)
-        
+
         self.setWindowTitle("Test Bouton cliquable")
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -175,10 +175,10 @@ class Test_button(QMainWindow):
         layout.addWidget(self.button2)
         central_widget.setLayout(layout)
         self.show()
-    
+
     def button_clicked(self):
         print("Le bouton a été cliqué!")
-    
+
     def save(self):
         print("Le fichier a été enregistré")
 
@@ -329,7 +329,7 @@ Il faut maintenant créer les méthodes pour associées à chaque bouton. La mé
             for value in values:
                 self.deck.append(Card(f"{value}_of_{suit}", value))
         self.CardsLeft.setText(f"{len(self.deck)} cartes restantes")
-    
+
     def play(self):
         card_dealer = random.choice(self.deck)
         self.deck.remove(card_dealer)
@@ -353,7 +353,7 @@ Il faut maintenant créer les méthodes pour associées à chaque bouton. La mé
 
         if card_dealer.value == card_player.value:
             self.result.setText("Egalité!")
-        
+
         if len(self.deck) == 0:
             self.newdeck()
 

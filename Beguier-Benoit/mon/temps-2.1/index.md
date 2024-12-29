@@ -178,7 +178,7 @@ Je souhaite cette fois améliorer le graphique obtenu et le temps machine grâce
 J'ai réalisé tout ce travail dans un Notebook que vous pourrez trouver ci-dessous.
 
 {% chemin %}
-[Lien du Notebook](https://github.com/FrancoisBrucker/do-it/blob/main/src/promos/2023-2024/Beguier-Benoit/mon/temps-2.1/MON2_1.ipynb)
+[Lien du Notebook](https://github.com/do-it-ecm/do-it/blob/main/src/promos/2023-2024/Beguier-Benoit/mon/temps-2.1/MON2_1.ipynb)
 {% endchemin %}
 
 Je suis satisfait de la finalité de mon MON et de la bibliothèque Seaborn. Je n'ai fait ici qu'effleurer les possibilités qu'elle offre car je n'ai pas fait d'études statistiques, mais il en résulte une très grande facilité d'utilisation.

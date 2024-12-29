@@ -22,7 +22,7 @@ Connaissance basique de la programmation objet avec Python et des règles du jeu
 
 {% note %}
 Il est possible de tester l'implémentation du jeu sur le lien suivant: [Jeu d'échecs avec Python](https://duc-dgv.itch.io/jeu-dchecs)
-Tout les codes présentés sont disponibles dans le dossier Git du POK2: [codes du POK2](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-2)
+Tout les codes présentés sont disponibles dans le dossier Git du POK2: [codes du POK2](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-2)
 {% endnote %}
 
 ## Introduction
@@ -123,7 +123,7 @@ class King(Piece):
                     new_column = column + k
                     new_row = row + l
                     if new_row <= 7 and new_column <= 7 and new_row >= 0 and new_column >= 0 :
-                        if board[new_row][new_column][1] is None: 
+                        if board[new_row][new_column][1] is None:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
                         else:
@@ -138,14 +138,14 @@ class Rook(Piece):
             super().__init__(IsWhite, 5, "R", current_cell)
         else:
             super().__init__(IsWhite, -5, "r", current_cell)
-    
+
     def get_possible_moves(self, board):
         self.possible_moves = []
         for k in [-1, 1]:
             new_column = self.current_cell.column + k
             new_row = self.current_cell.row
             while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                if board[new_row][new_column][1] is None: 
+                if board[new_row][new_column][1] is None:
                         new_cell = Cell(new_row, new_column)
                         self.possible_moves.append(new_cell)
                 else:
@@ -159,7 +159,7 @@ class Rook(Piece):
             new_column = self.current_cell.column
             new_row = self.current_cell.row + l
             while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                if board[new_row][new_column][1] is None: 
+                if board[new_row][new_column][1] is None:
                         new_cell = Cell(new_row, new_column)
                         self.possible_moves.append(new_cell)
                 else:
@@ -190,7 +190,7 @@ class Knight(Piece):
                 new_column = column + k
                 new_row = row + l
                 if new_row <= 7 and new_column <= 7 and new_row >= 0 and new_column >= 0:
-                    if board[new_row][new_column][1] is None: 
+                    if board[new_row][new_column][1] is None:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
                     else:
@@ -198,14 +198,14 @@ class Knight(Piece):
                         if obstacle_color ^ self.IsWhite:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
-        
+
 class Bishop(Piece):
     def __init__(self, IsWhite, current_cell):
         if IsWhite:
             super().__init__(IsWhite, 3, "B", current_cell)
         else:
             super().__init__(IsWhite, -3, "b", current_cell)
-    
+
     def get_possible_moves(self, board):
         self.possible_moves = []
         for k in [-1, 1]:
@@ -213,7 +213,7 @@ class Bishop(Piece):
                 new_column = self.current_cell.column + k
                 new_row = self.current_cell.row + l
                 while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                    if board[new_row][new_column][1] is None: 
+                    if board[new_row][new_column][1] is None:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
                     else:
@@ -231,14 +231,14 @@ class Queen(Piece):
             super().__init__(IsWhite, 9, "Q", current_cell)
         else:
             super().__init__(IsWhite, -9, "q", current_cell)
-    
+
     def get_possible_moves(self, board):
         self.possible_moves = []
         for k in [-1, 1]:
             new_column = self.current_cell.column + k
             new_row = self.current_cell.row
             while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                if board[new_row][new_column][1] is None: 
+                if board[new_row][new_column][1] is None:
                         new_cell = Cell(new_row, new_column)
                         self.possible_moves.append(new_cell)
                 else:
@@ -252,7 +252,7 @@ class Queen(Piece):
             new_column = self.current_cell.column
             new_row = self.current_cell.row + l
             while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                if board[new_row][new_column][1] is None: 
+                if board[new_row][new_column][1] is None:
                         new_cell = Cell(new_row, new_column)
                         self.possible_moves.append(new_cell)
                 else:
@@ -267,7 +267,7 @@ class Queen(Piece):
                 new_column = self.current_cell.column + k
                 new_row = self.current_cell.row + l
                 while new_column >= 0 and new_column <= 7 and new_row >= 0 and new_row <= 7:
-                    if board[new_row][new_column][1] is None: 
+                    if board[new_row][new_column][1] is None:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
                     else:
@@ -285,8 +285,8 @@ class Pawn(Piece):
             super().__init__(IsWhite, 1, "", current_cell)
         else:
             super().__init__(IsWhite, -1, "", current_cell)
-    
-    
+
+
     def get_possible_moves(self, board):
         if self.IsWhite:
             move = 1
@@ -338,7 +338,7 @@ class Pawn(Piece):
                     new_row = self.current_cell.row + k * move
                     new_column = self.current_cell.column + 0
                     if new_row >= 0 and new_row <= 7:
-                        if board[new_row][new_column][1] is None: 
+                        if board[new_row][new_column][1] is None:
                             new_cell = Cell(new_row, new_column)
                             self.possible_moves.append(new_cell)
                         else:
@@ -349,7 +349,7 @@ class Pawn(Piece):
                 new_row = self.current_cell.row + move
                 new_column = self.current_cell.column + 0
                 if new_row >= 0 and new_row <= 7:
-                    if board[new_row][new_column][1] is None: 
+                    if board[new_row][new_column][1] is None:
                         new_cell = Cell(new_row, new_column)
                         self.possible_moves.append(new_cell)
             new_row = self.current_cell.row + move
@@ -485,7 +485,7 @@ def move(self, current_cell, final_cell):
         elif final_cell.promote in ["B", "b"]:
             self.board[final_cell.row][final_cell.column][1] = Bishop(piece.IsWhite, final_cell)
         elif final_cell.promote in ["R", "r"]:
-            self.board[final_cell.row][final_cell.column][1] = Rook(piece.IsWhite, final_cell) 
+            self.board[final_cell.row][final_cell.column][1] = Rook(piece.IsWhite, final_cell)
     elif piece.letter in ["K", "k"]:
         self.board[final_cell.row][final_cell.column][1] = King(piece.IsWhite, final_cell)
     elif piece.letter in ["R", "r"]:
@@ -756,7 +756,7 @@ Cet algorithme, bien connu dans la théorie des jeux, s'appelle [l'algorithme Mi
 
 ```python
 def solve(self, fen_position, IsWhiteToPlay, depth):
-    self.c = 0 
+    self.c = 0
     self.tot = 0
     self.best_moves = [None for i in range(depth)]
     variations = []
@@ -983,7 +983,7 @@ def __init__(self):
     self.white_queen_surface = pygame.transform.scale(self.white_queen_surface, (self.cell_size, self.cell_size))
     self.white_pawn_surface = pygame.image.load('Chess_pieces_png/white_pawn.png')
     self.white_pawn_surface = pygame.transform.scale(self.white_pawn_surface, (self.cell_size, self.cell_size))
-    
+
     self.state = "piece_not_selected"
     self.coord_piece_selected = None
     self.cells_selected = []
@@ -1150,7 +1150,7 @@ def display_pieces_taken(self):
     text_black_queen_taken = self.font_pieces_taken.render(f"x{self.pieces_taken_by_white.count('q')}", False, "Black")
     text_rect = text_black_queen_taken.get_rect(midtop = (coord_x + 23, coord_y + 5))
     self.screen.blit(text_black_queen_taken, text_rect)
-    
+
     if score == 1000000 or score == -1000000:
         coord_x += 45
         text_score = self.font_pieces_taken.render("#", False, "Black")

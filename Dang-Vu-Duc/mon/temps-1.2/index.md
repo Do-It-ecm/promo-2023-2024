@@ -22,7 +22,7 @@ Connaissance basique de la programmation objet avec Python.
 {%endprerequis%}
 
 {% note %}
-Tout les codes présentés ci-dessous ainsi que les fichiers de ce MON (notamment les emplois du temps personnalisés) sont disponibles dans le dossier Github de Do-It: [Codes du MON1.2](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.2)
+Tout les codes présentés ci-dessous ainsi que les fichiers de ce MON (notamment les emplois du temps personnalisés) sont disponibles dans le dossier Github de Do-It: [Codes du MON1.2](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.2)
 {% endnote %}
 
 ## Introduction
@@ -182,7 +182,7 @@ Le premier fichier Excel sur lequel nous allons travailler est celui contenant l
 - Si le cours est dans la liste des cours, on réajuste la hauteur de la cellule
 - Une fois que toutes les cellules ont été visitées, on enregistre l'emploi du temps sous le nom de *edt de "prénom" "nom"*
 
-On créé également une méthode *create_all_timetable*, qui itère la méthode précédente 24 fois (une fois pour chaque élève) pour créer chaque emploi du temps pour chaque élèves. Ces emplois du temps sont disponibles dans le dossier GitHub de ce MON: [Codes du MON1.2](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.2)
+On créé également une méthode *create_all_timetable*, qui itère la méthode précédente 24 fois (une fois pour chaque élève) pour créer chaque emploi du temps pour chaque élèves. Ces emplois du temps sont disponibles dans le dossier GitHub de ce MON: [Codes du MON1.2](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/mon/temps-1.2)
 
 Pour executer ce code, il faut créer un objet de la classe **Create_timetable** et appeler la méthode *create_timetable_automatic*, en renseignant les nom et prénom de l'élève (sous forme de chaîne de caractères):
 
@@ -242,13 +242,13 @@ class Create_timetable():
             cell_begin = self.sheet.cell(row = i, column = 3)
             cell_end = self.sheet.cell(row = i, column = 4)
             self.weeks.append([cell_begin.value, cell_end.value])
-    
+
     def create_new_sheets(self):
         self.wb2 = openpyxl.load_workbook('étudiants_Do-It_23_24.xlsx')
         self.sheet2 = self.wb2['effectif']
         self.wb3 = openpyxl.load_workbook('edt Do_It.23-24.xlsx')
         self.sheet3 = self.wb3['année']
-    
+
     def get_cell_reference(self, day, month, time):
         nb_week = None
         nb_day = None
@@ -305,7 +305,7 @@ class Create_timetable():
         cell.alignment = Alignment(wrapText=True, horizontal = "center", vertical = "center")
         current_sheet.row_dimensions[cell.row].height = 10 * 3 + 10
         current_wb.save(file_name)
-    
+
     def remove_course(self, file_name):
         current_wb = openpyxl.load_workbook(file_name)
         current_sheet = current_wb['année']
@@ -324,7 +324,7 @@ class Create_timetable():
             cell.fill = PatternFill("solid", start_color = "FFFFFF")
             cell.value = None
         current_wb.save(file_name)
-    
+
     def remove_course_automatic(self, cell, duration):
         border = Border(left = Side(style='thin'), right = Side(style='thin'), top = Side(style='thin'), bottom = Side(style='thin'))
         if duration == 1:
@@ -346,7 +346,7 @@ class Create_timetable():
             if cell.coordinate in mergedCell:
                 return(mergedCell.max_col - mergedCell.min_col + 1)
         return(1)
-        
+
 
 
     def create_timetable_automatic(self, nom, prénom):

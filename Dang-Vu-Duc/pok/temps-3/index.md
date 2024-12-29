@@ -23,7 +23,7 @@ Connaissance basique de la programmation objet avec Python et des règles du jeu
 {%endprerequis%}
 
 {% note %}
-Tout les codes présentés sont disponibles dans mon [dossier GitHub de temps 3](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-3)
+Tout les codes présentés sont disponibles dans mon [dossier GitHub de temps 3](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-3)
 {% endnote %}
 
 ## Introduction
@@ -202,7 +202,7 @@ def get_score(self, player_hand, board):
             elif 6 in list_count_suits:
                 index_winner_suit = list_count_suits.index(6)
             elif 7 in list_count_suits:
-                index_winner_suit = list_count_suits.index(7) 
+                index_winner_suit = list_count_suits.index(7)
             winner_suit = list_suits[index_winner_suit]
             list_candidates = [cards[i].value for i in range(len(cards)) if cards[i].suit == winner_suit]
             list_candidates_removed = list(set(list_candidates))
@@ -549,7 +549,7 @@ class UI_stats(Plot_stats, Poker_methods):
         ui_file3.close()
         self.window_plot_hands_ranking.setWindowTitle("Affichage du classement des meilleures mains")
 
-        self.last_rank = 169        
+        self.last_rank = 169
         self.first_rank = 1
         self.button_valider_plot_hands_ranking = self.window_plot_hands_ranking.findChild(QPushButton, "button_valider_plot_hands_ranking")
         self.button_valider_plot_hands_ranking.clicked.connect(self.valider_plot_hands_ranking)
@@ -834,7 +834,7 @@ def plot_heatmap_hands_ranking(self):
     jump_y = (y_end - y_start) / (2.0 * size_y)
     x_positions = np.linspace(start=x_start, stop=x_end, num=size_x, endpoint=False)
     y_positions = np.linspace(start=y_start, stop=y_end, num=size_y, endpoint=False)
-    
+
     for y_index, y in enumerate(y_positions):
         for x_index, x in enumerate(x_positions):
             label = round(table_winrates[y_index][x_index], sigfigs = 3)

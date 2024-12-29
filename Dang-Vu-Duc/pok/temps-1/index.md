@@ -25,7 +25,7 @@ Connaissance basique de Qt pour Python (cf mon [MON1 du temps 1](../../mon/temps
 {%endprerequis%}
 
 {% note %}
-Tout les codes présentés ci-dessous sont disponibles dans le dossier Github de Do-It: [Codes du POK](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-1)
+Tout les codes présentés ci-dessous sont disponibles dans le dossier Github de Do-It: [Codes du POK](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-1)
 {% endnote %}
 
 ## Introduction
@@ -54,7 +54,7 @@ Il faut tout d'abord commencer par expliquer rapidement les (simples) règles du
 - Garder son compte actuel et terminer son tour (action de *rester*),
 - Si le joueur a deux cartes, il peut *doubler*: dans ce cas, il double sa mise et pioche une unique carte, puis termine son tour,
 - Si le joueur a deux cartes de même valeur, il peut les *séparer*: dans ce cas, il joue avec deux mains, chacune contenant une carte initialement en double. Sa mise initiale est donc misée également sur la deuxième main.
-  
+
 Une fois que le joueur a terminé son tour, le dealer joue. Il joue toujours de la même manière: il pioche tant qu'il a un compte inférieur ou égal à 16, puis il reste s'il a un compte supérieur ou égal à 17. Si le joueur a dépassé 21 (on dit qu'il a *bust*), il perd; même si le dealer bust après lui, et perd sa mise. Si le joueur a un compte supérieur à celui du dealer, ou que le dealer bust sans que le joueur ne bust, alors le joueur gagne et il reçoit deux fois sa mise.
 
 ## Prévision du premier sprint
@@ -84,7 +84,7 @@ Maintenant qu'on a les deux fichiers .ui de chaque fenêtre, on commence à impl
 - Un fichier *blackjack_methods.py* qui va contenir la classe **Blackjack_methods** contenant les méthodes relatives à la manipulation du deck de cartes et des mains (création du deck, calcul du compte des mains),
 - Un fichier *UI_blackjack.py* qui va contenir la classe **Blackjack** contenant les méthodes relatives à la création de l'interface graphique,
 - Un fichier *main.py* qui va contenir les instructions pour exécuter le code.
-  
+
 ### La classe Blackjack_methods
 
 Comme explicité ci-dessus, cette classe contient les méthodes pour manipuler le deck. La méthode *newdeck* permet de créer le sabot pour le Blackjack. Ce sabot est composé de 6 jeux de 52 cartes. Ce sabot (dénommé *deck* dans le code) est une liste d'objet de la classe **Card**. Ces objets ont comme attribut un nom (par exemple 2_of_clubs pour le 2 de trèfle ou 11_of_hearts pour le valet de coeur) et sa valeur (1 pour As, et 10 pour les têtes). Cette classe a également une méthode appelée *sum_hand*, qui prend en argument une liste et qui renvoie sa somme. Cette méthode prend en compte que l'As (donc la valeur 1) vaut soit 1 soit 11. Ainsi, si la main est `[1, 4]`, la méthode renvoie 15, mais si la main est `[1, 5, 7]`, la méthode renvoie 13. Voici l'implémentation de cette classe:
@@ -95,7 +95,7 @@ Comme explicité ci-dessus, cette classe contient les méthodes pour manipuler l
 class Blackjack_methods():
     def __init__(self):
         self.newdeck()
-    
+
     def newdeck(self):
         suits = ["diamonds", "clubs" ,"hearts", "spades"]
         values = range(1,14)
@@ -108,7 +108,7 @@ class Blackjack_methods():
                     initial_deck.append(Card(f"{value}_of_{suit}", 10))
 
         self.deck = initial_deck * 6
-    
+
     def sum_hand(self, hand):
         if 1 in (card.value for card in hand):
             sum1 = sum([card.value for card in hand]) + 10
@@ -152,7 +152,7 @@ class Blackjack(QMainWindow, Blackjack_methods):
         self.main_window = loader.load(ui_file)
         ui_file.close()
         self.main_window.setWindowTitle("Blackjack")
-        
+
         self.label_dealercard1 = self.main_window.findChild(QLabel, "DealerCard1")
         self.label_dealercard2 = self.main_window.findChild(QLabel, "DealerCard2")
         self.label_dealercard3 = self.main_window.findChild(QLabel, "DealerCard3")
@@ -230,9 +230,9 @@ class Blackjack(QMainWindow, Blackjack_methods):
         self.split_stayButton1.clicked.connect(self.stay_split_first)
         self.split_stayButton2.clicked.connect(self.stay_split)
         self.split_buttonRestart.clicked.connect(self.restart_split)
-        
+
         self.restart()
-        
+
         self.hitButton.clicked.connect(self.hit)
         self.restartButton.clicked.connect(self.restart)
         self.stayButton.clicked.connect(self.stay)
@@ -356,27 +356,27 @@ def hit(self):
     elif self.player_spot == 1:
         self.label_playercard2.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     elif self.player_spot == 2:
         self.label_playercard3.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     elif self.player_spot == 3:
         self.label_playercard4.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     elif self.player_spot == 4:
         self.label_playercard5.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     elif self.player_spot == 5:
         self.label_playercard6.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     elif self.player_spot == 6:
         self.label_playercard7.setPixmap(pixmap)
         self.player_spot += 1
-    
+
     self.display_player_count()
     count = self.sum_hand(self.player_hand)
     if count > 21:
@@ -413,23 +413,23 @@ def stay(self):
         elif self.dealer_spot == 1:
             self.label_dealercard2.setPixmap(pixmap)
             self.dealer_spot += 1
-        
+
         elif self.dealer_spot == 2:
             self.label_dealercard3.setPixmap(pixmap)
             self.dealer_spot += 1
-        
+
         elif self.dealer_spot == 3:
             self.label_dealercard4.setPixmap(pixmap)
             self.dealer_spot += 1
-        
+
         elif self.dealer_spot == 4:
             self.label_dealercard5.setPixmap(pixmap)
             self.dealer_spot += 1
-        
+
         elif self.dealer_spot == 5:
             self.label_dealercard6.setPixmap(pixmap)
             self.dealer_spot += 1
-        
+
         elif self.dealer_spot == 6:
             self.label_dealercard7.setPixmap(pixmap)
             self.dealer_spot += 1
@@ -489,27 +489,27 @@ def hit_split(self):
       elif self.player_spot_split_1 == 1:
           self.label_split_playercard1_2.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       elif self.player_spot_split_1 == 2:
           self.label_split_playercard1_3.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       elif self.player_spot_split_1 == 3:
           self.label_split_playercard1_4.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       elif self.player_spot_split_1 == 4:
           self.label_split_playercard1_5.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       elif self.player_spot_split_1 == 5:
           self.label_split_playercard1_6.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       elif self.player_spot_split_1 == 6:
           self.label_split_playercard1_7.setPixmap(pixmap)
           self.player_spot_split_1 += 1
-      
+
       self.display_player_count_split()
       count = self.sum_hand(self.player_hand_split_1)
       if count > 21:
@@ -521,7 +521,7 @@ def hit_split(self):
           self.split_stayButton1.setEnabled(False)
           self.split_doubleButton1.setEnabled(False)
           self.IsFirst = False
-  
+
   else:
       card = self.draw()
       self.player_hand_split_2.append(card)
@@ -533,23 +533,23 @@ def hit_split(self):
       elif self.player_spot_split_2 == 1:
           self.label_split_playercard2_2.setPixmap(pixmap)
           self.player_spot_split_2 += 1
-      
+
       elif self.player_spot_split_2 == 2:
           self.label_split_playercard2_3.setPixmap(pixmap)
           self.player_spot_split_2 += 1
-      
+
       elif self.player_spot_split_2 == 3:
           self.label_split_playercard2_4.setPixmap(pixmap)
           self.player_spot_split_2 += 1
-      
+
       elif self.player_spot_split_2 == 4:
           self.label_split_playercard2_5.setPixmap(pixmap)
           self.player_spot_split_2 += 1
-      
+
       elif self.player_spot_split_2 == 5:
           self.label_split_playercard2_6.setPixmap(pixmap)
           self.player_spot_split_2 += 1
-      
+
       elif self.player_spot_split_2 == 6:
           self.label_split_playercard2_7.setPixmap(pixmap)
           self.player_spot_split_2 += 1
@@ -558,7 +558,7 @@ def hit_split(self):
       count = self.sum_hand(self.player_hand_split_2)
       if count > 21:
           self.split_PlayerCount2.setStyleSheet("color : red")
-          self.stay_split()            
+          self.stay_split()
 
 
 def stay_split_first(self):
@@ -587,27 +587,27 @@ def stay_split(self):
       elif self.dealer_spot_split == 1:
           self.label_split_dealercard2.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       elif self.dealer_spot_split == 2:
           self.label_split_dealercard3.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       elif self.dealer_spot_split == 3:
           self.label_split_dealercard4.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       elif self.dealer_spot_split == 4:
           self.label_split_dealercard5.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       elif self.dealer_spot_split == 5:
           self.label_split_dealercard6.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       elif self.dealer_spot_split == 6:
           self.label_split_dealercard7.setPixmap(pixmap)
           self.dealer_spot_split += 1
-      
+
       count = self.sum_hand(self.dealer_hand)
       self.split_DealerCount.setText(f"{count}")
   self.split_buttonRestart.setStyleSheet("background-color: red")
@@ -695,7 +695,7 @@ def __init__(self):
     self.main_window = loader.load(ui_file)
     ui_file.close()
     self.main_window.setWindowTitle("Blackjack")
-    
+
     self.label_dealercard1 = self.main_window.findChild(QLabel, "DealerCard1")
     self.label_dealercard2 = self.main_window.findChild(QLabel, "DealerCard2")
     self.label_dealercard3 = self.main_window.findChild(QLabel, "DealerCard3")
@@ -821,7 +821,7 @@ def __init__(self):
     self.slideBet.valueChanged.connect(self.slide_changed)
 
     self.restart()
-    
+
     self.hitButton.clicked.connect(self.hit)
     self.restartButton.clicked.connect(self.restart)
     self.stayButton.clicked.connect(self.stay)
@@ -983,7 +983,7 @@ Lorsque l'on exécute le code avec ces nouvelles lignes de code, on obtient bien
 ![Image Démo bet_window](Image7.png)
 
 {% note %}
-Pour compléter le système de mise, il faut également compléter le code présenté lors du premier sprint pour actualiser le stack du joueur en fonction de sa mise, s'il a gagné ou pas, s'il a doublé ou pas etc... Cette partie n'est pas expliquée ici, mais elle est bien implémentée dans le code Python présent dans mon [dossier GitHub](https://github.com/FrancoisBrucker/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-1) de Do-It
+Pour compléter le système de mise, il faut également compléter le code présenté lors du premier sprint pour actualiser le stack du joueur en fonction de sa mise, s'il a gagné ou pas, s'il a doublé ou pas etc... Cette partie n'est pas expliquée ici, mais elle est bien implémentée dans le code Python présent dans mon [dossier GitHub](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-1) de Do-It
 {% endnote %}
 
 ## Implémentation des simulations autour du jeu de Blackjack
@@ -1216,7 +1216,7 @@ def simulation(self,n,count,graph_type):
                 index1 = 9
             else:
                 index1 = card1.value - 2
-                
+
             if card3.value == 1:
                 index2 = 9
             else:
@@ -1436,12 +1436,12 @@ def simulation(self,n,count,graph_type):
         axes.xaxis.set_ticklabels([str(i) for i in range(5,20)], rotation = 0, color = 'green', verticalalignment = 'center',fontsize = 12)
         im = ax.imshow(winrates_normal,extent = extent, cmap="RdYlGn",vmin = 0, vmax = 100)
         plt.title("Taux de réussite de chaque main possible (sans As ni double)", pad = 22)
-        
+
         jump_x = (x_end - x_start) / (2.0 * size_x)
         jump_y = (y_end - y_start) / (2.0 * size_y)
         x_positions = np.linspace(start=x_start, stop=x_end, num=size_x, endpoint=False)
         y_positions = np.linspace(start=y_start, stop=y_end, num=size_y, endpoint=False)
-        
+
         for y_index, y in enumerate(y_positions):
             for x_index, x in enumerate(x_positions):
                 label = winrates_normal[y_index][x_index]
@@ -1465,7 +1465,7 @@ def simulation(self,n,count,graph_type):
             S = S/S2
             ax.text(winrate + jump_x, -jump_y/2, round(S,1), color='black', ha='center', va='center')
         fig.colorbar(im)
-    
+
     if graph_type == 3 or graph_type == 5:
         for i in range(10):
             for j in range(10):
@@ -1488,12 +1488,12 @@ def simulation(self,n,count,graph_type):
         axes.xaxis.set_ticklabels([f"{i}-{i}" for i in range(2,11)] + ["A-A"], rotation = 0, color = 'green', verticalalignment = 'center',fontsize = 12)
         im = ax.imshow(winrates_split,extent = extent, cmap="RdYlGn",vmin = 0, vmax = 100)
         plt.title("Taux de réussite de chaque main possible (seulement les doubles)", pad = 22)
-        
+
         jump_x = (x_end - x_start) / (2.0 * size_x)
         jump_y = (y_end - y_start) / (2.0 * size_y)
         x_positions = np.linspace(start=x_start, stop=x_end, num=size_x, endpoint=False)
         y_positions = np.linspace(start=y_start, stop=y_end, num=size_y, endpoint=False)
-        
+
         for y_index, y in enumerate(y_positions):
             for x_index, x in enumerate(x_positions):
                 label = winrates_split[y_index][x_index]
@@ -1517,7 +1517,7 @@ def simulation(self,n,count,graph_type):
             S = S/S2
             ax.text(winrate + jump_x, -jump_y/2, round(S,1), color='black', ha='center', va='center')
         fig.colorbar(im)
-    
+
     if graph_type == 4 or graph_type == 5:
         for i in range(10):
             for j in range(9):
@@ -1540,12 +1540,12 @@ def simulation(self,n,count,graph_type):
         axes.xaxis.set_ticklabels(['A-2','A-3','A-4','A-5','A-6','A-7','A-8','A-9','A-10'], rotation = 0, color = 'green', verticalalignment = 'center',fontsize = 12)
         im = ax.imshow(winrates_ace,extent = extent, cmap="RdYlGn",vmin = 0, vmax = 100)
         plt.title("Taux de réussite de chaque main possible (avec un As dans la main)", pad = 22)
-        
+
         jump_x = (x_end - x_start) / (2.0 * size_x)
         jump_y = (y_end - y_start) / (2.0 * size_y)
         x_positions = np.linspace(start=x_start, stop=x_end, num=size_x, endpoint=False)
         y_positions = np.linspace(start=y_start, stop=y_end, num=size_y, endpoint=False)
-        
+
         for y_index, y in enumerate(y_positions):
             for x_index, x in enumerate(x_positions):
                 label = winrates_ace[y_index][x_index]
