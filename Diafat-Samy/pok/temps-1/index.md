@@ -60,21 +60,21 @@ Avoir les bases en html/css, python (pandas), invit de commande et avoir de la p
 
 Afin d'accéder aux données, j'ai tout d'abord dû récupérer une clef me permettant de faire des requêtes à l'API.
 
-![Api key](clef_riot.jpg)
+![Api key](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/clef_riot.jpg)
 
 Une fois ma clef récupérée, j'ai tout d'abord pris connaissance de l'ensemble de méthodes mis à notre disposition.
 
 >Il y a plus d'une dizaine de méthodes disponibles pour le jeu League of Legends.
 
-![Riot API](riot_api.jpg)
+![Riot API](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/riot_api.jpg)
 
 J'ai ensuite testé la requête suivante qui permet de récupérer des informations sur un compte à partir du pseudo :
 
-![Exemple requête](exemple_requete.jpg)
+![Exemple requête](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/exemple_requete.jpg)
 
 Ce qui m'a permis d'obtenir les données suivantes :
 
-![Exemple réponse](exemple_rep.jpg)
+![Exemple réponse](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/exemple_rep.jpg)
 
 On passe maintenant à un notebook afin d'automatiser tout cela avec python !
 
@@ -558,9 +558,9 @@ if __name__ =="__main__":
 
 Voici ce que l'on obtient
 
-![Exemple homepage](homepage.jpg)
-![Exemple seerank](SeeRank.jpg)
-![Exemple result](result.jpg)
+![Exemple homepage](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/homepage.jpg)
+![Exemple seerank](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/SeeRank.jpg)
+![Exemple result](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/result.jpg)
 
 ## Ce que j'ai prévu pour le second point POK<a id="section-3"></a>
 
@@ -603,42 +603,42 @@ Présentation des pages de l'application :
 
 Les 3 icones forment une barre de navigation, il faut cliquer sur le jeu désiré.
 
-![samy gg leo](accueil.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/accueil.png)
 
 
 ### Page du jeu TFT<a id="subsection-6"></a>
 
-![samy gg leo](tft.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/tft.png)
 
 ### Page du jeu Valorant<a id="subsection-7"></a>
 
-![samy gg leo](tft.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/tft.png)
 
 
 ### Page du jeu League of Legends<a id="subsection-8"></a>
 
-![samy gg leo](search.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/search.png)
 
 
 ### Comparaison avec des statistiques issues du site OP.GG<a id="subsection-9"></a>
 
-![samy gg leo](samyggleo.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/samyggleo.png)
 
 Comparaison avec le site op.gg qui permet d'avoir des statistiques :
-![samy gg leo](opggleo.png)
-![samy gg leo](opggleo2.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/opggleo.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/opggleo2.png)
 
 On peut voir sur le site que les données coincident bien !
 
 Pour un autre joueur :
 
-![samy gg leo](samyggyomm.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/samyggyomm.png)
 
 
 
 
-![samy gg leo](opggyomm2.png)
-![samy gg leo](opggyomm.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/opggyomm2.png)
+![samy gg leo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/pok/temps-1/opggyomm.png)
 
 
 

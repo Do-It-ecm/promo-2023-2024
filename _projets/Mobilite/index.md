@@ -228,7 +228,7 @@ Fonctionnalités :
 
 Voici le <strong>GANTT</strong> des tâches à réaliser afin de compléter notre projet, réparti en <strong>sprints</strong> tout au long de l'année. L'enjeu a donc été d'évaluer la durée de chaque tâche ainsi que les moyens techniques à mettre en œuvre afin d'atteindre nos objectifs.
 
-<img src="planning.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/planning.png">
 
 ### Maquettes
 
@@ -238,14 +238,14 @@ Cette section regroupe donc <strong>les premiers designs et maquettes réalisés
 
 L'intérêt de cette maquette est de mettre à plat les idées et les contraintes de charte graphique et de choisir la disposition d'ensemble du site.
 
-<img src="canva_site_1.png">
-<img src="canva_site_2.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/canva_site_1.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/canva_site_2.png">
 
 **Minimum Viable Project - Figma**
 
 Au travers des différents outils que propose Figma nous avons voulu construire <strong>la structure et les fonctionnalités du site web.</strong> De plus, cette maquette nous a permis de réaliser les différents tests pour vérifier que notre interface est intuitive.
 
-<img src="figma.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/figma.png">
 
 Voici par exemple le parcours utilisateur d'un élève :
 
@@ -257,8 +257,8 @@ Voici par exemple le parcours utilisateur d'un élève :
 
 Suite à cette première maquette, nous l'avions révisé pendant le cours d'UI. Cela nous a donc mené à ce design général sur lequel on s'appuiera lors du développement : 
 
-<img src="canva2.png">
-<img src="canva2-1.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/canva2.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/canva2-1.png">
 
 ## Développement
 
@@ -303,22 +303,22 @@ Nous avons un site qui fonctionne en <strong>local</strong> avec un système d'a
 
 Voici les différentes pages : 
 
-<img src="auth.png">
-<img src="carte.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/auth.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/carte.png">
 
-<img src="FAQ.png">
-<img src="apropos.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/FAQ.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/apropos.png">
 
-<img src="form.png">
-<img src="form2.png">
-<img src="form3.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form2.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form3.png">
 
 
-<img src="form4.png">
-<img src="form5.png">
-<img src="form6.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form4.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form5.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/form6.png">
 
-<img src="infomodif.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Mobilite/infomodif.png">
 
 ### Ecarts 
 

@@ -26,7 +26,7 @@ Ce projet a pour but de créer une version mobile du jeu de cartes "Chiche ou Po
 
 Par ailleurs, en terme de plus value apportée au jeu, une application mobile serait un moyen d'accroître sa visibilité, et faciliter son accès. En effet, à l’ère du digital, les jeux mobiles offrent une accessibilité sans précédent, qui permet aux utilisateurs de jouer n'importe où et à tout moment, contrairement aux jeux de cartes papier qui nécessitent d’avoir le jeu à portée de soi pour cela.
 
-![Image jeu](Image1.jpg)
+![Image jeu](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Chiche-ou-pois-chiche/Image1.jpg)
 *Image du jeu original*
 
 <h2 id=papier> Comparaison avec le jeu papier</h2>
@@ -58,7 +58,7 @@ Ensuite, nous avons décidé de nous organiser en suivant la méthode Agile, don
 
 Nous avons donc tout d'abord établi le backlog de notre projet. Nous avons classé les User Stories suivant plusieurs catégories. Nous avons aussi estimé les complexités de chaque fonctionnalité (échelle de Fibonacci) et associé à chacune une valeur métier (méthode MoSCoW).
 
-![backlog](backlog_png.png)
+![backlog](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Chiche-ou-pois-chiche/backlog_png.png)
 
 Si l'on fait un bilan des User Stories qui ont été réalisées et celles qui ne l'ont pas été, on obtient le graphique suivant:
 
@@ -116,7 +116,7 @@ print('FINI')
 
 Voici un diagramme de Gantt représentant l'évolution de notre projet sur l'année:
 
-![Gannt](gantt.png)
+![Gannt](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Chiche-ou-pois-chiche/gantt.png)
 
 <h2 id=resultat> Résultats et livrables</h2>
 
@@ -211,7 +211,7 @@ Comme nous l'avons mentionné précédemment, il existe plusieurs inconvénients
 
 Ce projet a pour but de créer une version mobile du jeu de cartes “Chiche ou Pois Chiche”. Après plusieurs parties, on retombe rapidement sur les mêmes questions et le jeu devient vite obsolète pour un joueur une fois qu’il a rencontré toutes les questions et connaît toutes les réponses. Notre idée serait donc de créer une version mobile du jeu pour pouvoir alimenter la base de données et ainsi offrir aux fervents joueurs de “Chiche ou pois Chiche”, de pouvoir y jouer indéfiniment. De plus, une application mobile serait un moyen d'accroître la visibilité du jeu.
 
-![Image jeu](Image1.jpg)
+![Image jeu](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Chiche-ou-pois-chiche/Image1.jpg)
 
 Le but du jeu est de gagner le plus de points en posant les bonnes questions à son ou ses partenaire de jeu. On forme plusieurs équipes de 2 minimum. Pour chaque question le joueur lit l'indice à son partenaire puis lui demande "Chiche ou Pois Chiche ?". Il répond "Chiche" s'il pense pouvoir répondre à la question sans proposition de réponse ou "Pois Chiche" s'il souhaite les 4 propositions. Si la réponse donnée est correcte l'équipe récupère une "Carte Chiche" (3 points) ou une "Carte Pois Chiche" (1 point) selon l'annonce faite précédemment.
 Le jeu possède 8 catégories de questions pour permettre à tout le monde d’avoir des points forts et des faiblesses. ("Sport", "Culture G", "Petits écrans", "Grand écran", "Voyage", “Musique", "Bouffe")

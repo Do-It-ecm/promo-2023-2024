@@ -41,13 +41,13 @@ J'ai commencé par lire et appliquer les cas pratiques du MON de Lola, en parcou
 
 ## Exemples d'application
 <div style="display: flex; justify-content: space-around;">
-  <img src="excel_graphs.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-3.1/excel_graphs.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="excel_CDF.png" alt="Chemin de fer" style="width: 100%; margin-right: 2%;">
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-3.1/excel_CDF.png" alt="Chemin de fer" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="excel_exemple_3.png" alt="Gantt" style="width: 100%; margin-right: 2%;">
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-3.1/excel_exemple_3.png" alt="Gantt" style="width: 100%; margin-right: 2%;">
 </div>
 
 ## Bibliographie 

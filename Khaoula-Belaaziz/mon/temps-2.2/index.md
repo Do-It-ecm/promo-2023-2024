@@ -178,7 +178,7 @@ Durant l'installation, assurez-vous d'inclure le Android Virtual Device (AVD) qu
 5. Terminez la configuration de l'appareil virtuel et lance
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="android_studio.png" alt="android emulaor" style="width: 100%; margin-right: 2%;">
+  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-2.2/android_studio.png" alt="android emulaor" style="width: 100%; margin-right: 2%;">
 </div>
 
 ## Bibliographie 

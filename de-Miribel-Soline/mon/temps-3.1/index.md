@@ -164,7 +164,7 @@ Par exemple, on peut citer des projets d’innovation sociale qui auraient pour 
 
 ### L’intensité de l’innovation
 L’intensité de l’innovation mesure son caractère impactant. On distingue 4 types d’innovations : l’innovation incrémentale, l’innovation adjacente, l’innovation disruptive et l’innovation radicale. 
-  ![Cartographie des risques](./image-1.jpg) Image tirée de https://get.agorize.com/fr/resources/quels-sont-les-differents-types-dinnovation/
+  ![Cartographie des risques](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/de-Miribel-Soline/mon/temps-3.1/image-1.jpg) Image tirée de https://get.agorize.com/fr/resources/quels-sont-les-differents-types-dinnovation/
 
 #### L’innovation incrémentale
 Les innovations incrémentales se caractérisent par l’**apport de modifications visant à améliorer constamment** l’offre existante. C’est la forme d’innovation la plus répandue car la prise de risque semble faible, et les gains intéressants :
@@ -272,7 +272,7 @@ Il est aussi de comparer la répartition des efforts (nombre de projets innovant
 
 ### La courbe de diffusion de l’innovation
 La courbe de diffusion de nouveaux produits a été théorisée par Everett Roger. L’idée principale est d’associer les différents groupes de clients correspondants aux différentes phases d’adoption d’une nouveauté. Certaines personnes sont plus ouvertes à la nouveauté et à l’innovation que d’autres. Donc il est essentiel pour l’entreprise de comprendre comment son innovation peut passer d’un marché niche à un marché de masse (qui présente toujours plus de 60% de part de marché) et comment elle peut favoriser ou accélérer cette évolution.
-![Courbe de diffusion de l’innovation](./image-2.png) Image tirée de https://www.lescahiersdelinnovation.com/la-courbe-de-diffusion-de-l-innovation/
+![Courbe de diffusion de l’innovation](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/de-Miribel-Soline/mon/temps-3.1/image-2.png) Image tirée de https://www.lescahiersdelinnovation.com/la-courbe-de-diffusion-de-l-innovation/
 
 La courbe d’adoption des produits nouveaux divise donc les consommateurs en 5 catégories, selon leur intérêt et leur rapidité à acheter un produit nouveau. Ces types de clients sont les suivantes :
 - Les Innovateurs sont les plus sensibles à l’innovation. Ce sont les premiers clients d’une nouveauté dès leur sortie. Ils réalisent leurs achats sans avoir besoin de consulter les avis d’autres utilisateurs. Ces clients aiment partager leur expérience avec les autres sur une nouveauté quelconque. Les innovateurs représentent seulement 2,5% de la population.

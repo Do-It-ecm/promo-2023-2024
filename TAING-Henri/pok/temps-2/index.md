@@ -124,12 +124,12 @@ Une chose qui est sûre, maintenant, je comprends pourquoi les jeux sont génér
 
 **Changement de l'interface (GUI) avec à gauche la version basique et à droite la version actuelle**
 :-------------------------:|:-------------------------:
-<img src="welcome_basic.png" width="350" height="350"> | <img src="welcome_aimer.png" width="350" height="350">
-<img src="menu_basic_save.png" width="350" height="350"> | <img src="menu_aimer_save.png" width="350" height="350">
-<img src="menu_basic_preferences.png" width="350" height="350"> | <img src="menu_aimer_preferences.png" width="350" height="350">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/TAING-Henri/pok/temps-2/welcome_basic.png" width="350" height="350"> | <img src="welcome_aimer.png" width="350" height="350">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/TAING-Henri/pok/temps-2/menu_basic_save.png" width="350" height="350"> | <img src="menu_aimer_save.png" width="350" height="350">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/TAING-Henri/pok/temps-2/menu_basic_preferences.png" width="350" height="350"> | <img src="menu_aimer_preferences.png" width="350" height="350">
 
 **Une image du jeu et le code associé**
-<img src="image1.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/TAING-Henri/pok/temps-2/image1.png">
 
 ```
 define j = Character('Jeanne', color="#006416") #Définition du personnage
@@ -147,7 +147,7 @@ return      #fin du jeu
 ```
 
 **Situation de choix et code associé**
-<img src="choix1.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/TAING-Henri/pok/temps-2/choix1.png">
 
 ```
 menu:     #crée le menu de choix

@@ -73,11 +73,11 @@ La première étape de ce POK est de recréer ce jeu sur Python grâce au module
 
 J'ai utilisé l'outil Qt Designer pour designer l'aspect de l'interface utilisateur. J'ai opté pour un simple fond vert, pour représenter le tapis de jeu, ainsi que 7 images de dos de carte pour le joueur et le dealer. Au-dessus de ces cartes, on voit le compte des points et en-dessous, il y a les boutons correspondant aux actions que le joueur peut effectuer à chaque tour. Il faut bien s'assurer de renommer chaque objet avec un nom logique, pour pouvoir s'y retrouver dans le code. Voici à quoi ressemble la fenêtre sur Qt Designer:
 
-![Image main_window](Image1.png)
+![Image main_window](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image1.png)
 
 Cette fenêtre est enregistrée sous le nom de *main_window*. On crée une autre fenêtre que l'on nomme *split_window*. En effet, il faut une autre disposition des éléments dans le cas où le joueur décide de séparer ses cartes. Voici à quoi ressemble cette fenêtre sur Qt Designer:
 
-![Image split_window](Image2.png)
+![Image split_window](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image2.png)
 
 Maintenant qu'on a les deux fichiers .ui de chaque fenêtre, on commence à implémenter le jeu. Pour organiser correctement le code et le rendre plus lisible, on crée trois fichiers .py:
 
@@ -654,15 +654,15 @@ window = Blackjack()
 app.exec()
 ```
 
-![Image démo1](Image3.png)
+![Image démo1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image3.png)
 
 On voit bien l'interface que l'on a créé plus tôt sur Qt Designer. Voici ce à quoi ressemble la fenêtre à la fin d'un tour:
 
-![Image demo2](Image4.png)
+![Image demo2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image4.png)
 
 De plus, voici à quoi ressemble l'interface après la fin d'un tour où le joueur a split:
 
-![Image demo3](Image5.png)
+![Image demo3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image5.png)
 
 ## Bilan du premier sprint et prévision du deuxième sprint
 
@@ -678,7 +678,7 @@ Ainsi, l'objectif pour le deuxième sprint est de coder les simulations pour obt
 
 Pour finaliser l'implémentation du jeu sur Python, il ne manque plus qu'à réaliser l'interface de mise, où le joueur pourra saisir sa mise. On utilise encore une fois l'outil Qt Designer pour faire l'aspect de l'interface:
 
-![Qt Designer bet_window](Image6.png)
+![Qt Designer bet_window](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image6.png)
 
 Il faut ensuite assigner chaque objet ainsi créé à des attributs de la classe **Blackjack** dans l'initialisation, et assigner les méthodes correspondantes à chaque bouton.
 
@@ -980,7 +980,7 @@ def remove_50(self):
 
 Lorsque l'on exécute le code avec ces nouvelles lignes de code, on obtient bien l'interface voulue. On peut bouger le curseur à notre guise, et on peut également rentrer la mise dans le champ. Dans les deux cas, la valeur change dans le champ ou le curseur bouge en adéquation avec l"action réalisée.
 
-![Image Démo bet_window](Image7.png)
+![Image Démo bet_window](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image7.png)
 
 {% note %}
 Pour compléter le système de mise, il faut également compléter le code présenté lors du premier sprint pour actualiser le stack du joueur en fonction de sa mise, s'il a gagné ou pas, s'il a doublé ou pas etc... Cette partie n'est pas expliquée ici, mais elle est bien implémentée dans le code Python présent dans mon [dossier GitHub](https://github.com/do-it-ecm/do-it/tree/main/src/promos/2023-2024/Dang-Vu-Duc/pok/temps-1) de Do-It
@@ -991,7 +991,7 @@ Pour compléter le système de mise, il faut également compléter le code prés
 Maintenant que l'implémentation de l'interface graphique du jeu de Blackjack est fonctionnelle, il faut implémenter le code nécessaire aux simulations pour obtenir des statistiques autour du jeu de Blackjack.
 Pour rappel, d'après les règles du jeu, le dealer pioche tant qu'il n'a pas 16 points mais s'arrête quand il a 17 points ou plus. Sur cette base, il est connu qu'il existe une stratégie nommée "stratégie de base". Cette stratégie se présente sous forme de tableau, qui indique quelle action doit réaliser le joueur en fonction de sa main et de la première carte du dealer.
 
-![Stratégie de base](Image8.png)
+![Stratégie de base](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image8.png)
 *Source: [Guide-Blackjack.com](https://www.guide-blackjack.com/strategie-base-las-vegas.html)*
 
 {% note %}
@@ -1586,13 +1586,13 @@ Il y a beaucoup de détails importants dans ce code et il est très répétitif,
 
 Voici les (jolis) graphiques que produit cette simulation. Cette simulation a été réalisée sur 10 millions de parties, afin d'avoir un echantillon suffisamment grand pour tendre vers les probabilités réélles. Les valeurs infiquées dans les graphiques en couleur indiquent le taux de réussite du joueur ayant la main indiquée en abscisses face à la première carte du dealer indiquée en ordonnée. Pour le premier graphique en couleur, les valeurs indiquées en abscisses sont les sommes des deux premières cartes du joueur. Par exemple, l'abscisse 10 se réfère à une des mains suivantes: 2-8, 3-7, 4-6 (les mains 5-5 et A-9 ne sont pas dans cette liste car elles sont prises en compte dans les tables des doubles et des As).
 
-![Figure1](Image9.png)
+![Figure1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image9.png)
 
-![Figure2](Image10.png)
+![Figure2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image10.png)
 
-![Figure3](Image11.png)
+![Figure3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image11.png)
 
-![Figure4](Image12.png)
+![Figure4](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image12.png)
 
 {% note %}
 Sur la droite des graphiques en couleur, il est indiqué les moyennes (pondérées par le nombre de mains jouées) des taux de réussites face à la première carte du dealer correspondante. En haut de ces graphiques, on a les moyennes des taux de réussites des mains du joueur correspondante.
@@ -1639,7 +1639,7 @@ def count(self,card):
 Il faut maintenant déterminer à partir de quelle valeur du true count le joueur commencer à changer sa mise, et à quel point il change sa mise. Plusieurs valeurs sont possibles, j'ai choisi pour le test de mettre la valeur seuil à 3 et le facteur multiplicatif de la mise égal au true count plus quatre. Ce facteur est proportionnel au compte; en effet plus le compte est elevé, plus il y a de chances de gagner, et donc plus il faut miser.
 Ainsi, avant de jouer, le programme compare le true count au seuil fixé et si ce seuil est dépassé, la mise est plus grande. L'éxecution de cet algorithme sur 10 millions de parties   avec le comptage des cartes activé donne ce graphique en barre:
 
-![Image count](Image13.png)
+![Image count](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-1/Image13.png)
 
 On remarque que le taux de réussite moyen et les taux de réussite face à chaque main du dealer ne changent pas comparé au graphique obtenu quand le joueur ne compte pas. Ceci est logique, puisque l'on change seulement la mise. Cependant, on remarque que l'avantage au casino n'est plus que de **0,75%!** C'est plus de deux fois moins que précédemment. Le comptage des cartes est donc bien efficace, mais ne permet cependant pas d'avoir une espérance positive: le casino sera donc toujours gagnant!
 

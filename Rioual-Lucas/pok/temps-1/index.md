@@ -33,7 +33,7 @@ Depuis un certain temps maintenant, je travaille sur un projet de conception d'e
 
 Pour vous donner une idée plus claire de ce que je fait, voici un modèle 3D de mon premier objet.
 
-<img src="modele1.PNG">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/modele1.PNG">
 
 Je souhaite donc utiliser les **POK** pour developper le site web qui permettra de découvrir l'entreprise et acheter ses produits.
 
@@ -55,8 +55,8 @@ J'ai réalisé ce wireframe sur Figma. Ensuite, j'ai créé une maquette sur **I
 
 <div style = " display: flex; justify-content: center">
 
-<img src="wireframe.PNG" alt="Wireframe" style=" margin : 10px; " />
-<img src="maquette.PNG" alt="Maquette" style="margin : 10px;" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/wireframe.PNG" alt="Wireframe" style=" margin : 10px; " />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/maquette.PNG" alt="Maquette" style="margin : 10px;" />
 
 
 </div>
@@ -70,8 +70,8 @@ Maintenant que la maquette est faite, je peux attaquer le développement.
 J'ai essayé d'être fidèle à la maquette en reflechissant à un site responsive. 
 Voici le resultat du sprint 1 :
 
-<img src="site1.PNG"/>
-<img src="site2.PNG"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/site1.PNG"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/site2.PNG"/>
 
 
 
@@ -112,7 +112,7 @@ Je n’étais pas  satisfait de ma première maquette. Je n’arrivais pas à me
 
 Je suis donc retourné sur Figma pour réaliser une maquette plus fidèle à mes envies.
 
-<img src="maquette2.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/maquette2.png"/>
 
 L’objectif est de rajouter le modèle 3d en haut de la page produit et en haut de la page accueil.
 
@@ -122,7 +122,7 @@ Une fois la maquette réalisée, j’ai pu continuer le code.
 
 Pour cette page, je n’ai pas eu beaucoup de travail à faire car j’avais déjà quasiment fini lors du sprint 1. J’ai simplement modifié la deuxième section pour inclure une présentation succincte de l’entreprise. 
 
-<img src="page1.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/page1.png"/>
 
 <img src="page12.PNG"/>
 
@@ -132,11 +132,11 @@ Le bouton “en savoir plus” n’est pas fonctionnel car je n’ai pas crée l
 
 ### Page Produit
 
-<img src="page2.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/page2.png"/>
 
-<img src="page22.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/page22.png"/>
 
-<img src="page23.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/page23.png"/>
 
 Voilà le résultat de ma page **Produit.**
 
@@ -201,7 +201,7 @@ L’attribut “Ressource” désigne le dossier qui contient les images de la b
 
 Ainsi, cette page est dynamique et affiche les données en fonction de ce tableau JSON.
 
-<img src="pagebis.png"/>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-1/pagebis.png"/>
 
 Voilà la page si on affiche **“Truc Box”**.
 

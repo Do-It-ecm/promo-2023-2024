@@ -16,7 +16,7 @@ résumé: "Ce MON a pour objectif de se former à l'orchestrateur Kunbernetes po
 ---
 
 <br />
-<img align="center" width="500" src="./assets/kube-logo.png" alt="Logo Kubernetes" />
+<img align="center" width="500" src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/mon/temps-2.2/assets/kube-logo.png" alt="Logo Kubernetes" />
 
 ## Objectifs
 
@@ -30,7 +30,7 @@ Des connaissances solides en Linux sont nécessaires pour aborder la pratique de
 
 ## Autres MONs
 
-<img align="right" width="350" src="./assets/docker-logo.svg" alt="Logo Docker" />
+<img align="right" width="350" src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/mon/temps-2.2/assets/docker-logo.svg" alt="Logo Docker" />
 
 Je renvoie à nouveau vers les différents MON sur Docker, puisque celui-ci sera la continuité de mon [MON 2.1](../temps-2.1).
 
@@ -99,7 +99,7 @@ On retrouvera aussi un exemple de fichier de configuration dans la [cheat sheet]
 
 ## Introduction à Helm
 
-<img align="right" width="200" src="./assets/helm-logo.svg" alt="Logo Helm" />
+<img align="right" width="200" src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/mon/temps-2.2/assets/helm-logo.svg" alt="Logo Helm" />
 
 Après avoir établi les bases de Kubernetes, plongeons dans Helm, un outil qui facilite le déploiement d'applications sur des clusters Kubernetes.
 

@@ -34,7 +34,7 @@ Réaliser une page pour les paris sportifs si le sprint 1 s'est déroulé sans a
 - Structure de la base de données en JS et JSON pour automatiser la mise à jour du site 
 
 
-![resultats](./images/affichage_resultats.png)
+![resultats](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-2/images/affichage_resultats.png)
 
 ### Prochaines fonctionnalités pour le site
 
@@ -73,7 +73,7 @@ server.listen(port)
 
 Mon form initial a tout d'abord été repris pour véritablement bien fonctionner avec le back. 
 
-![formulaire](./images/ajout_resultat.png)
+![formulaire](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-2/images/ajout_resultat.png)
 
 ```html
  <form method="post" action="/ajouter-resultat">
@@ -174,7 +174,7 @@ module.exports = Match;
 
 Une fois dans la base de donnée il est possible de modifier la page `histo.html` pour afficher les nouveaux résultats.
 
-![resultatsmaj](./images/affichage_resultats2.png)
+![resultatsmaj](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-2/images/affichage_resultats2.png)
 
 
 ## Conclusion

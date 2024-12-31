@@ -54,11 +54,11 @@ Pour la suite j'aimerai aussi passer du temps sur la gestion correcte des erreur
 En attendant voici quelques images de mon POK. *J'ai décidé d'appeler ma commande flow.*
 
 Toutes les commandes listées ci-dessous ont bien été entièrement implémentées sauf la commande open qui ne clone pas encore les projets lorsque le chemin d'accès n'est pas déterminé.
-![Fenêtre d'aide](./flow_help.png)
+![Fenêtre d'aide](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diouf-Asssane/pok/temps-3/flow_help.png)
 
-![Aide pour la sous-commande add](./flow_add.png)
+![Aide pour la sous-commande add](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diouf-Asssane/pok/temps-3/flow_add.png)
 
-![Informations sur le projet Do-It](./flow_info.png)
+![Informations sur le projet Do-It](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diouf-Asssane/pok/temps-3/flow_info.png)
 
 ## Ce que j'aimerai faire au sprint 2
 - [ ] Pouvoir ouvrir les projets dans l'ide souhaité par le développeur (2h) *réalisé au sprint 1*

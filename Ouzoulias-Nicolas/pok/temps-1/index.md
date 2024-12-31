@@ -197,7 +197,7 @@ a:hover {
 {% enddetails %}
 
 
-![Header site](Header.png)
+![Header site](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-1/Header.png)
 
 Le pied de page quant à lui sert de zone de contact pour l'utilisateur. 
 
@@ -255,7 +255,7 @@ footer p, footer li{
 ```
 {% enddetails %}
 
-![Pied de page](Footer.png)
+![Pied de page](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-1/Footer.png)
 
 
 ### Pages de présentation
@@ -403,7 +403,7 @@ table,th {
 
 {% enddetails %}
 
-![Tableau Valeurs](valeur-cartes.png)
+![Tableau Valeurs](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-1/valeur-cartes.png)
 
 
 {% details "Cliquez pour afficher le code **HTML** de **l'historique des parties**" %}
@@ -536,7 +536,7 @@ table,th {
 ```
 {% enddetails %}
 
-![Historique parties](histo-parties.png)
+![Historique parties](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-1/histo-parties.png)
 
 Ces onglets m'ont permis de bien pratiquer l'utilisation des balises HTML ainsi que leurs paramètres CSS associées. J'ai notamment pu manipuler les *flexboxs* ainsi que les *tables* pour mieux positioner mes éléments sur la pages. 
 
@@ -644,7 +644,7 @@ form {
 ```
 {% enddetails %}
 
-![Formulaire inscription](formulaire.png)
+![Formulaire inscription](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ouzoulias-Nicolas/pok/temps-1/formulaire.png)
 
 
 ## III. Prochaines avancées

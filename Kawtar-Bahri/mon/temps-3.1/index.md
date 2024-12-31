@@ -27,9 +27,9 @@ résumé: "Ce MON a pour objectif de préparer mon stage et revoir un cours que 
     </div>
     <div style="flex: 45%; padding: 10px;">        
         <div style="display: flex; flex-direction: column;">
-            <img src="1.png" alt="Image 1" style="max-width: 100%; margin-bottom: 10px;">
+            <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/mon/temps-3.1/1.png" alt="Image 1" style="max-width: 100%; margin-bottom: 10px;">
             <br>
-            <img src="2.jpg" alt="Image 2" style="max-width: 100%;">
+            <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/mon/temps-3.1/2.jpg" alt="Image 2" style="max-width: 100%;">
         </div>
     </div>
 </div>

@@ -42,7 +42,7 @@ Alors, dans cette démarche, la recherche d’inspiration et le maquettage sont 
 
 Pour illustrer le type d’évolution souhaitable dans un tel projet, voici le bandeau supérieur de mon CV actuel, qui est aussi ma photo de bannière Linkedin :
 
-<img src="./assets/lk-banner.jpg" alt="Bannière LinkedIn" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/lk-banner.jpg" alt="Bannière LinkedIn" />
 
 Un peu austère ? Le bleu n’est pas assez profond ? La police n’est pas adaptée ? Ces questions sont parfaitement subjectives mais me trottent dans la tête depuis un moment. Nous allons donc les adresser durant le projet.
 
@@ -54,7 +54,7 @@ Une critique que l’on peut formuler à l’égard de l’utilisation de cette 
 
 Voilà par exemple comment se présente ma toute première vision du suivi des tâches :
 
-<img src="./assets/vue-notion.png" alt="Vision d'un projet Notion" />
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/vue-notion.png" alt="Vision d'un projet Notion" />
 
 Un dernier point extrêmement positif est que la prise de note dans l’application Notion s’effectue directement en Markdown, ce qui fluidifie énormément la mise en ligne sur le site internet de l’option sans avoir à rédiger toutes ces notes dans un IDE.
 
@@ -159,7 +159,7 @@ https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9
 
 ## Initialisation Figma et recueil des assets existants
 
-<img src="./assets/figma-init.png" alt="Initialisation du Figma et test d'un gradient de couleurs">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/figma-init.png" alt="Initialisation du Figma et test d'un gradient de couleurs">
 
 <p style="text-align:center;font-style:italic;">Initialisation du Figma et test d'un gradient de couleurs.</p>
 
@@ -179,7 +179,7 @@ Le choix des polices s’est fait sur [Fontjoy](https://fontjoy.com/), un outil 
 
 Voici le résultat de la mise en application des principes cités précédemment. Pour les polices, nous utilisons ici Poppins avec une graisse de 600 pour le titre et Inconsolata Regular pour le sous-titre. J’ai par ailleurs aussi décliné ce design dans sa première version en mode sombre, plus professionnel à mon gout. Nous y reviendrons car c’est le premier que nous allons implémenter dans le site web.
 
-<img src="./assets/light-design.png" alt="Première version du design">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/light-design.png" alt="Première version du design">
 
 <p style="text-align:center;font-style:italic;">Première version du design clair.</p>
 
@@ -210,13 +210,13 @@ https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants
 
 Et voici comment j’ai créé un bouton dont on peut choisir le type et la couleur, comme on pourrait le faire en CSS avec des classes.
 
-<img src="./assets/variants.png" alt="Création d'un bouton avec des variants">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/variants.png" alt="Création d'un bouton avec des variants">
 
-<img src="./assets/variant-select.png" alt="Sélection des variants">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/variant-select.png" alt="Sélection des variants">
 
 Voici finalement le rendu de la première version du design, achevant la partie Design du Backlog.
 
-<img src="./assets/dark-design.svg" alt="Première version du design sombre">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Louradou-Arthur/pok/temps-1/assets/dark-design.svg" alt="Première version du design sombre">
 
 J’en suis satisfait car la version sombre correspond bien au style professionnel que j’avais en tête avec un design moderne auquel nous pourrions adresser quelques critiques comme la lisibilité de la police de titre en rouge. Nous verrons lors de l’intégration de cette maquette si nous pouvons résoudre simplement ces problèmes. Quoiqu’il en soit, il est désormais facile de passer au code puisque tout est fixé : couleurs, gradients, polices, disposition et même contraintes des éléments les uns par rapport aux autres. Nous pouvons passer Figma en mode développeur pour obtenir toutes ces informations et les intégrer au code. En particulier, Figma possède une option permettant de lire le css d’un élément.
 

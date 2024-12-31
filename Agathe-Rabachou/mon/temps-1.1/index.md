@@ -118,11 +118,11 @@ Durant les parties parties pratiques du cours suivi, j'ai pu réaliser le site w
 
 Voici le rendu obtenu :
 
-<img src="accueil_site1.jpg">
-<img src="accueil_site2.jpg">
-<img src="a_propos.jpg">
-<img src="portfolio1.jpg">
-<img src="portfolio2.jpg">
-<img src="portfolio3.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/accueil_site1.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/accueil_site2.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/a_propos.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/portfolio1.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/portfolio2.jpg">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/mon/temps-1.1/portfolio3.jpg">
 
 Je laisse également [ici](https://github.com/do-it-ecm/do-it/blob/main/src/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/codes_sites.md) le code **HTML** de chaque page ainsi que la feuille de style du site en **CSS** pour de potentiels intéressés !

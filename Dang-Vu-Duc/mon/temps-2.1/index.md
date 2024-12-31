@@ -56,7 +56,7 @@ while True:
 
 L'exécution de ce code affiche la fenêtre suivante:
 
-![Image1](Image1.png)
+![Image1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-2.1/Image1.png)
 
 Il faut à présent remplir cette page. Une première étape est de personnaliser le fond, en utilisant la méthode *fill* : `screen.fill("White")`. Il est également possible de rajouter une image. Pour cela, il faut comprendre la classe **Surface**. Les objets de cette classe sont des éléments, sur lesquels on peut placer différents éléments, comme des images par exemple. Pour associer une image à une surface, on utilise le module *image* et sa méthode *load*. Ensuite, on utilise la méthode *blit* pour afficher cette surface sur l'écran principal. Il ne faut pas oublier d'actualiser la fenêtre avec la méthode *update* du module *display*.
 On peut également ajuster la taille de la surface avec le module *tranform* et la méthode *scale*, ou aussi renommer la fenêtre grâce à la méthode *set_caption*.
@@ -83,7 +83,7 @@ while True:
 
 Ce nouveau code affiche la fenêtre suivante:
 
-![Image2](Image2.png)
+![Image2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-2.1/Image2.png)
 
 {% note %}
 Toutes les coordonnées spécifiées dans la nomenclature pygame ont pour origine le coin supérieure gauche de l'écran.
@@ -317,7 +317,7 @@ def restart(self):
 
 Voici deux exemples de parties avec cette implémentation:
 
-![Image3](Image3.png)
+![Image3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-2.1/Image3.png)
 
 Le jeu est disponible sur le lien suivant: [Jeu du morpion avec Pygame](https://duc-dgv.itch.io/morpion).
 

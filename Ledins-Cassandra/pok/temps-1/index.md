@@ -39,7 +39,7 @@ Puis ensuite implémenter le chatbot, du mieux que je peux.
 
 Je n'ai pas passé 10h sur ce premier sprint, et je n'ai donc pas eu le temps d'avancer sur la main page.
 
-<img src="login.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-1/login.png">
 
 ## Sprint 2
 
@@ -110,7 +110,7 @@ L'API met à jour la base de données avec le nombre de fois que l'utilisateur a
 On reconnait l'utilisateur grâce à un cookie créé ou modifié sur la page de connexion.
 
 
-<img src="main.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-1/main.png">
 
 On voit ici que l'humeur est affichée à gauche, sur 10 (donc là il est très content). Je lui ai raconté une blague et il m'a répondu qu'il avait rit. On voit aussi les boutons caresser et nourrir. On est pas sur un design de niveau GAFA encore. Mais l'utilisation est simple en tout cas.
 

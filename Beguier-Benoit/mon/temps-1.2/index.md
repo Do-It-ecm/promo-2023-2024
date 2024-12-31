@@ -117,6 +117,6 @@ C'est pour ma part la syntaxe que j'ai préféré utiliser par rapport aux Grids
 
 J'ai ensuite passé tous les niveaux du jeu [Flexbox Froggy](https://flexboxfroggy.com/#fr) pour me familiariser avec toutes les subtilités du langage.
 
-![froggy](flewboxfroggy.png)
+![froggy](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beguier-Benoit/mon/temps-1.2/flewboxfroggy.png)
 
 J'ai beaucoup appris et les petites grenouilles me rappelaient Nicolas Ouzoulias.

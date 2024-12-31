@@ -59,7 +59,7 @@ npm start
 Quand on fait ça, un qr code apparaît dans le terminal comme ci-dessous : 
 
 <div style="display:flex">
-<div><img src="start_expo.png"></div>
+<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/William_Lalanne/mon/temps-3.1/start_expo.png"></div>
 </div>
 
 En téléchargeant l'application Expo sur son téléphone et en étant connecté sur le même réseau wifi que son ordinateur, on peut scanner le qrcode et visualiser l'application directement sur son téléphone. 
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
 ```
 
 <div style="display:flex">
-<div><img src="demo_app.jpg" width="300" height="600"></div>
+<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/William_Lalanne/mon/temps-3.1/demo_app.jpg" width="300" height="600"></div>
 </div>
 
 On va améliorer un peu cette page pour qu'elle ressemble à une page de connexion sur un site web. Il faut donc des input pour que l'utilisateur puisse entrer son prenom, so nom et un bouton pour se connecter. 
@@ -146,7 +146,7 @@ export default function App() {
 ```
 
 <div style="display:flex">
-<div><img src="amelioration_app.jpg" width="300" height="600"></div>
+<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/William_Lalanne/mon/temps-3.1/amelioration_app.jpg" width="300" height="600"></div>
 </div>
 
 Pour faire cela j'ai du créer un component **CustomButton** car le component **<Button>** de base n'est pas modifiable. Voici le fichier CustomButton.js : 

@@ -17,7 +17,7 @@ résumé: "Premier pas dans le langage HTML/tailwindcss"
 ---
 
 <a href="https://tailwindcss.com/" target="_blank">
-        <img src="logo_tailwindcss.png" rounded-full alt="Click me" width="200" height="150">
+        <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/logo_tailwindcss.png" rounded-full alt="Click me" width="200" height="150">
     </a>
 
 Le front web au travers d'une introduction à [TailwindCSS](https://tailwindcss.com/).
@@ -69,19 +69,19 @@ En vue d'utiliser TailwindCSS et plus généralement pour écrire du code HTML, 
 
 - [Tailwind CSS IntelliSense](https://code.visualstudio.com/docs/editor/intellisense), le but de cette extension est de faciliter l'écriture du code tailwind css, en effet elle permet la complétion automatique de syntaxe et surligne les erreurs.
 
-<img src="tailwind.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/tailwind.png">
 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), le but de cette extension est d'avoir votre page web toujours ouverte et toujours à jour ! Cela permet de ne plus effectuer de "npm run serve" et de ne plus avoir de temps d'attente entre la modification et le rendu graphique.
 
-<img src="live_server.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/live_server.png">
 
 - [Inline Fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold), le but de cette extension est de rendre le code lisible, lorsque l'on écrit en html et en Tailwind, les personnalisations viennent encombrer notre écran, cette extension va masquer la partie personnalisation de chaque Class en vue de ne garder que la structure de la page. Lorsque l'on souhaite modifier la personnalisation d'une classe, il nous suffit de cliquer sur les trois points de suspension.
 
-<img src="Inline_fold.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/Inline_fold.png">
 
 Voici un exemple du code précédent en utilisant Inline Fold, il permet doc de masquer toutes les personnalisations tant qu'on ne clique pas sur les points de suspensions :
 
-<img src="inline_exemple.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/inline_exemple.png">
 
 <h2 id="h3"> Installation de l'environnement </h2>
 
@@ -159,7 +159,7 @@ Voici différents lien permettant de se former à l'utilisation de TailwindCSS :
 ### Un tutoriel de Dave Gray
 
 <a href="//www.youtube.com/watch?v=lCxcTsOHrjo" target="_blank">
-        <img src="video.png" rounded-full alt="Click me" width="200" height="150">
+        <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/video.png" rounded-full alt="Click me" width="200" height="150">
     </a>
 
 Ce tutoriel permet d'installer proprement un environnement de travail pour développer une page Web en utilisant TailwindCSS, il utilise ensuite les différents outils qu'il présente pour construire une petite page internet.
@@ -167,7 +167,7 @@ Ce tutoriel permet d'installer proprement un environnement de travail pour déve
 ### La page web officielle de TailwindCSS
 
 <a href="https://tailwindcss.com/" target="_blank">
-        <img src="logo_tailwindcss.png" rounded-full alt="Click me" width="200" height="150">
+        <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-1.1/logo_tailwindcss.png" rounded-full alt="Click me" width="200" height="150">
     </a>
 
 Cette page met en évidence les différentes applications et intérêts de TailwindCSS

@@ -52,7 +52,7 @@ Voyons maintenant la structure basique d'un fichier HTML. On note que les élém
 ```
 Voici comment fonctionne la structure HTML : les éléments sont des blocs délimités par des balises, qui s'imbriquent les uns dans les autres dans un ordre précis.
 
-  ![Structure HTML](./structure_html.jpg "Structure HTML")
+  ![Structure HTML](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-1.1/structure_html.jpg "Structure HTML")
 
 Image : "La structure de base en HTML" OpenClassrooms, https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html.
 
@@ -120,7 +120,7 @@ La balise \<ul\> permet de créer une liste à puce, avec chaque point indiqué 
 
 Nous avons maintenant une page d'accueil qui indique ce qu'il y a à savoir sur le site. Voyons voir à quoi elle ressemble !! 
 
-![Résultat](site_moche.jpg)
+![Résultat](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-1.1/site_moche.jpg)
 
 C'est laid. 
 
@@ -217,9 +217,9 @@ a:hover, a:active{
 
 Voici le résultat final : 
 
-![Page d'accueil](site_beau.jpg)
+![Page d'accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-1.1/site_beau.jpg)
 
-![Présentation élève](presentation.jpg)
+![Présentation élève](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-1.1/presentation.jpg)
 
 ### Bibliographie 
 - Schéma "La structure de base en HTML" « Créez votre première page web en HTML ». OpenClassrooms, https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061261-creez-votre-premiere-page-web-en-html.

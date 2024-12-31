@@ -30,7 +30,7 @@ Ils ont mis en place une simple page web pour faire de la publicité à leur off
 En janvier 2008, le trio a décidé d'officialiser leur entreprise, partant du principe que leur idée pourrait être utile à d'autres dans des situations similaires. Ils ont réfléchi à ce concept et ont décidé de créer Airbnb.
 
 ### Fondateurs
-|Photo | ![Brian Chesky](Brian_Chesky.jpg) |![Joe Gebbia](Joe_Gebbia.jpg) |![Nathan Blecharczyk](Nathan_Blecharczyk.jpg)|
+|Photo | ![Brian Chesky](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.1/Brian_Chesky.jpg) |![Joe Gebbia](Joe_Gebbia.jpg) |![Nathan Blecharczyk](Nathan_Blecharczyk.jpg)|
 | -------- | -------- |-------- |-------- |
 | Nom    | *Brian Chesky*     |*Joe Gebbia*    |*Nathan Blecharczyk*    |
 | Rôle    |  *PDG et co-fondateur d'Airbnb*     |*CPO (Chief Product Officer) et co-fondateur d'Airbnb*    |*CTO (Chief Technology Officer) et co-fondateur d'Airbnb*    |
@@ -97,13 +97,13 @@ Enfin, la collaboration d'Airbnb avec des événements et des forums a cherché 
 ### Site web au fil du temps
 Le site web de Airbnb a connu d'énormes changements depuis sa création en 2008. Vous trouverez dans le site [WayBackMachine](https://web.archive.org/web/20161122123602/https://www.airbnb.com/?cdn_locale_redirect=1)  les détails de ces changements.
 Exemple : 
-![Exemples de changements](2009.jpg)
+![Exemples de changements](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.1/2009.jpg)
 
 En 2014, l'entreprise a décidé de changer son logo et de choisir un qui reflète sa vision et ses valeurs.
-![Les deux logos](2_logos.png)
+![Les deux logos](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.1/2_logos.png)
 
 La communauté d'Airbnb n'a pas compris la signification du new logo. ***"[Le Bélo ](https://youtu.be/nMITXMrrVQU?si=3DijuNji2BUyxVeg)"*** est le nom de ce logo : The Story of a Symbol of Belonging 
-![Le Bélo](newlogo.png)
+![Le Bélo](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.1/newlogo.png)
 
 
 

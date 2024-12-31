@@ -39,13 +39,13 @@ Enfin, certains éléments sont cliquables et amènent vers des informations plu
 
 Voici donc le rendu final des différents onglets :
 
-<img src="screens_rendu_final/accueil.png">
-<img src="screens_rendu_final/formation.png">
-<img src="screens_rendu_final/experience.png">
-<img src="screens_rendu_final/competences.png">
-<img src="screens_rendu_final/loisirs.png">
-<img src="screens_rendu_final/contact.png">
-<img src="screens_rendu_final/mail_contact.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/accueil.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/formation.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/experience.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/competences.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/loisirs.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/contact.png">
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Agathe-Rabachou/pok/temps-1/screens_rendu_final/mail_contact.png">
 
 Vous trouverez [ici](https://github.com/arabachou/CVInteractif) mon repository GitHub avec l'ensemble du code.
 
