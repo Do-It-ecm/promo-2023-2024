@@ -14,7 +14,7 @@ résumé: Mon Portfolio.
 ---
 
 
-## Objectif 
+## Objectif
 Créer un portfolio avec Html, Css et Javascript en se concentrant sur le design du portfolio
 
 ## Plan d'action
@@ -32,7 +32,7 @@ Créer un portfolio avec Html, Css et Javascript en se concentrant sur le design
 2. Chercher des tutoriels guidés
 3. Commencer un cours Css en ligne
 
-## Les erreurs commises 
+## Les erreurs commises
 1. Pas de planification claire et détaillée
 2. Perdre du temps à chercher l'idée du design
 3. Se lancer au travail sans faire une maquette du résultat final
@@ -42,7 +42,7 @@ Créer un portfolio avec Html, Css et Javascript en se concentrant sur le design
 
 ## Ce que j'ai fait
 
-J'ai créé un portfolio avec Html & Css, où je montre mes projets personnels et le travail que je fais. 
+J'ai créé un portfolio avec Html & Css, où je montre mes projets personnels et le travail que je fais.
 J'ai appliqué les connaissances que j'ai pris dans les formations que j'ai suivi sur un site web e-commerce, j'ai créé:
 - Header Section
 - Home Section
@@ -50,11 +50,11 @@ J'ai appliqué les connaissances que j'ai pris dans les formations que j'ai suiv
 - Portfolio Section
 - Services Section
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom5.png"  width=600px>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom2_(1).png"  width=600px>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom2.png"  width=600px>
 <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom3.png"  width=600px>
+<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom4.png"  width=600px>
 <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-1/ecom5.png"  width=600px>
- 
+
  Et par la suite j'ai entrepris le travail sur mon Portfolio.
 
 
@@ -74,8 +74,8 @@ Structure du code HTML :
     <title>KhaoulaDev Porfolio</title>
 
     <!-- in order to normalize the pages -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -92,7 +92,7 @@ Structure du code HTML :
       <!--contenu principal de la page-->
     </main>
     <footer>
-      <!--contenu du pied de page-->    
+      <!--contenu du pied de page-->
     </footer>
 </body>
 
@@ -115,7 +115,7 @@ J’ai développé le stylesheet du site. Vous prouvez le visualiser [ici](https
 ## Points d'amélioration
 Le site est opérationnel, mais faute de temps, certaines de mes idées n'ont pas été implémentées. Je souhaite améliorer sa conception responsive et ajouter plus d'éléments interactifs pour enrichir l'expérience utilisateur.
 
-## Références : 
+## Références :
 {% prerequis %}
 -	[Projet HTML,Css](https://youtu.be/9mhyO-qf_nU?si=QEmIG04kaaFmV8rV)
 - [HTML Tutorial 1](https://youtu.be/J-pO5UIqkBE?si=6oYzcvvrQqNZ8dqK)

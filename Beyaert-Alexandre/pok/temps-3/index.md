@@ -98,7 +98,7 @@ Il repose sur 2 principaux principes :
 - une production "Just in Time" évitant ainsi toute surproduction et commande inutile auprès des fournisseurs
 - un service qualité cadré par la méthode Jidoka incitant au 0 défaut en ajoutant des contrôles à chaque étape.
 
-Pour citer l'Institut Lean Français [6] : "Le lean vise la réconciliation de la satisfaction des clients, de l’engagement des équipes et de la réduction des coûts globaux de l’entreprise en développant l’autonomie des équipes, leurs capacités de changement et, au final, l’agilité de l’entreprise dans son ensemble. La stratégie Lean est la recherche de plus de qualité et de flexibilité (fluidité) tout en réduisant les coûts induits par les gaspillages." 
+Pour citer l'Institut Lean Français [6] : "Le lean vise la réconciliation de la satisfaction des clients, de l’engagement des équipes et de la réduction des coûts globaux de l’entreprise en développant l’autonomie des équipes, leurs capacités de changement et, au final, l’agilité de l’entreprise dans son ensemble. La stratégie Lean est la recherche de plus de qualité et de flexibilité (fluidité) tout en réduisant les coûts induits par les gaspillages."
 
 
 #### Blockchain
@@ -211,7 +211,7 @@ Toutefois, cette synergie semble nuancée lorsque l'on pousse l'analyse en se pe
 
 À l'opposé, **au niveau opérationnel, l'I4.0 soutient le LSCM car il améliore ses pratiques.** On peut notamment mentionner l'amélioration des techniques lean tel que l'outil 5S en MSP (Maitrîse Statistiques des Procédés) ou en Total Productive Maintenance (TPM) par les technologies de l'I4.0.
 
-![Synergie Lean et I4.0](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-3/Lean&I4.0.png)
+![Synergie Lean et I4.0](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-3/Lean_I4.0.png)
 
 **En résumé, au niveau stratégique la LSCM stimule l'intégration durable de l'I4.0 en tenant compte de la diversification des demandes clients alors qu'au niveau opérationnel l'I4.0 améliore les performances de la LSCM en permettant l'accès à un flux continu en temps réel de l'information grâce aux technologies de CloudChain, Big Data, réalité augmentée, Blockchain...**
 
@@ -397,11 +397,11 @@ Top 3 des futurs défis :
 
 8- Pour Richard comme pour Olivier, le point est clair : il est nécessaire d'avoir un objectif clair, un business case, un besoin. Dans ce cas, il sera possible d'envisager une solution digitale. Définir une ligne de conduite digitale sans réel besoin n'a pas de sens. "Que veut-on vraiment ?"
 
-9- Olivier évoquait en point majeur la nécessité de recruter des talents en IT. Ce point est particulièrement crucial dans la mesure où le marché des spécialistes en DataSciences est tendu. Dans une politique d'anticipation, différentes entreprises (le cas P&G était notamment soulevé) décident alors de créer des hubs/pools afin de former et fidéliser leurs talents. 
+9- Olivier évoquait en point majeur la nécessité de recruter des talents en IT. Ce point est particulièrement crucial dans la mesure où le marché des spécialistes en DataSciences est tendu. Dans une politique d'anticipation, différentes entreprises (le cas P&G était notamment soulevé) décident alors de créer des hubs/pools afin de former et fidéliser leurs talents.
 
 11- Les opinions d'Olivier et Richard sont similaires : ralentir l'innovation n'est pas une solution. Pour citer Richard "I don't know what I like but I know what I don't like, and that, I don't like".
 Il va de soi qu'il faut se poser les bonnes questions dès à présent et anticiper les futurs changements, des reconversions seront à envisager et toute une stratégie consiste à la mise en oeuvre de ces reconversions : Richard illustrait le fait qu'un cariste ne pourrait probablement pas se reconvertir en aide-soignant en hopital.
-Pour autant, selon Olivier "nous ne sommes pas encore à l'aube du remplacement des hommes", en particulier dans la Supply Chain. Il y aura probablement des changements d'organisation mais nous avons toujours besoins de compétences analytiques. 
+Pour autant, selon Olivier "nous ne sommes pas encore à l'aube du remplacement des hommes", en particulier dans la Supply Chain. Il y aura probablement des changements d'organisation mais nous avons toujours besoins de compétences analytiques.
 Ces réorganisations, ces changements de modèle iront de paire avec les enjeux environnementaux de la Supply Chain : celle-ci est probablement vouée à davantage de résilience, à faire appel à une économie circulaire. Olivier évoquait notamment la valeur ajoutée qui résidait dans l'import de produits basiques depuis l'international pour de simples raisons économiques (sans prise en compte d'enjeux sociétaux et environnementaux), prenant pour exemple l'import du lait en poudre depuis le Canada.
 
 ### Analyse & Restitution
@@ -429,7 +429,7 @@ Les interviews que j'ai pu réalisées furent également très exaltantes, c'est
 [4] : Yann de Feraudy, président de l'association France Supply Chain. Disponible ici : https://www.francesupplychain.org/quest-ce-que-la-supply-chain/
 [5] : "INDUSTRIE DU FUTUR". Cours de Filière Production, Logistique proposé par Florian Magnani enseignant à Centrale Mediterranée, en mars 2023.
 [6] : "DÉFINITION DU LEAN". Institut Lean France. Disponible ici : https://www.institut-lean-france.fr/introduction-au-lean/definition-du-lean/
-[7] : "Qu'est-ce que la technologie Blockchain ?". Amazon Web Services. Disponible ici : https://aws.amazon.com/fr/what-is/blockchain/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc" 
+[7] : "Qu'est-ce que la technologie Blockchain ?". Amazon Web Services. Disponible ici : https://aws.amazon.com/fr/what-is/blockchain/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc"
 [8] : Vincent Giard, Mustapha Sali. L’effet coup de fouet dans la chaîne logistique : une littérature contingente et incomplète. Revue française de gestion industrielle, 2012, 31 (2). ffhal-01508406. Disponible ici : https://hal.science/hal-01508406/document
 [9] : "Causes of the bullwhip effect - A Study of the bullwhip effect in the Volvo Group Service Market Logistics' supply chain". Klara Dahlin, Oscar Säfström, Linköping University, Departement of Management and Engineering, 2021. Disponible ici : http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1579568&dswid=-1487
 [10] : "Muda, Muri, Mura pour éliminer le gaspillage". Lea, Six Sigma France, le 12 janvier 2021. Disponible ici : https://leansixsigmafrance.com/blog/muda-muri-mura-pour-eliminer-le-gaspillage/
@@ -437,4 +437,4 @@ Les interviews que j'ai pu réalisées furent également très exaltantes, c'est
 [12] :  Maryam Abdirad & Krishna Krishnan (2020): Industry 4.0 in Logistics and Supply Chain Management: A Systematic Literature Review, Engineering Management Journal.
 [13] : Matteo Rossini, Daryl John Powell, Kaustav Kundu (2022): Lean supply chain management and Industry 4.0: a systematic literature review. Literature review, International Journal of Lean Six Sigma.
 [14] : Xuan Wang, Vikas Kumar, Archana Kumari, Evgeny Kuzmin (2022): Impact of Digital Technology on Supply Chain Efficiency in Manufacturing Industry. Literature Review.
-[15] : Johannes Paul Zeiringer, Stefan Thalmann (2020) : Knowledge Risks in Digital Supply Chains: A Literature Review, 
+[15] : Johannes Paul Zeiringer, Stefan Thalmann (2020) : Knowledge Risks in Digital Supply Chains: A Literature Review,
