@@ -62,20 +62,20 @@ Mes objectifs de cette première formation est :
 La durée fixée à l'avance : 2h
 
 {% attention "**Supports de la formation**" %}
-<a href="Manuel Formation DIALux evo.pdf" target="_blank">Manuel de formation</a>
-<a href="GF+for+Dialux.pdf" target="_blank">Plan 1 de construction</a>
-<a href="2F+for+Dialux.pdf" target="_blank">Plan 2 de construction</a>
+<a href="Manuel_Formation_DIALux_evo.pdf" target="_blank">Manuel de formation</a>
+<a href="GF_for_Dialux.pdf" target="_blank">Plan 1 de construction</a>
+<a href="2F_for_Dialux.pdf" target="_blank">Plan 2 de construction</a>
 {% endattention %}
 
 Résultat attendu de cette première prise en main du logiciel: 
 1. Construire le première étage de la Villa
 <div style="display: flex; justify-content: space-around;">
-  <img src="Résultat 1.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
+  <img src="Resultat_1.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
 </div>
 
 2. Ajouter des luminaires au projet et faire une simulation du calcul :
 <div style="display: flex; justify-content: space-around;">
-  <img src="Résultat 2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
+  <img src="Resultat_2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
 </div>
 
 Tous les collaborateurs ont bien réussi la première étape de construction. Un des collaborateurs a laché au bout de la deuxième étape d'ajout de luminaires car, selon lui, il y avait trop d'informations à retenir.
@@ -143,7 +143,7 @@ Je vous ai mis les réponses des mes cinqs collaborateurs qui ont assisté à la
 ### Next steps
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="attentes Formation 2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
+  <img src="attentes_Formation_2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
 </div>
 
 {% attention "**A ne pas oublier**" %}
@@ -154,10 +154,10 @@ Je vous ai mis les réponses des mes cinqs collaborateurs qui ont assisté à la
 1. Choisir une zone d'études
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="Station 1.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
+  <img src="Station_1.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="Station 2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
+  <img src="Station_2.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
 </div>
 
 

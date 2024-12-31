@@ -107,7 +107,7 @@ class TicTacToe():
         pygame.display.set_caption("Morpion")
         self.clock = pygame.time.Clock()
         self.font = pygame.font.Font(None, 33)
-        self.morpion_surface = pygame.image.load('Plateau morpion.png')
+        self.morpion_surface = pygame.image.load('Plateau_morpion.png')
         self.title_surface = self.font.render('Jeu du morpion', False, "Black")
         self.text_rect = self.title_surface.get_rect(center = (400, 30))
         self.board = [[None for j in range(3)] for i in range(3)]

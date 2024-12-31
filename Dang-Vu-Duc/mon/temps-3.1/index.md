@@ -38,13 +38,13 @@ Il faut commencer par installer ces bibliothèques, avec les commandes `pip inst
 
 Nous allons commencer par présenter les éléments de base de cette bibliothèque. La première classe à connaître est la classe **PdfFileReader**. Les objets de cette classe permettent d'intégrer dans le code Python un document PDF. Ces objets ont différents attributs, correspondants à différentes caractéristiques du document en question. Elles ont également plusieurs méthodes pour effectuer des opérations sur le document.
 
-Dans la suite de cette section, nous nous appuierons sur deux documents PDF, enregistrés sous les noms de *PDF test 1.pdf* et *PDF test 2.pdf*. Ces documents sont des travaux que j'ai effectué lors de ma deuxième année.
+Dans la suite de cette section, nous nous appuierons sur deux documents PDF, enregistrés sous les noms de *PDF_test_1.pdf* et *PDF_test_2.pdf*. Ces documents sont des travaux que j'ai effectué lors de ma deuxième année.
 
 Pour ouvrir les documents PDF et les associer à des objets de la classe **PdfFileReader**, il faut d'abord les ouvrir avec la fonction *open*, en précisant en argument le paramètre *rb*, qui permet de lire en binaire le fichier. Ensuite, on créé l'objet en appellant la classe **PdfFileReader** du module **PyPDF2**.
 Une fois que l'on a cet objet, on peut récupérer ses attributs et utiliser les méthodes associées.
 
 ```python
-pdfFile = open('PDF test 2.pdf', 'rb')
+pdfFile = open('PDF_test_2.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFile)
 print(pdfReader.numPages)
 >>> 6
@@ -127,7 +127,7 @@ def rotate_pages(self, pdf_name: str, list_num_pages: list, rotation: int, name_
 
 {% enddetails %}
 
-Voici un exemple de l'utilisation de ce code. Si on crée un objet de la classe PDF_Tools (`test = PDF_Tools()`) et que l'on rentre la ligne de code `test.rotate_pages("PDF test 1.pdf", [0,1,3], 180, "Nouveau PDF.pdf")`, on obtient le fichier PDF suivant:
+Voici un exemple de l'utilisation de ce code. Si on crée un objet de la classe PDF_Tools (`test = PDF_Tools()`) et que l'on rentre la ligne de code `test.rotate_pages("PDF_test_1.pdf", [0,1,3], 180, "Nouveau_PDF.pdf")`, on obtient le fichier PDF suivant:
 
 ![Image1](Image1.png)
 
@@ -164,7 +164,7 @@ def overlay_pages(self, pdf_name: str, pdf_name_overlay: str, list_num_pages: li
 
 {% enddetails %}
 
-Pour tester cette fonction, on rentre la commande suivante: `test.overlay_pages("PDF test 2.pdf", "Logo Centrale.pdf", [1, 2, 3, 4, 5], "Nouveau PDF3.pdf")`, et le fichier suivant est produit:
+Pour tester cette fonction, on rentre la commande suivante: `test.overlay_pages("PDF_test_2.pdf", "Logo_Centrale.pdf", [1, 2, 3, 4, 5], "Nouveau_PDF3.pdf")`, et le fichier suivant est produit:
 
 ![Image3](Image3.png)
 
@@ -217,7 +217,7 @@ def reorder(self, pdf_name: str, list_new_order: list, name_reordered_file: str)
 
 ## Utilisation de python-docx
 
-Nous allons à présent explorer les possibilités qu'offre le module Python-docx. Pour charger un fichier Word avec ce module, il faut utiliser la commande: `doc = docx.Document("Word test 1.docx")`. On pourra ensuite manipuler cet objet et utiliser ses attributs.
+Nous allons à présent explorer les possibilités qu'offre le module Python-docx. Pour charger un fichier Word avec ce module, il faut utiliser la commande: `doc = docx.Document("Word_test_1.docx")`. On pourra ensuite manipuler cet objet et utiliser ses attributs.
 
 Le texte d'un document Word est décomposé en paragraphes, qui se terminent à un retour à la ligne. Dans ces paragraphes, on y trouve des objets de la classe **Runs** qui correspondent à du texte de la même police. Par exemple, dans le texte suivant:
 

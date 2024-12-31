@@ -60,7 +60,7 @@ Je suis donc prêt à entamer l'étude de cas en analysant une application déve
 
 ## L'AIPD en question :
 
-L'AIPD peut être téléchargé ici même : [Télécharger maintenant](../CNILModèles.pdf) (je viens de la supprimer sans faire exprès de mon ordi, donc pour le moment, c'est le modèle vide que je vais re-remplir dans les jours à venir).
+L'AIPD peut être téléchargé ici même : [Télécharger maintenant](../CNILModeles.pdf) (je viens de la supprimer sans faire exprès de mon ordi, donc pour le moment, c'est le modèle vide que je vais re-remplir dans les jours à venir).
 
 Mais pour **résumer**, la première partie sert à définir le périmètre de l'application [MyCentraleAsso](https://my.centrale-assos.fr/).
 

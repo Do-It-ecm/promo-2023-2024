@@ -49,7 +49,7 @@ Avant d'aborder le sujet, il est important de définir les termes clés.
 
 - **Technologies de l'information (TI) :**
   Les technologies de l'information peuvent être définies comme la somme totale de tous les investissements qu'une entreprise a réalisés dans des actifs tels que le matériel informatique, l'informatique, les logiciels, la technologie de communication et les télécommunications
-  <img style="float: right;" src="strategie IT.png" width="200" height="100">
+  <img style="float: right;" src="strategie_IT.png" width="200" height="100">
   <br/><br/>
 
 - **Stratégie IT :**

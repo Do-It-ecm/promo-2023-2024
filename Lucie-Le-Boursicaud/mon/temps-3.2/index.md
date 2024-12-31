@@ -666,7 +666,7 @@ Bon cet exercice est assez simple parce qu'on manipule des nombres, même si je 
 Je redemande à ChatGPT un nouvel exo mais un peut moins simple cette fois :
 
 <div style="display:flex">
-<div><img src="ExoBibliothèque.png"></div>
+<div><img src="ExoBibliotheque.png"></div>
 </div>
 
 Je crée mes différents fichiers et je rempli ma <strong>todo</strong>.

@@ -66,7 +66,7 @@ Je décide de m'orienter vers le package *MATLAB and Simulink Racing Lounge: Veh
 #### Prise en main de la bibliothèque
 J'ai commencé par me mettre à jour sur le contenu de la bibliothèque. Celle-ci étant très fournie, j'effectue alors des petits tests pour visualiser des données simples, telles que l'angle du volant.
 
-![Biblio Simulink](Bibliothèque.png)
+![Biblio Simulink](Bibliotheque.png)
 
 J'ai visualisé la vidéo de présentation d'une trentaine de minutes afin de mieux me familiariser avec le package.
 

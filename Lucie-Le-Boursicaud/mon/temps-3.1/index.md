@@ -230,8 +230,8 @@ Dans ce chapitre, nous apprenons à définir <strong>une charte graphique</stron
 1. <strong>Définir une palette de couleurs :</strong> Nous utilisons des outils en ligne comme Paletton ou ColorMind pour créer une palette de couleurs, en nous basant sur une image d'inspiration. Cette palette servira de base pour les choix de couleurs sur le site.
 
 <div style="display:flex">
-<div><img src="palette couleur.png"></div>
-<div><img src="palette couleur2.png"></div>
+<div><img src="palette_couleur.png"></div>
+<div><img src="palette_couleur2.png"></div>
 </div>
 
 Le seul bémol pour la première palette est le rose qui je pense ne correspond pas assez à la cible visé (enfant/adolescent masculin pour la plus part), je préfère passer à un orange tout aussi flashy mais qui sera plus adapté.

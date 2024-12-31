@@ -62,7 +62,7 @@ Nous avons donc tout d'abord établi le backlog de notre projet. Nous avons clas
 
 Si l'on fait un bilan des User Stories qui ont été réalisées et celles qui ne l'ont pas été, on obtient le graphique suivant:
 
-<img width=500 src=nombre_fonctionnalités.png>
+<img width=500 src=nombre_fonctionnalites.png>
 
 Deux fonctionnalités "Must" n'ont pas été développées:
 

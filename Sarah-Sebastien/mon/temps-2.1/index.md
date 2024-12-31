@@ -145,7 +145,7 @@ Excel permet de créer des filtres élaborés avec la création d’une zone de 
 Par exemple ici :
 
 |---|---|
-|<img src="FiltreAvancé1.png">|<img src="FiltreAvancé2.png">| 
+|<img src="FiltreAvance1.png">|<img src="FiltreAvance2.png">| 
 |On filtre sur les JT diffusés en 2020 ET sur le thème Santé| On filtre sur les JT diffusés en Janvier OU qui durent plus d'1 heure|
 
 {%prerequis "**Calcul statistique**"%}

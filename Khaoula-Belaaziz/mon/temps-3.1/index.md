@@ -47,7 +47,7 @@ J'ai commencé par lire et appliquer les cas pratiques du MON de Lola, en parcou
   <img src="excel_CDF.png" alt="Chemin de fer" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="excel_exemple 3.png" alt="Gantt" style="width: 100%; margin-right: 2%;">
+  <img src="excel_exemple_3.png" alt="Gantt" style="width: 100%; margin-right: 2%;">
 </div>
 
 ## Bibliographie 

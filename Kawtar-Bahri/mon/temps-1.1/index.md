@@ -59,7 +59,7 @@ Le but de l'analyse et de la modélisation est d'utiliser des techniques statist
 ### Statistiques descriptives 
 Les statistiques descriptives permettent à résumer et à comprendre vos données. R propose des fonctions telles que summary(), mean(), median(), sd() et quantile() pour calculer des statistiques descriptives de base pour les variables numériques.
 
-<img src="stat desc.png">
+<img src="stat_desc.png">
  <br/>
 
 ### Tests d'hypothèses :

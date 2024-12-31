@@ -146,8 +146,8 @@ Dans l'ensemble, cette combinaison de Montserrat, Kokoro et Koulen vise à crée
 #### Couleurs
 
 <div style="display:flex">
-<div><img src="palette pastel.png"></div>
-<div><img src="palette vive.png"></div>
+<div><img src="palette_pastel.png"></div>
+<div><img src="palette_vive.png"></div>
 </div>
 
 ## 3. Réalisation d'une maquette simplifiée
@@ -263,7 +263,7 @@ Exemples :
 <div><img src="cartecouleurs.png"></div>
 </div>
 <div style="display:flex">
-<div><img src="résacouleurs.png"></div>
+<div><img src="resacouleurs.png"></div>
 <div><img src="enrresacouleurs.png"></div>
 </div>
 

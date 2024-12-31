@@ -363,7 +363,7 @@ Il y avait en tout **3 grosses variables** à prendre en compte :
 
 Pour ce faire, il me fallait **récupérer le contenu de chaque cellule** des colonnes concernées, et de réussir à **extraire chaque item** des cellules, de sorte à ce qu'une **cellule corresponde à une item**. Mon idée était d'ensuite pouvoir **supprimer les doublons**, mais il me fallait réussir, pour cela, à placer toutes ces cellules les unes à la suite des autres sur une **même colonne**.
 
-<img width=350 src=extraction_données.png>
+<img width=350 src=extraction_donnees.png>
 
 **Petit problème :** vu comment s'était déroulé la première partie de ce POK sur le traitement de données avec Sheet, réaliser toutes ces actions sur ce logiciel allait être compliqué.
 Je me suis alors tournée vers mon ancien ami Excel, et plus particulièrement **Power Query**.
@@ -372,11 +372,11 @@ J'ai alors réalisé les actions suivantes pour parvenir au résultat :
 
 - **Split column** by **Delimiters** : qui permet de séparer le contenu des cellules de la colonne en fonction des *virgules*
 
-<img width=450 src=extraction_données_2.png>
+<img width=450 src=extraction_donnees_2.png>
 
 - **Unpivot columns**: qui permet de transformer des colonnes de valeurs en lignes
 
-<img width=250 src=extraction_données_3.png>
+<img width=250 src=extraction_donnees_3.png>
 
 Ensuite, il suffit de **Supprimer les doublons** sur Excel, et puis le tour est joué. 
 

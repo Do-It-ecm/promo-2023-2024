@@ -170,12 +170,12 @@ Afin d'appliquer ces connaissances de openpyxl, nous allons travailler sur les f
 
 ### Création automatique d'emplois du temps personnalisés
 
-Le premier fichier Excel sur lequel nous allons travailler est celui contenant la liste des élèves ainsi que leurs choix de cours. Ce fichier est nommé *étudiants_Do-It_23_24.xlsx*. Le deuxième fichier est nommé *edt Do_It.23-24.xlsx*, et contient l'emploi du temps de la promo Do-It 2023/2024 sous forme d'un tableau. On va créer une classe **Create_timetable** qui va contenir les méthodes pour manipuler les emplois du temps. Plus particulièrement, la méthode *create_timetable_automatic* va prendre en argument le nom et le prénom d'un étudiant et va enregistrer son emploi du temps personnalisé. Voici les différentes étapes que le programme va suivre:
+Le premier fichier Excel sur lequel nous allons travailler est celui contenant la liste des élèves ainsi que leurs choix de cours. Ce fichier est nommé *etudiants_Do-It_23_24.xlsx*. Le deuxième fichier est nommé *edt_Do_It.23-24.xlsx*, et contient l'emploi du temps de la promo Do-It 2023/2024 sous forme d'un tableau. On va créer une classe **Create_timetable** qui va contenir les méthodes pour manipuler les emplois du temps. Plus particulièrement, la méthode *create_timetable_automatic* va prendre en argument le nom et le prénom d'un étudiant et va enregistrer son emploi du temps personnalisé. Voici les différentes étapes que le programme va suivre:
 
 - Création d'une liste *courses_name*, qui contient initialement les cours qui sont communs à tout les élèves (par exemple filière métier, les cours de tronc commun, les vacances etc...) On s'assure que tout ces cours soient écrits en lettres minuscules.
-- Récupération du numéro de ligne correspondant au nom et prénom (donnés en arguments) dans le document Excel *étudiants_Do-It_23_24.xlsx*. Si le nom ou le prénom ne figure pas dans le document, on affiche une erreur et on sort de la méthode.
+- Récupération du numéro de ligne correspondant au nom et prénom (donnés en arguments) dans le document Excel *etudiants_Do-It_23_24.xlsx*. Si le nom ou le prénom ne figure pas dans le document, on affiche une erreur et on sort de la méthode.
 - Récupération des cours de l'élève. Pour cela, on parcourt le numéro de ligne que l'on vient de déterminer et on vérifie si une croix s'y trouve. Si c'est le cas, on remonte jusqu'au nom du cours (ligne 2) et on ajoute à la liste *courses_name* le nom du cours.
-- Suppression des cours que l'élève n'a pas choisi. On parcourt toutes les cellules à l'intérieur du tableau du fichier Excel *edt Do_It.23-24.xlsx*, et on relève son contenu. Si ce contenu n'est pas l'élément vide, on vérifie si le nom du cours est présent dans la liste *courses_name*. Si ce n'est pas le cas, on supprime ce cours. Pour supprimer ce cours, on fait appel à la méthode *remove_course_automatic*, qui suit les étapes suivantes:
+- Suppression des cours que l'élève n'a pas choisi. On parcourt toutes les cellules à l'intérieur du tableau du fichier Excel *edt_Do_It.23-24.xlsx*, et on relève son contenu. Si ce contenu n'est pas l'élément vide, on vérifie si le nom du cours est présent dans la liste *courses_name*. Si ce n'est pas le cas, on supprime ce cours. Pour supprimer ce cours, on fait appel à la méthode *remove_course_automatic*, qui suit les étapes suivantes:
   - Séparation des cellules
   - Coloration de chaque cellule en blanc
   - Suppression du contenu de ces cellules.
@@ -196,7 +196,7 @@ L'exécution de ces lignes produit le fichier Excel suivant:
 ![edt Duc](Image6.png)
 
 {% note %}
-Les emplois du temps produits sont basés sur le fichier original datant du 14/10/23. Il est possible que d'ici cette date, de nouveaux cours soient rajoutés, ou bien modifiés voire même supprimés. C'est pourquoi le temps 3 n'est pas complet pour tout les emplois du temps car à l'heure où j'écris ces lignes, les cours du temps 3 ne sont pas encore fixés. De plus, il est très important que les noms des cours indiqués dans le fichier *étudiants_Do-It_23_24.xlsx* correspondent **mot pour mot** à ceux présents dans le fichier *edt Do_It.23-24.xlsx*. Même un espace à la fin du nom posera des problèmes.
+Les emplois du temps produits sont basés sur le fichier original datant du 14/10/23. Il est possible que d'ici cette date, de nouveaux cours soient rajoutés, ou bien modifiés voire même supprimés. C'est pourquoi le temps 3 n'est pas complet pour tout les emplois du temps car à l'heure où j'écris ces lignes, les cours du temps 3 ne sont pas encore fixés. De plus, il est très important que les noms des cours indiqués dans le fichier *etudiants_Do-It_23_24.xlsx* correspondent **mot pour mot** à ceux présents dans le fichier *edt_Do_It.23-24.xlsx*. Même un espace à la fin du nom posera des problèmes.
 {% endnote %}
 
 ### Ajout et suppression automatisé d'un cours
@@ -209,13 +209,13 @@ La classe **Create_timetable** contient également des méthodes pour ajouter ou
 
 La méthode *remove_course* suit des étapes similaires.
 
-Voici ce que produit la méthode *add_course* quand on exécute la commande `test.add_course("edt de Duc Dang Vu.xlsx")`, après avoir rentré les informations du cours à rajouter:
+Voici ce que produit la méthode *add_course* quand on exécute la commande `test.add_course("edt_de_Duc_Dang_Vu.xlsx")`, après avoir rentré les informations du cours à rajouter:
 
 ![Image commande](Image7.png)
 
 ![Image edt modifié](Image8.png)
 
-Et voici ce que produit la méthode *remove_course* quand on exécute la commande `test.remove_course("edt de Duc Dang Vu.xlsx")`, après avoir rentré les informations du cours à supprimer:
+Et voici ce que produit la méthode *remove_course* quand on exécute la commande `test.remove_course("edt_de_Duc_Dang_Vu.xlsx")`, après avoir rentré les informations du cours à supprimer:
 
 ![Image commande 2](Image9.png)
 
@@ -236,7 +236,7 @@ class Create_timetable():
         self.create_new_sheets()
         self.weeks = []
         self.possible_times = [8, 9, 10, 11, 12, 14, 15, 16, 17, 18]
-        self.wb = openpyxl.load_workbook('edt Do_It.23-24.xlsx')
+        self.wb = openpyxl.load_workbook('edt_Do_It.23-24.xlsx')
         self.sheet = self.wb['année']
         for i in range(3,35):
             cell_begin = self.sheet.cell(row = i, column = 3)
@@ -244,9 +244,9 @@ class Create_timetable():
             self.weeks.append([cell_begin.value, cell_end.value])
 
     def create_new_sheets(self):
-        self.wb2 = openpyxl.load_workbook('étudiants_Do-It_23_24.xlsx')
+        self.wb2 = openpyxl.load_workbook('etudiants_Do-It_23_24.xlsx')
         self.sheet2 = self.wb2['effectif']
-        self.wb3 = openpyxl.load_workbook('edt Do_It.23-24.xlsx')
+        self.wb3 = openpyxl.load_workbook('edt_Do_It.23-24.xlsx')
         self.sheet3 = self.wb3['année']
 
     def get_cell_reference(self, day, month, time):

@@ -157,7 +157,7 @@ Voici le résultat pour la page d'accueil :
         </header>
 
         <div class="container">
-            <img src="chart-up 1.png" class="arrow">
+            <img src="chart-up_1.png" class="arrow">
             <div class="column">
                 <h1> Toutes vos statistiques.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -185,7 +185,7 @@ Voici le résultat pour la page d'accueil :
                     venenatis.
                 </p>
             </div>
-            <img src="sound 1.png" class="sound">
+            <img src="sound_1.png" class="sound">
         </div>
         
     </body>
@@ -393,7 +393,7 @@ A noter que la page ne fait rien avec l'e-mail et le mot de passe, cela viendra 
         </header>
 
         <div class="container">
-            <img src="chart-up 1.png" class="arrow">
+            <img src="chart-up_1.png" class="arrow">
             <div class="column">
                 <h1> Toutes vos statistiques.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -421,7 +421,7 @@ A noter que la page ne fait rien avec l'e-mail et le mot de passe, cela viendra 
                     venenatis.
                 </p>
             </div>
-            <img src="sound 1.png" class="sound">
+            <img src="sound_1.png" class="sound">
         </div>
         
         <div id="ecran_noir" class="ecran_noir">

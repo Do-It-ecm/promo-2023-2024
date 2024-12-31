@@ -395,8 +395,8 @@ window.onkeyup = (event) => {
 
 Alors notre fruit est bloqué sur les deux côté du mur : 
 <div style="display:flex">
-<div><img src="déplacementetmur.png"></div>
-<div><img src="déplacementetmur2.png"></div>
+<div><img src="deplacementetmur.png"></div>
+<div><img src="deplacementetmur2.png"></div>
 </div>
 
 ## 7. Faire tomber le fruit avec la barre espace
@@ -515,7 +515,7 @@ function ajouterFruit(){
 ```
 
 <div style="display:flex">
-<div><img src="plusieursTailleetAléatoire.png"></div>
+<div><img src="plusieursTailleetAleatoire.png"></div>
 </div>
 
 

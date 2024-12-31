@@ -24,7 +24,7 @@ Une structure de page web fait référence à l'organisation et à la dispositio
 
 La majorité de sites web (y compris celui que j’ai développé) sont organisés de la façon suivante : 
 
-<img src="structure site.png"  width=600px>
+<img src="structure_site.png"  width=600px>
 
 ## Code HTML
 {% info "**HTML (Hypertext Markup Language)**" %}
