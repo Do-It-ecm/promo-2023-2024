@@ -129,9 +129,9 @@ def rotate_pages(self, pdf_name: str, list_num_pages: list, rotation: int, name_
 
 Voici un exemple de l'utilisation de ce code. Si on crée un objet de la classe PDF_Tools (`test = PDF_Tools()`) et que l'on rentre la ligne de code `test.rotate_pages("PDF_test_1.pdf", [0,1,3], 180, "Nouveau_PDF.pdf")`, on obtient le fichier PDF suivant:
 
-![Image1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image1.png)
+![Image1](Image1.png)
 
-![Image2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image2.png)
+![Image2](Image2.png)
 
 Seules les pages numéro 1, 2 et 4 (indexées 0, 1 et 3) ont été tournées, ce qui est bien ce qu'on voulait.
 
@@ -166,9 +166,9 @@ def overlay_pages(self, pdf_name: str, pdf_name_overlay: str, list_num_pages: li
 
 Pour tester cette fonction, on rentre la commande suivante: `test.overlay_pages("PDF_test_2.pdf", "Logo_Centrale.pdf", [1, 2, 3, 4, 5], "Nouveau_PDF3.pdf")`, et le fichier suivant est produit:
 
-![Image3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image3.png)
+![Image3](Image3.png)
 
-![Image4](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image4.png)
+![Image4](Image4.png)
 
 Le logo a bien été placé sur les pages qu'il fallait.
 
@@ -221,11 +221,11 @@ Nous allons à présent explorer les possibilités qu'offre le module Python-doc
 
 Le texte d'un document Word est décomposé en paragraphes, qui se terminent à un retour à la ligne. Dans ces paragraphes, on y trouve des objets de la classe **Runs** qui correspondent à du texte de la même police. Par exemple, dans le texte suivant:
 
-![Image5](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image5.png)
+![Image5](Image5.png)
 
 on y trouve 6 objets de la classe **Runs**. Chacun de ces objets ont des attributs que l'ont peut modifier. En voici une liste:
 
-![Image6](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-3.1/Image6.png)
+![Image6](Image6.png)
 *Source: [Automate the boring stuff with Python](https://automatetheboringstuff.com/2e/chapter15/)*
 
 On peut changer chacun de ces attributs en True ou False.

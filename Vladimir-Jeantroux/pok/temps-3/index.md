@@ -30,7 +30,7 @@ Il y a 2 aspects différents de Unity entre lesquels il faut jongler pour pouvoi
 
 Partie éditeur           |  Partie console
 :-------------------------:|:-------------------------:
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-3/editor.JPG)  |  ![](console.JPG)
+![](editor.JPG)  |  ![](console.JPG)
 
 Sur la partie éditeur, on peut distinguer en haut à gauche la scène, c'est à dire l'endroit où on va pouvoir arranger et visualiser les éléments du jeu dans l'espace. En bas à gauche, la prévisualisation du jeu du point de vue du joueur, c'est là où on va regarder lors des phases de test. Toute la partie droite est la liste des éléments du projet, ainsi que leurs attributs qu'on va pouvoir modifier. 
 
@@ -72,7 +72,7 @@ En gras les tâches ajoutées en cours de route. Le backlog prévoit 2h parmi le
 
 Bonne nouvelle : les objectifs du sprint 1 ont été fait en la moitié du temps. Mauvaise nouvelle : je n'ai pas pu avancer plus à cause d'imprévus. Pour le moment, on a un jeu très rudimentaire : un cube pouvant seulement sauter par dessus des obstacles s'avançant vers lui à des intervalles aléatoires. Le score augmente à chaque seconde où le joueur encore en vie, et le jeu recommence si le joueur touche un obstacle. C'est un jeu très simple, mais déjà fonctionnel, par dessus lequel je pourrai construire et ajouter des fonctionnalités. 
 
-![Capture en jeu](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-3/basegame.jpg "Capture d'écran du jeu")
+![Capture en jeu](./basegame.jpg "Capture d'écran du jeu")
 
 ## Ajustements et objectifs pour le Sprint 2
 
@@ -89,7 +89,7 @@ Le 2e sprint a été consacré à l'ajout de fonctionnalités pour rendre le jeu
 
 L'écran de jeu ressemble finalement à ça : 
 
-![Jeu en action](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-3/exemple1.jpg)
+![Jeu en action](exemple1.jpg)
 
 On a plusieurs éléments qui se détachent : le joueur, en noir, dont on a le contrôle, l'obstacle, en rouge, qu'il ne faut absolument pas toucher, et un bonus, et c'est un bleu donc il donne 10 de score. Le meilleur score est affiché en personnage, une façon de constamment rappeler de donner le meilleur de soi-même. Le meilleur score est conservé sur la mémoire du téléphone, c'est à dire que même si on ferme/tue l'appli, le jeu se souviendra toujours du score le plus haut, à moins de désinstaller l'appli. 
 Lorsqu'on perd, on a un écran indiquant qu'on a perdu, affichant notre score final, et un bouton qui nous remet au tout début. 
@@ -98,7 +98,7 @@ Vu que je testais l'application sur mon ordinateur, j'avais donc codé des dépl
 
 Dans le même mode de fonctionnement que Subway Surfers, je voulais coder les obstacles de façon à ce que plus le jeu avance et le score augmente, plus les obstacles arrivent à grande vitesse sur le joueur. Après avoir eu beaucoup de mal à faire fonctionner ce concept, j'ai fait une erreur et rendu la vitesse de chaque obstacle aléatoire. Ca donnait au jeu une difficulté bien particulière et l'a rendu un peu plus amusant, j'ai donc décidé de garder ce système. 
 
-![Vidéo du gameplay](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-3/demo.gif)
+![Vidéo du gameplay](demo.gif)
 
 Ci-dessus une petite démo du jeu et de ses différentes fonctionnalités (le gif met un peu de temps à démarrer)
 
@@ -116,7 +116,7 @@ Ce POK a été très instructif sur Unity et le développement de jeux mobiles e
 
 Le Github du projet se trouve [ici](https://github.com/VlaadimirJ/parcours-obstacles-kubique) et le jeu peut s'installer depuis [ici](https://drive.google.com/file/d/1PiJLEEll2Knoigbu2sob3Rf1GkHs_0Ns/view?usp=sharing) ou à partir du QR Code ci-dessous. (Android seulement, désolé !).
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-3/qr-code.png" alt="qr code" width="200"/>
+<img src="qr-code.png" alt="qr code" width="200"/>
 
 ## Bibliographie 
 

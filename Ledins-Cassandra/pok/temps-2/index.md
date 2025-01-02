@@ -112,7 +112,7 @@ Etant impatiente de découvrir le livre Hands-on Rust, j'ai vite sauté sur les 
 
 Dans le premier exercice TreeHouse, on joue au vigil avec l'invite de commande, pour savoir si on a le droit de rentrer ou non dans le TreeHouse, et si on a un traitement spécial. On y apprend donc les assignations et modification de variables.
 
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-2/treehouse.png)
+![](./treehouse.png)
 
 ### La programmation de jeu avec Rust
 
@@ -122,7 +122,7 @@ On y implémente des structures, l'équivalent des déclarations de classe, ains
 
 On y découvre aussi le concept de "contexte", en gros les informations liées au jeu transmises sous forme graphique.
 
-![Flappy](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-2/Flappy.png)
+![Flappy](./Flappy.png)
 
 ## Fin du Sprint 1
 
@@ -190,7 +190,7 @@ On a aussi maintenant la possibilité de régénérer des points de vie en resta
 
 Voilà donc à quoi ressemble le jeu finalement : 
 
-![image](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-2/goblins.png)
+![image](./goblins.png)
 
  ### Condition de fin, Game Over ou Victory
 
@@ -198,8 +198,8 @@ L'affichage et le combat étant terminés, il faut pour notre MVP une condition 
 
 Nous avons aussi la possibilté de recommencer le jeu en appuyant sur une touche.
 
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-2/amulet.png)
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/pok/temps-2/victory.png)
+![](./amulet.png)
+![](./victory.png)
 
  ## Fin du Sprint 2
 

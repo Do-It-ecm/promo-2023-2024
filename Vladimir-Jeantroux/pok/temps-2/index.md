@@ -70,7 +70,7 @@ Le jeu comporte pour le moment 2 scènes : un menu principal qui donne le choix 
 
 J'ai ensuite implémenté les commandes droite, gauche, saut et attaque pour un personnage, ainsi que les animations correspondantes. J'ai aussi rajouté un mannequin immobile. Ces deux personnages sont capables d'interagir ensemble : ils ont une collision, i.e. ils ne peuvent pas se traverser l'un et l'autre, et le jeu réagit lorsque le joueur attaque le mannequin (la console affiche "Ouch !"), et un effet sonore se joue.
 
-![Gameplay](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-2/Gameplay.gif)
+![Gameplay](./Gameplay.gif)
 
 Séquence de gameplay montrant les contrôles que le joueur peut faire.
 
@@ -84,7 +84,7 @@ func _on_fist_colliders_body_entered(body):
 ```
 Code dictant ce qu'il se passe lorsque le poing du personnage frappe le manequin. (Le son de frappe se joue, puis la console affiche "Ouch!" si le frappé est le mannequin d'entraînement.)
 
-![Démonstration des hitbox](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-2/Hitbox.gif)
+![Démonstration des hitbox](./Hitbox.gif)
 
 Démonstration des hitbox en jeu. La boîte rose est liée au poing, et ne s'active que lorsqu'une attaque liée au poing est lancée. La boîte verte est liée au pied. Le reste du temps, ces boîtes sont inactives (grises). Si une boîte colorée touche un autre personnage, alors celui-ci se fait toucher par le coup. 
 
@@ -126,7 +126,7 @@ Pour avoir un jeu à 2 joueurs/contre l'IA, il fallait que je crée un autre per
 
 Le terme d'Intelligence Artificielle est un peu abusif, car c'est en réalité un simple algorithme. L'ennemi va regarder la distance entre le joueur et lui-même : plus il est proche du joueur, plus il a de chances d'initier une attaque. Sinon, il se déplace vers le joueur. De plus, si le joueur réussit à sauter derrière le bot, il va se retourner et continuer son assaut. Le bot a accès à 2 attaques : une attaque debout et une attaque accroupie. 
 
-![L'ennemi IA en action](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/pok/temps-2/Demo.gif)
+![L'ennemi IA en action](Demo.gif)
 L'ennemi IA en action. Il s'approche du joueur, fait une attaque accroupie et une attaque debout. Il y a aussi une probabilité qu'il ne prenne pas d'action lorsqu'il est proche du joueur, histoire qu'il ne fasse pas que des attaques. 
 
 J'ai aussi importé des textures de barre de vie, mais je n'ai pas réussi à finaliser la programmation, et donc pour l'instant il y a des barres de vie purement décoratives. Au lieu de cela, j'ai rajouté la possibilité de jouer à la manette. Enfin, j'ai exporté le projet et l'ai compressé en un fichier .exe. 

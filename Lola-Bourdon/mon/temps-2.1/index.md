@@ -73,24 +73,24 @@ Pour commencer je vais réaliser un jeu de devinette. l'objectif est qu'excel g�
 Pour cela j'aurai besoin que d'une seule macro **JeuDevinette** et de 3 variables; **Devine, EssaiNombre et NombreSecret** qui traduisent respectivement l'état de la devinette, le nombre proposé et le nombre qu'il faut trouver.
 le code du jeu est le suivant :
 
-![codevba](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/screen_https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/devinette.png)
+![codevba](screen_devinette.png)
 
 L'utilisateur entre un nombre :
 
-![codevba](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/devinette.png)
+![codevba](devinette.png)
 
 Une fois que le chiffre est trouvé, on obtient :
 
-![codevba](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/screen_gagne.png)
+![codevba](screen_gagne.png)
 
 L'apprentissage de vba au travers d'un jeu étant assez ludique pour moi, j'ai décidé de poursuivre avec le jeu Snake autrement dit le serpent qui grandit en mangeant des pommes et meurt en se mordant la queue. C'est pas aussi simple que prévu.
 J'ai commencé par programer l'interface du jeu à l'aide du code suivant :
 
-![codevba](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/initialiserJeu.png)
+![codevba](initialiserJeu.png)
 
 On obtient :
 
-![codevba](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.1/InitialiserJeu2.png)
+![codevba](InitialiserJeu2.png)
 
 Le carré vert représente la tête du serpent en debut de partie. En suite j'ai affecté a chaque bouton haut, Bas, droite, gauche, une macro correspondant à la direction. L'objectif et de faire avancer/grandir/mourir le serpent en fonction de la couleur de la case suivante et de générer à chaque mouvement une case rouge pour la pomme. Malheureusement cette partie de code n'est pas encore au point et je rencontre beaucoup de difficulté dans la correction de mes erreurs.
 

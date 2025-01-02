@@ -271,7 +271,7 @@ Cette partie se traite aussi dans un fichier .cpp dans lequel on pourra utilisé
 
 Ainsi pour chaque classe on aura un fichier .h avec sa déclaration et un fichier .cpp contenant sa définition.
 
-<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lucie-Le-Boursicaud/mon/temps-1.1/schema_objet.png"></div>
+<div><img src="schema_objet.png"></div>
 
 #### Comment créé un programme ? 
 On procéde en trois étape : 

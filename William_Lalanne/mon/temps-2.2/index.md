@@ -329,7 +329,7 @@ const App = () => {
 export default App;
 ```
 
-![Page React](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/William_Lalanne/mon/temps-2.2/Page_Accueil.png)
+![Page React](Page_Accueil.png)
 
 
 ## Conclusion

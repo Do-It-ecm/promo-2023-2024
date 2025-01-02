@@ -184,7 +184,7 @@ Aujourd'hui, il existe plusieurs types d'applications logicielles pour cartograp
 |Diagramme BPMN|Diagramme VSM|Diagramme à couloirs |
 |---|---|---|---|
 |On parle en général de "diagramme de flux de travail" pour désigner la représentation d'un processus. Un diagramme BPM est spécifique  aux processus d'entreprise, mais reste le plus utilisé pour modéliser un processus, car est normalisé|Technique de cartographie des processus axée sur l'élimination du gaspillage dans des secteurs tels que la fabrication, la gestion de la chaîne d'approvisionnement et l'ingénierie logicielle|Aussi appelé "diagramme de Rummler-Brache" ou "diagramme transversal": permet de regrouper les étapes du processus par acteur dans des "couloirs" ou *"bandes fonctionnelles"*(montre également les interactions entre les différents acteurs).|
-|<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Sarah-Sebastien/mon/temps-2.2/BPMN.png" >|<img src="VSM.png" >|<img src="Swimlane.png" >|
+|<img src="BPMN.png" >|<img src="VSM.png" >|<img src="Swimlane.png" >|
 |[Source](https://sparxsystems.fr/resources/gallery/diagrams/business/bus-bpmn_business_process-book_lending_example.html?ref=eaRes)|[Source](https://online.visual-paradigm.com/fr/diagrams/features/value-stream-mapping-software/)|[Source](https://miro.com/templates/swimlanes-diagram/)|
 
 {%info "**Diagramme de cartographie conceptuelle**"%}
@@ -213,7 +213,7 @@ Après tout ce que je venais de voir, je voulais essayer de m’entraîner à mo
 
 Pour ce faire, je me suis entraînée à réaliser le processus se service de client dans un restaurant. Voici ma proposition : 
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Sarah-Sebastien/mon/temps-2.2/Entrainement.png" >
+<img src="Entrainement.png" >
 
 *Bien sûr, ce processus est très simplifié, certaines étapes sont beaucoup plus complexes. Le processus nécessite également plus de passerelles pour être vraiment précis (ex: étapes différentes à effectuer en fonction du mode de paiement du client, etc...). Mais cela reste un bon entraînement pour comprendre le fonctionnement d'une modélisation.*
 

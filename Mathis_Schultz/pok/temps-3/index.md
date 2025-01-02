@@ -80,7 +80,7 @@ Il faut tout de même noter que ces ordinateurs ne sont pas encore industrialisa
 
 Le montant des cyberattaque via ransomware en 2023 a simplement atteint 1,1 milliards de dollars en cryptomonaies. En effet, les cryptomonaies ont un gros avantage, elles sont difficile à tracer, et ne sont pas sous la tutelle d'une banque étatique, donc impossible à inspecter.
 
-![Montant des ransomwares](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/pok/temps-3/image.png)
+![Montant des ransomwares](image.png)
 
 - La data, un nerf de la guerre ?
 

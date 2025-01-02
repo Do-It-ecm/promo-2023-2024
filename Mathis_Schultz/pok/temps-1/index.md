@@ -66,7 +66,7 @@ Le rôle du système est de rassembler l'ensemble des outils informatiques qu'ut
 
 Le but de l'application est de faire le lien entre tous les outils de chaque acteurs.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/pok/temps-1/structure.png">  
+<img src="structure.png">  
 
 *Différents acteurs au sein d'un groupe de travaux public*
 
@@ -74,11 +74,11 @@ Le but de l'application est de faire le lien entre tous les outils de chaque act
 
 Le but est d'analyser le trajet d'une donnée lorsqu'un chef de chantier effectue une demande de ressource pour son chantier. Voici un diagramme montrant le trajet et l'exploitation de la demande :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/pok/temps-1/exemple_interaction.png">
+<img src="exemple_interaction.png">
 
 *Diagramme du traitement d'une commande*
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/pok/temps-1/achat.png">
+<img src="achat.png">
 
 *Diagramme plus détaillé du traitement du commande, source : google image*
 

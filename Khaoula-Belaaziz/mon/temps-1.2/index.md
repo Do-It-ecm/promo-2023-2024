@@ -48,17 +48,17 @@ résumé: ""
 - Ajouter un pomodoro
 - Ajouter son Google Agenda
 - Créer un habit tracker
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.2/Notion_day1.png"  width=600px>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.2/Notion_day2.png"  width=600px>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.2/Notion_day3.png"  width=600px>
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.2/Notion_day4.png"  width=600px>
+<img src="Notion_day1.png"  width=600px>
+<img src="Notion_day2.png"  width=600px>
+<img src="Notion_day3.png"  width=600px>
+<img src="Notion_day4.png"  width=600px>
 
 
 
 ## Pourquoi j'ai choisi Notion ?
 L'idée était de créer une template pour structurer notre projet 3A, avec un tableau de bord, une liste de tâches, une page pour noter nos idées... où on peut visualiser notre avancement du jour le jour. 
 So, j'ai créé un espace bien organisé, avec une liste de pages et une liste de BD.
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/mon/temps-1.2/Killer1.png"  width=600px>
+<img src="Killer1.png"  width=600px>
 <img src="Killer2.png"  width=600px>
 
 

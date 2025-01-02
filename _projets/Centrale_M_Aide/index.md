@@ -51,7 +51,7 @@ Les plateformes existantes (Allovoisins, Yoojo, etc...) ne proposent **que de la
 
 Il existe également un groupe Facebook  **Centrale bière au Bar'Bu** qui permet de demander des services de la sorte mais la **page est inadaptée aux besoins**. En général, il s'agit de meubles ou d'échanges d'objets en échange de bières au Bar'Bu. Les annonces se perdent dans le fil d'actu, les informations pratiques sont peu visibles, beaucoup de centraliens sont manquants, les nouvelles générations ne le connaissent pas, la page est peu gérée...
 
-![d](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/CentraleBiere.png)
+![d](CentraleBiere.png)
 
 ## Objectifs du projet
 
@@ -92,7 +92,7 @@ Utilisation de l'outil Notion afin de suivre l'avancée du projet
 
 La TimeLine est vouée à évoluer et sera actualisée au cours du projet.
 
-![Image Timeline](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/Gantt.png)
+![Image Timeline](Gantt.png)
 
 ### Fonctionnalités et pages du site
 La prise en main de notre site se doit d'être facile et rapide.
@@ -128,7 +128,7 @@ Ces deux boutons renvoient vers une page d'identification fonctionnelle, qui gè
 
 | Page d'accueil | Connexion | Inscription |
 |:--------:|:--------:|:--------:|
-| ![Image page d'accueil MBM](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/MBM-homepage.png) | ![Image connexion](MBM-connection.png) | ![Image inscription](MBM-inscription.png) |
+| ![Image page d'accueil MBM](MBM-homepage.png) | ![Image connexion](MBM-connection.png) | ![Image inscription](MBM-inscription.png) |
 
 
 #### Menu déroulant
@@ -158,7 +158,7 @@ Lorsqu'un utilisateur est intéressé par une annonce, il peut la consulter pour
 
 | Dépôt d'annonce | Recherche d'annonce |
 |:--------:|:--------:|
-| ![Image dépot annonce](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/MBM-depot-annonce.png) | ![Image recherche annonce](MBM-recherche-annonce.png) |
+| ![Image dépot annonce](MBM-depot-annonce.png) | ![Image recherche annonce](MBM-recherche-annonce.png) |
 
 
 ### Design : Maquette Figma
@@ -178,13 +178,13 @@ Un retrevail permet d'aboutir à un design bien plus satisfaisant. (cf image 3 d
 
 | Choix des couleurs | Design annonces 1er jet | Design annonces 2nd jet |
 |:--------:|:--------:|:--------:|
-| ![Choix des couleurs](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/Figma1.png) | ![Design annonces](Figma2.png) | ![Design annonces](Figma3.png) |
+| ![Choix des couleurs](Figma1.png) | ![Design annonces](Figma2.png) | ![Design annonces](Figma3.png) |
 
 L'architecture de la page choisie, nous testons les différents sets de couleurs sélectionnés pour en retenir un définitif et ainsi terminer notre charte graphique. En l'occurence, nous sélectionnons la Propal 1 rappelant la charte graphique de l'école.
 
 | Propal 1 | Propal 2 | Propal 3 |
 |:--------:|:--------:|:--------:|
-| ![Figma Propal Design 1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/FigmaPropal1.png) | ![Figma Propal Design 2](FigmaPropal2.png) | ![Figma Propal Design 3](FigmaPropal3.png) |
+| ![Figma Propal Design 1](FigmaPropal1.png) | ![Figma Propal Design 2](FigmaPropal2.png) | ![Figma Propal Design 3](FigmaPropal3.png) |
 
 
 ### Front-end
@@ -205,7 +205,7 @@ Voici un apperçu des différentes pages :
 
 | Page initiale | Connexion (mdp incorrect) | Formulaire d'inscription (email déjà utilisé) |
 |:--------:|:--------:|:--------:|
-| ![Page d'accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/Connexion.png) | ![Connexion](Connexion2.png) | ![Formulaire d'inscription](Inscription.png) |
+| ![Page d'accueil](Connexion.png) | ![Connexion](Connexion2.png) | ![Formulaire d'inscription](Inscription.png) |
 
 Il est intéressant de remarquer qu'une erreur dans le mot de passe à la connexion ou que l'essai d'inscription avec une adresse mail déjà utilisée renvoient des erreurs permettant aux utilisateurs de corriger leur identification.
 
@@ -213,7 +213,7 @@ Il est intéressant de remarquer qu'une erreur dans le mot de passe à la connex
 
 | Annonces | Aperçu d'une annonce | Mes annonces | Mes favoris |
 |:--------:|:--------:|:--------:|:--------:|
-| ![Annonces](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/menu_deroulant.png) | ![Annonce](Annonce.png) | ![Mes annonces](Mes_annonces.png) | ![Mes favoris](mes_favoris.png)| 
+| ![Annonces](menu_deroulant.png) | ![Annonce](Annonce.png) | ![Mes annonces](Mes_annonces.png) | ![Mes favoris](mes_favoris.png)| 
 
 Le menu déroulant est présent sur toutes les pages du site une fois l'utilisateur connecté. Il permet d'accéder rapidement aux pages principales.
 
@@ -221,13 +221,13 @@ Le menu déroulant est présent sur toutes les pages du site une fois l'utilisat
 
 | Dépôt d'une annonce | Aperçu du profil | Modification d'une annonce | Modification du profil |
 |:--------:|:--------:|:--------:|:--------:|
-| ![Depôt d'une annonce](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/Depot_annonce.png) | ![Profil](mon_profil.png) | ![Modif annonce](modif_annonce.png) | ![Modif profil](modif_mon_profil.png) |
+| ![Depôt d'une annonce](Depot_annonce.png) | ![Profil](mon_profil.png) | ![Modif annonce](modif_annonce.png) | ![Modif profil](modif_mon_profil.png) |
 
 #### Carte des annonces
 
 | Carte des annonces | Aperçu d'une annonce sur la carte |
 |:--------:|:--------:|
-| ![Carte des annonces](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/carte_annonces.png) | ![Aperçu d'une annonce](carte_une_annonce.png) |
+| ![Carte des annonces](carte_annonces.png) | ![Aperçu d'une annonce](carte_une_annonce.png) |
 
 
 ### Back-end
@@ -396,7 +396,7 @@ Après avoir testé le site, le testeur remplit un questionnaire, un *Google For
 
 Dans l'ensemble, les testeurs sont très satisfaits de leur expérience sur notre site (86% des utilisateurs ont décerné la note de 4 ou 5).
 
-![test](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/_projets/Centrale_M_Aide/Avis_general.png)
+![test](Avis_general.png)
 
 De même, ils ont trouvé facilement les fonctionnalités recherchées (86% des testeurs ont décerné la note de 4 ou 5). En revanche, le point faible de notre site semble être le design.
 L'ensemble des résultats de l'*User Survey* est disponible en pdf dans le [répertoire du projet](Questionnaire_de_satisfaction.pdf).

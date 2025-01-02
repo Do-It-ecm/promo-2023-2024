@@ -43,19 +43,19 @@ L'objectif de ce print est de personnaliser le CV intéractif, l'améliorer et l
 ### Rendu final
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-3/im1.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="im1.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-3/im2.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="im2.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-3/im3.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="im3.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-3/im4.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="im4.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Khaoula-Belaaziz/pok/temps-3/im5.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
+  <img src="im5.png" alt="qlqs manips" style="width: 100%; margin-right: 2%;">
 </div>
 
 {% details "Faciliter la prise en main du code" %}

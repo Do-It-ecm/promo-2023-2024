@@ -59,8 +59,8 @@ Dans **&lt;body&gt;&lt;/body&gt;** :
 
 Voyons ce que ces premières informations rendent sur un site web basique. Pour cela il suffit de faire clique droit sur le nom du fichier html et de cliquer sur *Open with Live Server* :
 
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/code1.png)
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen1.png)
+![code](code1.png)
+![screen](screen1.png)
 
 Il existe également des liste ordonnées qui permettent de numéroter la liste. Cela fonctionne de la même manière mais on remplacera le &lt;ul&gt;&lt;/ul&gt; par &lt;ol&gt;&lt;/ol&gt;.
 
@@ -83,9 +83,9 @@ On peux également imbriquer un élément gras dans un italique ou vice versa av
 Avec ces nouvelles informations, voyons ce que cela peut donner sur donner sur notre super site web :
 
 
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen2.png)
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/code2.png)
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/code3.png)
+![screen](screen2.png)
+![code](code2.png)
+![code](code3.png)
 
 ### Les Eléments Vides 
 Les sauts de ligne et les lignes horizontales sont les éléments vides les plus courants. 
@@ -98,16 +98,16 @@ Pour finir la formation simple et rapide de Soline, parlons de comment insérer 
 
 Pour cela, il faudra ajouter au dossier *"Mon-premier-site-vsc"*, les images que l'on veut utiliser, de la manière suivante :
 
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen3.png)
+![screen](screen3.png)
 
-Partons du principe que Soline n'a que des images.png. Il faut utiliser la commande **&lt;img src='/https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/code1.png'/&gt;**
+Partons du principe que Soline n'a que des images.png. Il faut utiliser la commande **&lt;img src='/code1.png'/&gt;**
 
-On pourra ajuster la taille avec *width*: **&lt;img src='/https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen3.png'  width='200'/&gt;** selon le rendu souhaité.
+On pourra ajuster la taille avec *width*: **&lt;img src='/screen3.png'  width='200'/&gt;** selon le rendu souhaité.
 
 Le fin du site final est le suivant :
 
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/dernierscreen.png)
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/derniercode.png)
+![screen](dernierscreen.png)
+![code](derniercode.png)
 
 ## 3. Amélioration du site
 
@@ -115,12 +115,12 @@ L'objectif principal du site est terminée mais l'esthétique n'est pas forcéme
 
 J'ai aimé créer un sommaire avec des liens cliquables (en html) qui créent des liens vers certains titres de la page de la manière suivante :
 
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screensommaire.png)
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screenidbase.png)
+![code](screensommaire.png)
+![code](screenidbase.png)
 
 Dans les balises *&lt;head&gt;&lt;/head&gt;* du fichier *"mon-premier-site.html"* je suis venue ajouter de nouvelles commandes comme une nouvelle police, un nouveau fond (je ne citerai pas tout) et des commandes de couleurs, en CSS, parmi :
 
-![code](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screentitre.png)
+![code](screentitre.png)
 
 qui selon la taille des titres, les affiche de différentes couleurs.
 
@@ -128,5 +128,5 @@ qui selon la taille des titres, les affiche de différentes couleurs.
 
 Pour finir ce premier MON sur le web front, j'ai pu découvrir les langages HTML et CSS. Mes conaissances sont encore à développer, notamment avec CSS mais je suis parvenue au résultat suivant : *(affiché en partie)*
 
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen9.png)
-![screen](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-1.1/screen1-1.png)
+![screen](screen9.png)
+![screen](screen1-1.png)

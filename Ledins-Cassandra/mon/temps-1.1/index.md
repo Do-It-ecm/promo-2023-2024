@@ -40,7 +40,7 @@ Le Transformer, c'est à la base un outil présenté pour les traductions par ma
 
 Pour référence par la suite, il sera utile de regarder ce schéma classique:
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Ledins-Cassandra/mon/temps-1.1/transformer.png">
+<img src="transformer.png">
 
 ## 2. Entraînement et création
 

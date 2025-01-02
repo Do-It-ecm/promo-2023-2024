@@ -34,7 +34,7 @@ Back-End avec Spring Boot (Java) et une base de données MySQL, Front-End en Rea
 
 
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/illustration.jpg" alt="Illustration" style="width:50%;">
+<img src="./illustration.jpg" alt="Illustration" style="width:50%;">
 
 ## **Objectif du POK**
 
@@ -145,32 +145,32 @@ Voici quelques livrables issus du Sprint 1
 
 D'abord le squelette que l'on a imaginé :
 
-![Gameplay](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/squelette.gif)
+![Gameplay](./squelette.gif)
 
 Puis la maquette :
 
-![Gameplay](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/maquette.gif)
+![Gameplay](./maquette.gif)
 
 ### Schéma de la base de données
 
 Le schéma de données utilisé pour le back-end :
 
 
-![Gameplay](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/data.png)
+![Gameplay](./data.png)
 
 ### Front-End
 
 Page d'accueil :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/accueil.PNG">
+<img src="accueil.PNG">
 
 Page de salon :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/salon.PNG">
+<img src="salon.PNG">
 
 Page de partie :
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-3/partie.PNG">
+<img src="partie.PNG">
 
 
 ## **Objectif du sprint 2**

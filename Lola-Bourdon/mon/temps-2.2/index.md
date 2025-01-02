@@ -72,11 +72,11 @@ J'ai commencé par filtrer les données, supprimer les lignes trop incomplètes 
 Cela étant fait il restait des transformations a faire sur Power Query, notamment :
 
 - remplacement de valeur pour alléger
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranremplacer.png)
+![powerbi](ecranremplacer.png)
 - supprimer les colonnes inexploitables (trop peu de valeurs, etc.)
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranchoisircolonne.png)
+![powerbi](ecranchoisircolonne.png)
 - fractionner les colonnes (permet d'ajouter une une colonne pour les réponses à choix multiples, inexploitable par Power BI)
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranfrac.png)  
+![powerbi](ecranfrac.png)  
 
 Une fois que la transformation de données est terminée, on peut revenir a Power BI en cliquant sur *Fermer&appliquer*.
 
@@ -84,20 +84,20 @@ Une fois que la transformation de données est terminée, on peut revenir a Powe
 
 Lorsqu'on revient sur power BI on a un tableau vierge avec toutes nos données à droite qu'il est possible de faire glisser sur le tableau de travail. On y trouve également les onglets visualiser et filtrer. Plusieurs éléments visuels sont disponibles pour traiter nos données dans l'onglet visualiser.
 
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranpBI.png)  
+![powerbi](ecranpBI.png)  
 
 L'onglet filtrer permet d'afficher les données pertinentes à chaque élément visuel.
 
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecrandecouverte.png) 
+![powerbi](ecrandecouverte.png) 
 
 
 ### Visualiser
 Dans Power BI il est possible d'avoir plusieurs pages (comme les feuilles excel) ce qui me permet d'organiser les différents graphiques par thèmes.
 Après avoir modéliser et analyser une partie des données, voici ce que j'obtient : 
-![powerbi](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranfinmain.png)
+![powerbi](ecranfinmain.png)
 <div style="display:flex">
-<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranfinsport.png"></div>
-<div><img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Lola-Bourdon/mon/temps-2.2/ecranfinresto.png"></div>
+<div><img src="ecranfinsport.png"></div>
+<div><img src="ecranfinresto.png"></div>
 </div>
 La visualisation n'est pas encore optimale, les tableaux ne sont pas homogènes mais j'arrive a avoir un premier visuel des données de mon formulaire et les résultats sont intéressants pour l'équipe. Toutefois, le travail n'est pas encore terminé pour l'analyse de ce form, beaucoup de données sont encore à exploiter, et certains visuels pourraient être réétudier.
 

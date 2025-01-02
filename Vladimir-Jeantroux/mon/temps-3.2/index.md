@@ -23,7 +23,7 @@ Une partie du travail que j'ai fait sur ce MON était de réorganiser un Sheets 
 
 Mais qu'est-ce réellement ? Un TCD permet de résumer de grandes quantités de données en les regroupant et en les réorganisant selon des critères spécifiques. on peut facilement explorer les données en les filtrant, les triant et en les regroupant à la volée, et visualiser les résultats sous forme de tableaux récapitulatifs ou de graphiques. Les tableaux croisés dynamiques sont efficaces pour identifier des tendances dans les données. Admettons qu'on ait cette table : 
 
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-3.2/tableau_exemple.jpg)
+![](tableau_exemple.jpg)
 Tableau faisant partie des exercices pratiques, Maîtrisez les fondamentaux d'Excel, OpenClassrooms https://openclassrooms.com/fr/courses/7168336-maitrisez-les-fondamentaux-dexcel/7216018-realisez-des-tableaux-croises-dynamiques 
 
 Un TCD va ici directement nous permettre d'effectuer des calculs sur ce tableur. Les logiciels comme Excel ou Sheets donnent des moyens d'en créer un à partir d'un tableau, en quelques clics. Disons que l'on veut voir quel est le chiffre d'affaire produit par type de produit et par mois. Dans le TCD, on va placer les produits en colonne, les mois en ligne, et calculer le CA à partir de ces infos; ce seront les valeurs du tableau. 
@@ -44,13 +44,13 @@ VBA est un langage de programmation qui permet d'automatiser des tâches sur les
 ### Autres travaux perso 
 
 A mes heures perdues je fais des tableurs sur des statistiques dans un jeu, pour optimiser mes actions au maximum. 
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-3.2/degats1.jpg)
+![](degats1.jpg)
 
 Ce tableau représente les dégâts d'un personnage selon ses caractéristiques (burst, tank, etc.), en fonction des PV de l'adversaire (1ère colonne). Pour me représenter les tendances rapidement, j'ai fait une ligne sparkline à la fin de chaque colonne, pour constater que Burst chute en efficacité bien plus vite que les autres à mesure que la cible a de plus en plus de PV. 
 
 J'ai aussi essayé de représenter les mois de l'année où je dépense le plus... Etonnament difficile, le TCD que je faisais n'arrêtait pas de mettre les mois dans l'ordre alphabétique, ce qui est un enfer à représenter graphiquement...
 
-![](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vladimir-Jeantroux/mon/temps-3.2/depenses1.jpg)
+![](depenses1.jpg)
 
 Ces données ont été prises de mes logs depuis que je suis à Centrale, et selon ce graphe toute notion de responsabilité financière me quitte en février. Je suis bien content d'être en mars et être revenu à mes sens.
 

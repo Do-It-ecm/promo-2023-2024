@@ -65,13 +65,13 @@ const importPlayers = async () => {
 importPlayers();
 
 ```
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/players_schema.png" width="650" height="500">
+<img src="players_schema.png" width="650" height="500">
 
 #### Création et Gestion d'Équipe
 J'ai fait des avancées solides dans le développement du backend pour permettre aux utilisateurs de créer et gérer leurs équipes. Maintenant, les utilisateurs peuvent créer une session sur le site et choisir les joueurs pour leur équipe. Ces choix sont enregistrés dans la base de données en stockant les id des joueurs, ce qui signifie que chaque fois qu'ils reviennent sur le site, leur équipe est là, avec les modifications qu'ils ont apportées. J'ai également implémenté les opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour une gestion simple des équipes. En somme, la fonctionnalité backend avance comme prévu, offrant une expérience utilisateur pratique et facile d'utilisation.
 
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/select_equipe.png" width="700" height="550">|<img src="equipe.png" width="700" height="550">
+<img src="select_equipe.png" width="700" height="550">|<img src="equipe.png" width="700" height="550">
 
 #### Système de Points pour Fantasy League
 
@@ -132,7 +132,7 @@ async function scrapeJournee(url) {
 const url = 'https://botolapro.gestfootball.com/fr/p4755/#1560926979862-d8bdd234-a3403';
 scrapeJournee(url).then(fixtures => console.log(fixtures));
 ```
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/scrapbotola.png" width="700" height="550">
+<img src="scrapbotola.png" width="700" height="550">
 
 ## 2eme Sprint: Développement Front<a id="section-3"></a>
 
@@ -149,6 +149,6 @@ scrapeJournee(url).then(fixtures => console.log(fixtures));
 
 ### Apperçu du Front
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/front_1.png" width="700" height="600">|<img src="front4.png" width="700" height="550">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/front_2.png" width="700" height="550">|<img src="front3.png" width="700" height="550">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Omar-Salame/pok/temps-2/front_3.png" width="700" height="550">|<img src="front1.png" width="700" height="550">
+<img src="front_1.png" width="700" height="600">|<img src="front4.png" width="700" height="550">
+<img src="front_2.png" width="700" height="550">|<img src="front3.png" width="700" height="550">
+<img src="front_3.png" width="700" height="550">|<img src="front1.png" width="700" height="550">

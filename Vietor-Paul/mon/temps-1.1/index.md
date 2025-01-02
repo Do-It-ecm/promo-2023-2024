@@ -69,12 +69,12 @@ Pour les types, je me contente de les lister :
 
 Pour l'instant, nous avons ceci :
 
-![Page OpenGL](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vietor-Paul/mon/temps-1.1/opengl_before.png)
+![Page OpenGL](opengl_before.png)
 
 C'est... pas très beau. Il faut ajouter un peu de CSS ! Je vais me contenter d'écrire un unique fichier assez simple, et je m'intéresserai à du style plus avancé dans mon deuxième MON :
 
 Dans mon `.eleventy.js`, j'ajoute `eleventyConfig.addPassthroughCopy("bundle.css");` sur la deuxième ligne, et je crée un fichier `bundle.css` à la racine de mon projet. Il sera copié à la racine de mon site.
 
-![Page OpenGL avec du CSS](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Vietor-Paul/mon/temps-1.1/opengl_after.png)
+![Page OpenGL avec du CSS](opengl_after.png)
 
 C'est déjà un peu mieux, mais rendez-vous dans 3 semaines pour un site encore un peu plus joli !

@@ -31,7 +31,7 @@ Aucun prérequis.
 
 
 
-![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/Cisco.jpg)
+![Openclassroom_accueil](./Cisco.jpg)
 
 
 **Cisco Systems** est une entreprise américaine spécialisée dans les technologies de l'information et de la communication (TIC).
@@ -39,7 +39,7 @@ Cette entreprise est devenue l'une des plus grandes entreprises mondiales dans s
 **Cisco** est particulièrement connue pour ses équipements réseau, notamment les routeurs et les commutateurs, utilisés dans le monde entier pour la construction et la gestion de réseaux informatiques.
 
 
-![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/cisconetwork.jpg)
+![Openclassroom_accueil](./cisconetwork.jpg)
 
 Le programme éducatif **Networking Academy** developpé par **Cisco** vise à former des professionels aux technologies réseaux.
 
@@ -47,14 +47,14 @@ Sur la plateforme Networking Academy, nous pouvons retrouver **deux parcours pro
 
 
 
-![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/careerpath.png)
+![Openclassroom_accueil](./careerpath.png)
 
 
 Chaque formation donne accès à une certification suite à un petit examen de 50 questions. Il est cependant possible d'obtenir une certification payante à l'issu de chaque parcours professinels.
 
 J'ai donc décidé de commencer le parcours "Network Technician" ! 
 
-![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/networkpath.png)
+![Openclassroom_accueil](./networkpath.png)
 
 La première formation s'intitule "Networking Basics", est destinée aux débutants, et a une durée estimée de 22h.
 
@@ -81,15 +81,15 @@ Les formations commencent tout d'abord avec une évaluation permettant de faire 
 Celles-ci sont  decoupées en module traitant chacun d'une thématique.
  Ces modules sont eux aussi segmentés en chapitre.
 
- ![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/exemplemodule1.png)
+ ![Openclassroom_accueil](./exemplemodule1.png)
  
  Au sein de chaque chapitre, il y a plusieurs ressources différentes : 
 
- ![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/exemplechapitre.png)
+ ![Openclassroom_accueil](./exemplechapitre.png)
 
 Des vidéos explicatives, des schémas interractifs, des paragraphes descriptifs, des tableaux résumés et enfin des applications pratiques à l'aide du logiciel de simulation **Cisco Packet Tracer**.
 
- ![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/logociscopacket.png)
+ ![Openclassroom_accueil](./logociscopacket.png)
 
 
 
@@ -97,10 +97,10 @@ Le logiciel Cisco Packet Tracer est un excellent outil permettant de s'exercer a
 
 Des activités guidées permettent de s'amuser à configurer des réseaux de A à Z ( ou en tout cas d'essayer ! ).
 
- ![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/packetracer1.png)
+ ![Openclassroom_accueil](./packetracer1.png)
 
 
- ![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/packetracer2.png)
+ ![Openclassroom_accueil](./packetracer2.png)
 
 >Le logiciel est très complet et gratuit ! 
 ### Comment est-on évalué ?
@@ -110,7 +110,7 @@ A la fin de chaque chapitre, il y a une petite évaluation de 20 questions, puis
 
 Enfin, au terme de la formation, il est possible de passer une évaluation finale permettant d'obtenir une petite certification attestant la réussite de la formation.
 
-![Openclassroom_accueil](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Diafat-Samy/mon/temps-2.1/certif.png)
+![Openclassroom_accueil](./certif.png)
 
 ### Thèmes abordés
 

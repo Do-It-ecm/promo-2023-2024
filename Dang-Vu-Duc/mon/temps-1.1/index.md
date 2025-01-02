@@ -57,7 +57,7 @@ app.exec()
 
 L'exécution de ce premier code ouvre cette fenêtre:
 
-![Fenêtre basique](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image1.png)
+![Fenêtre basique](Image1.png)
 
 Comme on peut le voir, la classe **QMainWindow** permet de créer une fenêtre, qui va contenir tout les autres éléments que l'on veut.
 
@@ -80,7 +80,7 @@ app.exec()
 
 L'execution de ce code affiche la fenêtre suivante:
 
-![Fenêtre basique avec un bouton](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image2.png)
+![Fenêtre basique avec un bouton](Image2.png)
 
 Pour l'instant, il ne se passe rien lorsque l'on clique sur ce bouton. C'est parce que on n'a pas associé d'action à ce bouton. Pour se faire, on va utiliser la méthode *clicked.connect* de la classe **QPushButton**. Cette méthode permet d'associer une autre méthode au bouton: lorsque l'utilisateur va cliquer sur ce bouton, ce dernier va envoyer un signal au programme et va exécuter la méthode que l'on a renseigné en argument:
 
@@ -141,7 +141,7 @@ class Test_button(QMainWindow):
 
 Ce code fait apparaître la fenêtre suivante:
 
-![Test boutons cliquables](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image3.png)
+![Test boutons cliquables](Image3.png)
 
 La classe **QVBoxLayout** permet de créer un layout vertical où tout les éléments sont centrés verticalement.
 
@@ -186,7 +186,7 @@ class Test_button(QMainWindow):
 
 Ce code ouvre la même fenêtre que précédemment, mais avec un onglet "Fichier". Lorsque l'on passe la souris dessus, un menu déroulant apparaît et lorque l'on clique sur "enregistrer", un voit print "Le fichier a été enregistré":
 
-![Image menu déroulant](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image4.png)
+![Image menu déroulant](Image4.png)
 
 {% note %}
 Notons qu'il existe énormément de méthodes associées à chaque classes. Je présente ici les méthodes que je trouve les plus importantes, mais elles sont toutes répertoriées et expliquées sur le site de la documentation du projet *Qt for Python*: [Documentation QT](https://doc.qt.io/)
@@ -210,7 +210,7 @@ def button_clicked(self):
 
 Lorsque l'on clique sur un des deux boutons, le popup suivant apparaît:
 
-![Popup](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image5.png)
+![Popup](Image5.png)
 
 Encore une fois, il est possible de faire bien plus de choses avec cette fenêtre popup, tout est documenté sur le site de Qt.
 
@@ -242,7 +242,7 @@ def valider(self):
 
 L'exécution de ce code fait apparaître notre fenêtre test, mais avec en plus un champ à remplir. Quand on clique sur le bouton valider, on voit que l'information du nom a bien été print:
 
-![Image QLabel et QLineEdit](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image6.png)
+![Image QLabel et QLineEdit](Image6.png)
 
 On remarque l'utilisation de la classe **QHBoxLayout** pour mettre le label, le champ à remplir et le bouton valider côte-à-côte. Ensuite, on a rajouté ce layout au layout vertical principal.
 
@@ -253,7 +253,7 @@ On remarque l'utilisation de la classe **QHBoxLayout** pour mettre le label, le 
 Il existe bien plus de classes disponibles avec Qt. Il peut-être difficile de se retrouver parmi tout cela, et trouver les bonnes méthodes pour faire ce que l'on veut. Il existe ainsi un outil pour pallier à ce problème: **Qt Designer**. Ce logiciel est disponible en open source sur le [site de Qt](https://qt.io). Grâce à cet outil, on peut placer tout les éléments possibles comme on le souhaite dans une fenêtre.
 Pour illustrer l'utilisation de cet outil, nous allons créer une fenêtre pour jouer à un jeu de carte basique: la bataille. Pour cela, on doit télécharger un dossier avec des images de cartes à jouer. Ensuite, on créé une **MainWindow** sur Qt Designer.
 
-![Image QT Deigner](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image7.png)
+![Image QT Deigner](Image7.png)
 
 On peut voir ci-dessus à quoi ressemble le terminal de QT Designer. Sur le côté droit, il y a l'endroit pour modifier les propriétés de chaque objet; sur la gauche, il y a tout les objets que l'on peut utiliser. Il suffit de les cliquer-glisser sur l'interface. On peut également changer les couleurs, on encore assigner des images aux objets (dans notre cas, les images de cartes).
 J'ai choisi un fond vert pour représenter le tapis de jeu. Pour charger une image sur un label (par exemple ici, une image de dos de carte), il faut cliquer sur cet élément et changer la "pixmap" dans les options du label (sur le côté gauche).
@@ -375,9 +375,9 @@ class Card():
 
 L'exécution de ce code fait apparaître dans un premier temps une fenêtre demandant au joueur de rentrer son nom. Une fois que le joueur a validé son nom, la méthode "valider" change le Label du joueur pour y mettre son nom, avec la méthode setText.
 
-![Fenêtre nom joueur](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image8.png)
+![Fenêtre nom joueur](Image8.png)
 
-![Fenêtre bataille](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.1/Image9.png)
+![Fenêtre bataille](Image9.png)
 
 Ce jeu de bataille est donc bien fonctionnel. Il compte les points à chaque tour et met bien à jour chaque texte.
 

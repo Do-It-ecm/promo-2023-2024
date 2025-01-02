@@ -885,17 +885,17 @@ def solve_assist(self, IsWhiteToPlay, alpha, beta, depth):
 
 Pour vérifier si ce code fonctionne correctement, j'ai cherché des problèmes de mat en 2 et de mat en 3 sur Internet, et j'ai fait tourner l'algorithme sur ces positions. Voici un exemple sur cette position:
 
-![Image1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image1.png)
+![Image1](Image1.png)
 
 L'exécution de l'algorithme sur cette position donne la ligne suivante: `['Qd5+', 'nxd5', 'Rxc6#']` en 55.5 secondes. D'après l'ordinateur le plus puissant du monde "Stockfish", c'est bien la solution! (Notons le brillant sacrifice de Dame). Plusieurs lignes sont possibles, celle qui est donnée n'en est qu'un exemple.
 Voici un autre exemple d'un mat en 3 sur la position suivante:
 
-![Image2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image2.png)
+![Image2](Image2.png)
 
 L'algorithme fournit la ligne suivante: `['Ke2', 'nc1+', 'Ke3', 'na2', 'd4#']` en 24 minutes. Encore une fois, c'est la bonne réponse. On remarque cependant que la résolution a été bien plus longue. Ceci est dû au fait qu'il y a beaucoup plus de pièces sur l'échiquier, et le nombre de mouvements explorés est également beaucoup plus élevé que le cas précédent.
 Pour finir, voici l'exemple de résolution d'un mat en 4 sur la position suivante:
 
-![Image3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image3.png)
+![Image3](Image3.png)
 
 L'algorithme résout ce problème en 12 minutes et 57 secondes: `['Bh5', 'kxh5', 'Kg7', 'h6', 'Kf6', 'kh4', 'Kg6#']`. Notons que l'exécution est gérable grâce au fait qu'il y ait peu de pièces sur l'échiquier, et que les coups des Noirs soient forcés après le mouvement Fou H5. En réalité, j'ai essayé de faire tourner l'algorithme sur d'autres problèmes de Mat en 4 pendant plusieurs heures, sans avoir de résultat. Le mat en 4 est donc la limite, ce qui traduit le manque d'optimisation de l'algorithme.
 
@@ -905,7 +905,7 @@ De nombreux problèmes repose sur une règle des échecs, nommée la "promotion"
 
 Pour tester cette implémentation, on fait tourner l'algorithme sur le problème suivant, qui est un mat en 2 qui nécessite deux promotions (Trait aux noirs):
 
-![Image4](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image4.png)
+![Image4](Image4.png)
 
 La ligne donnée est: `['e1=n+', 'Kh2', 'f1=n#']`, qui est bien la solution. L'algorithme a bien compris qu'il fallait faire deux promotions en cavalier.
 
@@ -1374,13 +1374,13 @@ def update_cells_selected(self, piece):
 
 Voici quelques captures d'écran de ce que le programme produit:
 
-![Image partie normale](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image5.png)
+![Image partie normale](Image5.png)
 *Image d'une partie en cours, avec une pièce sélectionnée*
 
-![Image échec](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image6.png)
+![Image échec](Image6.png)
 *Image d'une situation d'échec par les Blancs*
 
-![Image échec et mat](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-2/Image7.png)
+![Image échec et mat](Image7.png)
 *Image d'une situation de fin de partie (échec et mat)*
 
 ## Bilan du deuxième sprint

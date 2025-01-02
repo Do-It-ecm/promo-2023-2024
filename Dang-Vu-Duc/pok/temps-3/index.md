@@ -452,7 +452,7 @@ def plot_stats_combinations(self, N):
 
 Le résultat de cette simulation pour 10 millions de simulations est le suivant:
 
-![Image1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image1.png)
+![Image1](Image1.png)
 
 Ces résultats concordent presque parfaitement aux résultats théoriques que l'on peut retrouver sur cette [page Wikipédia dédiée](https://en.wikipedia.org/wiki/Poker_probability).
 
@@ -483,7 +483,7 @@ def plot_hands_ranking(self, first_rank, last_rank):
 
 Voici le classement des 20 meilleures mains obtenues:
 
-![Image2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image2.png)
+![Image2](Image2.png)
 
 La lettre T correspond au 10. La lettre "s" signifie que les deux cartes sont de la même couleur (de l'anglais "suited") et la lettre "o" signifie que les deux cartes ne sont pas de la même couleur (de l'anglais "offsuit"). On retrouve bien la paire d'As qui est la meilleure main de départ, suivie de près les paires de Rois et de Dames.
 
@@ -493,7 +493,7 @@ Maintenant que l'on a tout les outils pour faire des simulations, on va à prés
 
 Il faut tout d'abord designer les différentes fenêtres que l'utilisateur pourra utiliser. On utilise pour cela le logiciel Qt Designer, et on opte pour des designs simples. Voici un aperçu des 4 fenêtres dans le logiciel:
 
-![Image3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image3.png)
+![Image3](Image3.png)
 
 On créé ensuite une nouvelle classe **UI_stats** qui contiendra toutes les méthodes pour afficher les interfaces graphiques. Cette classe hérite des classes **Poker_methods** et **Plot_stats**. L'initialisation de cette classe permet de récupérer tout les éléments des interfaces designées (boutons, textes, barres de progression etc...) afin de les assigner à des attributs de notre classe. Les noms de ces attributs doivent être bien distinctes.
 
@@ -600,13 +600,13 @@ class UI_stats(Plot_stats, Poker_methods):
 
 La première fenêtre à faire est la fenêtre principale, qui agira comme un menu pour l'utilisateur. Cette fenêtre comporte pour l'instant 4 boutons qui mèneront chacun sur une autre fenêtre, en fonction de la statistique à afficher.
 
-![Image4](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image4.png)
+![Image4](Image4.png)
 
 ### Affichage des fréquences d'apparition des combinaisons
 
 Ensuite, on crée la fenêtre pour afficher les fréquences d'apparition des combinaisons. Pour cela, on reprend simplement le code présenté précédemment, en rajoutant une variable qui suit la progression de la boucle, pour actualiser la barre de progression. Voici la fenêtre qui apparaît lorsque l'on clique sur le bouton "Afficher les fréquences d'apparition des combinaisons":
 
-![Image5](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image5.png)
+![Image5](Image5.png)
 
 L'utilisateur peur renseigner le nombre de simulations qu'il souhaite effectuer, ensuite la barre de progression évolue puis le graphique est affiché.
 
@@ -642,7 +642,7 @@ def line_edit_plot_hands_ranking_last_rank_changed(self, value):
 
 La fenêtre affichée est donc la suivante:
 
-![Image6](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image6.png)
+![Image6](Image6.png)
 
 L'utilisateur peut rentrer le premier rang qu'il veut afficher et le dernier rang.
 
@@ -737,7 +737,7 @@ def valider_get_winrate(self):
 
 {% enddetails %}
 
-![Image7](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image7.png)
+![Image7](Image7.png)
 
 ## Bilan du premier sprint et prévisions du deuxième sprint
 
@@ -848,7 +848,7 @@ def plot_heatmap_hands_ranking(self):
 
 L'exécution de ce code donne le graphique suivant:
 
-![Image8](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image8.png)
+![Image8](Image8.png)
 
 On observe un dégradé de couleurs: plus on augmente sur l'axe des abscisses et sur celui des ordonnées, plus le taux de réussite est important. De plus, on remarque que les paires servies, situées sur la diagonale, sont clairement des meilleures mains que les autres. Enfin, les mains associées ont un taux de réussite légèrement supérieur aux mains dépareillées.
 Il ne manque plus qu'à ajouter un bouton sur la fenêtre principale associé à l'affichage de cette image.
@@ -903,7 +903,7 @@ def select_line_K(self):
 
 La fin de la méthode fait appel à la méthode *color_buttons*, qui colore en vert ou en blanc les boutons correspondants aux combinaisons présentes dans la liste *range_selected*. Voici à quoi ressemble la fenêtre:
 
-![Image9](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Image9.png)
+![Image9](Image9.png)
 
 On arrive bien à sélectionner les mains unes par unes, ou bien une colonne ou une ligne entière d'un coup.
 
@@ -990,7 +990,7 @@ Le joueur 1 (le Héros) a la main constituée d'un 8 de coeur et d'un Valet de c
 
 Pour avoir l'aide à la décision de notre algorithme, on rentre toutes ces informations sur l'interface et on lance les calculs:
 
-![Test1](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Test1.gif)
+![Test1](Test1.gif)
 
 Le programme envoie une *equity* de 40.5%, et un *pot odd* de 37.5%. Le Héros doit donc suivre la relance, et il peut même relancer encore pour ajuster le *pot odd* à son *equity*.
 
@@ -1001,19 +1001,19 @@ La situation au *flop* (3 premières cartes) est la suivante: le flop est consti
 - Des combinaisons allant de 9-10 jusqu'à K-Q, pour compléter une potentielle suite.
 - Toutes les couleurs sont pour l'instant possibles.
 
-![test2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Test2.gif)
+![test2](Test2.gif)
 
 Le programme renvoie une *equity* de 34.7% et un *pot odd* de 28.6%. On remarque que l'*equity* au flop est plus faible que celle au preflop, car la *range* a été affinée. Cependant, elle est toujours supérieure au *pot odd*, donc le Héros suit la relance.
 
 La situation au *turn* est la suivante. La quatrième carte dévoilée est le Valet de pique: le Héros fait une paire. Le Héros ouvre avec une mise à 300 et le Vilain relance pour 400 de plus. Compte tenu de la situation, le Héros pense que le Vilain a une main associée avec deux cartes de pique. C'est donc ce qu'il rentre dans l'interface:
 
-![Test3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Test3.gif)
+![Test3](Test3.gif)
 
 L'*equity* du Héros est passée à 56.4% et le *pot odd* est de 36.4%. L'*equity* est bien plus élevée grâce au fait qu'un Valet soit arrivé au *turn*, ce qui fait que le Héros a une main gagnante face à plus de la moitié de la *range* de son adversaire. Le *pot odd* est également assez élevé car le Vilain a fortement relancé. Le Héros suit donc la relance.
 
 Voici la dernière situation de ce test: la carte à la *river* est le 5 de pique. Le Héros ouvre à 100 et le Vilain relance pour 200 de plus. D'après le Héros, la *range* de son adversaire n'a pas changé. Il rentre ces informations comme suit:
 
-![Test4](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/pok/temps-3/Test4.gif)
+![Test4](Test4.gif)
 
 L'*equity* du Héros est de... 0%. En effet, d'après la range renseignée, le Héros perd tout le temps à cause car son adversaire a une couleur à pique. Le Héros se couche donc et perd la main.
 

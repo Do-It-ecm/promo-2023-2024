@@ -66,7 +66,7 @@ J’ai donc fait un formulaire sur la gauche de l’écran qui permet d’ajoute
 
 Pour chaque produit, nous pouvons afficher le détail de ses caractéristiques sur la partie gauche de l’écran. Nous pouvons ensuite modifier ses caractéristiques. Un bouton supprimer est également présent sur chaque item.
 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Rioual-Lucas/pok/temps-2/admin.PNG">
+<img src="admin.PNG">
 
 Vous trouverez le repo Github ici : https://github.com/LucasRioual/curiolab-admin
 

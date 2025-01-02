@@ -45,7 +45,7 @@ pip install openpyxl
 
 Une fois la bibliothèque installée, il faut l'importer au début du code python, et nous sommes prêts! Nous allons dans la suite expliquer les méthodes principales qui permettent de lire et modifier des données dans des fichiers Excel. Dans la suite, les fichiers manipulés doivent se trouver dans le même repertoire que le fichier python exécuté. Le fichier Excel que nous allons manipuler en exemple se nomme *test.xlsx* et contient le simple tableur suivant:
 
-![Image test](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image1.png)
+![Image test](Image1.png)
 
 La feuille qui est remplie se nomme *Feuille 1*.
 
@@ -106,7 +106,7 @@ wb.save('test_copy.xlsx')
 
 Voici à quoi ressemble le fichier *test_copy.xlsx*, qui a été enregistré dans le même repertoire que le code python exécuté:
 
-![Image test2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image2.png)
+![Image test2](Image2.png)
 
 La cellule A1 a bien été modifiée, ainsi que le nom de la feuille.
 
@@ -122,7 +122,7 @@ wb.save('test_copy.xlsx')
 
 Le fichier *test_copy.xlsx* produit est le suivant:
 
-![Image test3](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image3.png)
+![Image test3](Image3.png)
 
 La largeur de la colonne A s'est bien modifiée.
 
@@ -148,7 +148,7 @@ wb.save('test_copy.xlsx')
 
 Le résultat est le suivant:
 
-![Image](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image4.png)
+![Image](Image4.png)
 
 Le texte "Pomme de rainette" est bien centré horizontalement et verticalement dans sa cellule et il est bien en gras et de taille 15. De plus, la couleur de la cellule a bien changé et la cellule a bien des bordures épaisses.
 
@@ -158,7 +158,7 @@ La couleur renseignée en paramètres de la classe **PatternFill** est sous la f
 
 Enfin, il est possible de fusionner des cellules ou de les séparer, grâce aux méthodes *merge_cells* et *unmerge_cells*. Par exemple, si l'on ajoute au code précédent la commande `sheet.merge_cells('A3:A4')`, on obtient le résultat suivant:
 
-![Image merge](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image5.png)
+![Image merge](Image5.png)
 
 {% note %}
 On remarque que seul le contenu de la première cellule est conservé. De plus, les autres cellules de la cellule fusionnée sont des objets de la classe **MergedCell**. Il est possible de récupérer tout ces objets grâce à l'attribut *merged_cell.ranges* de la classe **Worksheet**.
@@ -193,7 +193,7 @@ test.create_timetable_automatic("Dang Vu", "Duc")
 
 L'exécution de ces lignes produit le fichier Excel suivant:
 
-![edt Duc](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image6.png)
+![edt Duc](Image6.png)
 
 {% note %}
 Les emplois du temps produits sont basés sur le fichier original datant du 14/10/23. Il est possible que d'ici cette date, de nouveaux cours soient rajoutés, ou bien modifiés voire même supprimés. C'est pourquoi le temps 3 n'est pas complet pour tout les emplois du temps car à l'heure où j'écris ces lignes, les cours du temps 3 ne sont pas encore fixés. De plus, il est très important que les noms des cours indiqués dans le fichier *etudiants_Do-It_23_24.xlsx* correspondent **mot pour mot** à ceux présents dans le fichier *edt_Do_It.23-24.xlsx*. Même un espace à la fin du nom posera des problèmes.
@@ -211,15 +211,15 @@ La méthode *remove_course* suit des étapes similaires.
 
 Voici ce que produit la méthode *add_course* quand on exécute la commande `test.add_course("edt_de_Duc_Dang_Vu.xlsx")`, après avoir rentré les informations du cours à rajouter:
 
-![Image commande](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image7.png)
+![Image commande](Image7.png)
 
-![Image edt modifié](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image8.png)
+![Image edt modifié](Image8.png)
 
 Et voici ce que produit la méthode *remove_course* quand on exécute la commande `test.remove_course("edt_de_Duc_Dang_Vu.xlsx")`, après avoir rentré les informations du cours à supprimer:
 
-![Image commande 2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image9.png)
+![Image commande 2](Image9.png)
 
-![Image edt modifié 2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Dang-Vu-Duc/mon/temps-1.2/Image10.png)
+![Image edt modifié 2](Image10.png)
 
 Le cours a bien été ajouté, puis supprimé comme on le voulait.
 

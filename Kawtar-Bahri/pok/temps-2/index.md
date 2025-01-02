@@ -33,9 +33,9 @@ Objectifs du Portfolio :
 •	Communiquer avec ces employeurs / clients (via une rubrique de demandes & recommandations) 
 
 3.  Développement du Front-End 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/1.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/2.png">
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/3.png">
+<img src="1.png">
+<img src="2.png">
+<img src="3.png">
 
 ## Réalisation du sprint 2:
 ***1. Installation des outils***
@@ -77,10 +77,10 @@ module.exports = mongoose.model('Recommandations', monSchema);
 
 ***5. Tests & Debogage***
 La base de données :
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/MongoDB.png" >
+<img src="MongoDB.png" >
 Le serveur : 
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/server.png" >
+<img src="server.png" >
 Le site :
-<img src="https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Kawtar-Bahri/pok/temps-2/site.png" >
+<img src="site.png" >
 Le code : 
 Le code développé dans ce POK est disponible sur mon [github repository ](https://github.com/KawtarBahri/Mon-portfolio/)

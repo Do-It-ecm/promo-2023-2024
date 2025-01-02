@@ -76,7 +76,7 @@ Ce logiciel est téléchargeable gratuitement sur [le site d'Hamamatsu](https://
 
 Voici son interface :
 
-![NDP Viewer2](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/NDP_view2.jpg)
+![NDP Viewer2](NDP_view2.jpg)
 
 Afin de pouvoir utiliser ces images dans un algorithme de machine learning, **il faudrait les convertir dans un format plus propice à la programmation et permettant de réduire leur taille.**
 
@@ -198,12 +198,12 @@ plt.tight_layout()
 
 plt.show()
 ```
-![Exemples d'images](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/Visualisation.jpg)
+![Exemples d'images](Visualisation.jpg)
 
 Ces différentes images sont à l'heure actuelle peu exploitables.
 On y remarque beaucoup de bruit, des tâches qui pourraient tromper l'algorithme quant à la détection du carcinome... 
 
-![Annotations](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/Visualisation_annotee.jpg)
+![Annotations](Visualisation_annotee.jpg)
 En noir, la zone où se trouve le carcinome.
 En rouge, du bruit pour l'algorithme
 
@@ -252,7 +252,7 @@ plt.subplot(121), plt.imshow(image), plt.title('Original Image')
 plt.subplot(122), plt.imshow(segmented_image), plt.title('Segmented Image')
 plt.show()
 ```
-![Image d'origine vs Image segmentée](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/pretraitement.jpg)
+![Image d'origine vs Image segmentée](pretraitement.jpg)
 
 ## 4. Pré-traitement des données
 
@@ -265,7 +265,7 @@ Une première chose à faire consiste à **délimiter le contour** des membranes
 
 Voici une membrane :
 
-![Celulle avant extraction du contour](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/celulle.png){width=50%}
+![Celulle avant extraction du contour](celulle.png){width=50%}
 
 Et le 1er code testé pour extraire le contour :
 
@@ -298,7 +298,7 @@ def extraire_contour(image_entree, image_sortie, seuil_canny, taille_dilatation,
 ```
 Ce 1er code hélas n'est pas suffisament robuste. Le bruit perturbe le découpage et toutes les formes et contour à l'intérieur de la membrane sont découpés.
 
-![Celulle après extraction du contour](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/celulle_contour_v1.png){width=50%}
+![Celulle après extraction du contour](celulle_contour_v1.png){width=50%}
 
 Pour y remédier, j'ai donc décidé d'apporter de la **dilatation :** concrètement, la dilatation consiste à élargir les régions d'une image qui contiennent des pixels blancs. Elle va permettre ainsi de connecter les régions blanches qui sont proches les unes des autres et ainsi combler les lacunes.
 
@@ -349,13 +349,13 @@ pre_traitement_1_contour_dilatation('D:/Master_SID/projet_TER/data/tumeur','D:/M
 ```
 Le résultat est tout de suite plus satisfaisant, la forme globale de la membrane est respectée et plus aucun contour n'apparaît à l'intérieur.
 
-![Extraction du contour après dilatation](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/celulle_contour_v2.png){width=50%}
+![Extraction du contour après dilatation](celulle_contour_v2.png){width=50%}
 
 Seul un problème persiste, lorsque plusieurs membranes sont présents sur une même lame, le programme risque de fusionner certaines membranes. Dans un premier temps, je décide de ne pas m'attarder sur ce problème et débuterai la classification avec des lames ne présentant qu'une seule membrane.
 
-![Plusieurs membranes sur une même lame](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/plusieurs_celulles.png){width=50%}
+![Plusieurs membranes sur une même lame](plusieurs_celulles.png){width=50%}
 
-![Plusieurs membranes sur une même lame](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/plusieurs_celulles_contour.png){width=50%}
+![Plusieurs membranes sur une même lame](plusieurs_celulles_contour.png){width=50%}
 
 ### 4.2 Amélioration de la segmentation
 
@@ -398,18 +398,18 @@ def pre_traitement_2_segmentation(dossier_E,dossier_S):
 pre_traitement_2_segmentation('D:/Master_SID/projet_TER/data/pretraitement_1','D:/Master_SID/projet_TER/data/pretraitement_2')
 ```
 Avant segmentation
-![Avant pré-traitement](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/avant_pre-trait.png){width=50%}
+![Avant pré-traitement](avant_pre-trait.png){width=50%}
 
 Après segmentation
-![Après pré-traitement](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/apres_pre-trait.png){width=50%}
+![Après pré-traitement](apres_pre-trait.png){width=50%}
 
 Le résultat semble tout à fait satisfaisant, je décide donc dans un dernier temps d'effectuer de l'annotation avec le logiciel QuPath pour aider le futur algorithme de classification à détecter la zone de la tumeur.
 
 ### 4.3 Annotation
 
-![Annotation](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/annotation.png){width=50%}
+![Annotation](annotation.png){width=50%}
 
-![Logiciel QuPath](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Beyaert-Alexandre/pok/temps-2/logiciel.png){width=50%}
+![Logiciel QuPath](logiciel.png){width=50%}
 
 
 ## 5. Conclusion

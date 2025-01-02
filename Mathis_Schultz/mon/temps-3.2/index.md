@@ -85,7 +85,7 @@ Quelques estimations sont nécessaires :
 - bénéfice par vente
 - Le point de rentabilité : nombre de vente à partir du quel je suis rentable par semaines/mois.
 
-![prévision ventes](https://raw.githubusercontent.com/do-it-ecm/promo-2023-2024/main/Mathis_Schultz/mon/temps-3.2/vente.png)
+![prévision ventes](vente.png)
 
 Il faut être capable d'admettre qu'une idée n'est pas rentable si même les prévisions les plus haute ne mènent pas à la rentabilité.
 
